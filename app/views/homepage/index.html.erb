@@ -3,21 +3,43 @@
 <% end %>
 <html>
   <head>
+    <%= stylesheet_link_tag "styles" %>
+
     <style>
       body {
         background-color : #000000;
       }
-      
+      .status_1 {
+        color : red;
+      }
+      .status_2 {
+        color : 
+      }
     </style>
   </head>
   <body>
-    <p style=" text-align : center; font-size : 100px; color : #ffffff">
-    THE MOST ACCURATE
-    PERSONALITY TEST
     <br>
-    EVER
-    </p>
-   
+    <br>
+    <br>
+    <div class="showMe">
+      <div class="toptext">
+      <p style= "font-size : 100px; color : #ffffff;margin-right:1%" class ="center sans_source">
+      THE  
+      </p>
+      <p style=" font-size : 100px; color : #ffffff" class="changecolor sans_source right">
+      MOST ACCURATE
+      </p>
+      </div>
+      <p style= "text-align: center;font-size:100px;color:#ffffff" class= "sans_source">
+      PERSONALITY TEST
+      <br>
+      EVER
+      </p>
+    </div>
+    <br>
+   <p style="color : #ffffff;font-size:20px;text-align:center"class="blinking sans_source">
+   TRY IT FOR YOURSELF!
+   </p>
 
     <%= button_to "menuju page instruction", "pages/instruction", :method => :get %>
   </body>
