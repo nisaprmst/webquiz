@@ -10,6 +10,60 @@
     color: #ffffff;
 }
 
+.button {
+    background-color: #f44336;
+    border-radius: 30px;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'sans-source';
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    outline: none;
+}
+.button:hover {background-color: #9d2503}
+.button:active {
+    background-color: #9d2503;
+    transform: translateY(4px);
+}
+.button-grey {
+    background-color: #a5a5a5;
+    border-radius: 30px;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'sans-source';
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    outline: none;
+}
+.button-grey:hover {background-color: #949494}
+.button-grey:active {
+    background-color: #949494;
+    transform: translateY(4px);
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+*{
+    box-sizing: border-box;
+}
 .yes_button {
     color: white;
     background-color:#828282;
@@ -24,19 +78,92 @@
     padding-top: 2px;
     text-decoration:none;
 }
+.changecolor2{
+    text-decoration: none;
+    -webkit-animation: color-change2 3.5s infinite;
+    -moz-animation: color-change2 3.5s infinite;
+    -o-animation: color-change2 3.5s infinite;
+    -ms-animation: color-change2 3.5s infinite;
+    animation: color-change2 3.5s infinite;
+    text-align: center;
+}
 .changecolor{
-    -webkit-animation: color-change 1s infinite;
-    -moz-animation: color-change 1s infinite;
-    -o-animation: color-change 1s infinite;
-    -ms-animation: color-change 1s infinite;
-    animation: color-change 1s infinite;
+    text-decoration: none;
+    -webkit-animation: color-change 0.2s infinite;
+    -moz-animation: color-change 0.2s infinite;
+    -o-animation: color-change 0.2s infinite;
+    -ms-animation: color-change 0.2s infinite;
+    animation: color-change 0.2s infinite;
     text-align: center;
 }
 
+.changecolor1{
+    text-decoration: none;
+    -webkit-animation: color-change 0.2s infinite;
+    -moz-animation: color-change 0.2s infinite;
+    -o-animation: color-change 0.2s infinite;
+    -ms-animation: color-change 0.2s infinite;
+    animation: color-change 0.2s infinite;
+    text-align: center;
+}
+
+.changecolor3{
+    text-decoration: none;
+    -webkit-animation: color-change3 3s infinite;
+    -moz-animation: color-change3 3s infinite;
+    -o-animation: color-change3 3s infinite;
+    -ms-animation: color-change3 3s infinite;
+    animation: color-change3 3s infinite;
+    text-align: center;
+}
+
+.changecolor4{
+    text-decoration: none;
+    -webkit-animation: color-change4 6s infinite;
+    -moz-animation: color-change4 6s infinite;
+    -o-animation: color-change4 6s infinite;
+    -ms-animation: color-change4 6s infinite;
+    animation: color-change4 6s infinite;
+    text-align: center;
+}
+
+.changecolor1:hover {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    -ms-animation: none;
+    color: black;
+    cursor: pointer;
+}
+
+.changecolor2:hover {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    -ms-animation: none;
+    color: black;
+    cursor: pointer;
+}
+.changecolor3:hover {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    -ms-animation: none;
+    color: black;
+    cursor: pointer;
+}
+.changecolor4:hover {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    -ms-animation: none;
+    color: black;
+    cursor: pointer;
+}
 @-webkit-keyframes color-change {
     0% { color: red; }
     20% { color : magenta;}
-    40% { color: cornflowerblue }
+    40% { color: cornflowerblue; }
     60% { color: yellow;}
     80% { color: greenyellow;}
     100% { color: red; }
@@ -44,7 +171,7 @@
 @-moz-keyframes color-change {
     0% { color: red; }
     20% { color : magenta;}
-    40% { color: cornflowerblue }
+    40% { color: cornflowerblue; }
     60% { color: yellow;}
     80% { color: greenyellow;}
     100% { color: red; }
@@ -52,7 +179,7 @@
 @-ms-keyframes color-change {
     0% { color: red; }
     20% { color : magenta;}
-    40% { color: cornflowerblue }
+    40% { color: cornflowerblue; }
     60% { color: yellow;}
     80% { color: greenyellow;}
     100% { color: red; }
@@ -60,7 +187,7 @@
 @-o-keyframes color-change {
     0% { color: red; }
     20% { color : magenta;}
-    40% { color: cornflowerblue }
+    40% { color: cornflowerblue; }
     60% { color: yellow;}
     80% { color: greenyellow;}
     100% { color: red; }
@@ -68,10 +195,123 @@
 @keyframes color-change {
     0% { color: red; }
     20% { color : magenta;}
-    40% { color: cornflowerblue }
+    40% { color: cornflowerblue; }
     60% { color: yellow;}
     80% { color: greenyellow;}
     100% { color: red; }
+}
+
+@-webkit-keyframes color-change2 {
+    0% { color: rgb(39, 39, 39); }
+    20% { color : rgb(105, 85, 85);}
+    40% { color: rgb(143, 140, 140); }
+    60% { color: rgb(201, 198, 198);}
+    80% { color: rgb(143, 140, 140);}
+    100% { color: rgb(105, 85, 85); }
+}
+@-moz-keyframes color-change2 {
+    0% { color: rgb(39, 39, 39); }
+    20% { color : rgb(105, 85, 85);}
+    40% { color: rgb(143, 140, 140); }
+    60% { color: rgb(201, 198, 198);}
+    80% { color: rgb(143, 140, 140);}
+    100% { color: rgb(105, 85, 85); }
+}
+@-ms-keyframes color-change2 {
+    0% { color: rgb(39, 39, 39); }
+    20% { color : rgb(105, 85, 85);}
+    40% { color: rgb(143, 140, 140); }
+    60% { color: rgb(201, 198, 198);}
+    80% { color: rgb(143, 140, 140);}
+    100% { color: rgb(105, 85, 85); }
+}
+@-o-keyframes color-change2 {
+    0% { color: rgb(39, 39, 39); }
+    20% { color : rgb(105, 85, 85);}
+    40% { color: rgb(143, 140, 140); }
+    60% { color: rgb(201, 198, 198);}
+    80% { color: rgb(143, 140, 140);}
+    100% { color: rgb(105, 85, 85); }
+}
+@keyframes color-change2 {
+    0% { color: rgb(39, 39, 39); }
+    20% { color : rgb(105, 85, 85);}
+    40% { color: rgb(143, 140, 140); }
+    60% { color: rgb(201, 198, 198);}
+    80% { color: rgb(143, 140, 140);}
+    100% { color: rgb(105, 85, 85); }
+}
+
+@-webkit-keyframes color-change3 {
+    20% { color : red;}
+    40% { color: purple; }
+    60% { color: yellow;}
+    80% { color: orange;}
+    100% { color: rgb(31, 29, 29); }
+}
+@-moz-keyframes color-change3 {
+    20% { color : red;}
+    40% { color: purple; }
+    60% { color: yellow;}
+    80% { color: orange;}
+    100% { color: rgb(31, 29, 29); }
+}
+@-ms-keyframes color-change3 {
+    20% { color : red;}
+    40% { color: purple; }
+    60% { color: yellow;}
+    80% { color: orange;}
+    100% { color: rgb(31, 29, 29); }
+}
+@-o-keyframes color-change3 {
+    20% { color : red;}
+    40% { color: purple; }
+    60% { color: yellow;}
+    80% { color: orange;}
+    100% { color: rgb(31, 29, 29); }
+}
+@keyframes color-change3 {
+    20% { color : red;}
+    40% { color: purple; }
+    60% { color: yellow;}
+    80% { color: orange;}
+    100% { color: rgb(31, 29, 29); }
+}
+
+@-webkit-keyframes color-change4 {
+    20% { color : rgb(12, 11, 11);}
+    40% { color: rgb(87, 7, 161); }
+    60% { color: rgb(141, 140, 140);}
+    80% { color: rgb(92, 80, 58);}
+    100% { color: rgb(9, 230, 230); }
+}
+@-moz-keyframes color-change4 {
+    20% { color : rgb(12, 11, 11);}
+    40% { color: rgb(87, 7, 161); }
+    60% { color: rgb(141, 140, 140);}
+    80% { color: rgb(92, 80, 58);}
+    100% { color: rgb(9, 230, 230); }
+}
+@-ms-keyframes color-change4 {
+    20% { color : rgb(12, 11, 11);}
+    40% { color: rgb(87, 7, 161); }
+    60% { color: rgb(141, 140, 140);}
+    80% { color: rgb(92, 80, 58);}
+    100% { color: rgb(9, 230, 230); }
+}
+@-o-keyframes color-change4 {
+    20% { color : rgb(12, 11, 11);}
+    40% { color: rgb(87, 7, 161); }
+    60% { color: rgb(141, 140, 140);}
+    80% { color: rgb(92, 80, 58);}
+    100% { color: rgb(9, 230, 230); }
+}
+@keyframes color-change4 {
+    20% { color : rgb(12, 11, 11);}
+    40% { color: rgb(87, 7, 161); }
+    60% { color: rgb(141, 140, 140);}
+    80% { color: rgb(92, 80, 58);}
+    100% { color: rgb(9, 230, 230); }
 }
 
 p {

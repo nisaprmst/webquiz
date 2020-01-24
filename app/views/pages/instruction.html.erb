@@ -33,11 +33,12 @@
             Proceed to test?
         </p>
     </div>
-    <div class="row sans_source" style="padding: 0px 400px;">
+    <div class="row" style="padding: 0px 400px;">
         <div class="column">
-            <%= button_to "I'm Out", "homepage/index", :method => :get %>
+        <%= link_to "I'm Out", {:controller => 'homepage', :action => "index" }, {:class => "button-grey" } %>
         </div>
         <div class="column">
+        <%= button_to "I'm In", {:controller => 'pages', :action => "page3" }, {:class => "button" } %>
         </div>
     </div>
 </body>

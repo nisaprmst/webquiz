@@ -37,10 +37,11 @@
       </p>
     </div>
     <br>
-   <p style="color : #ffffff;font-size:20px;text-align:center"class="blinking sans_source">
-   TRY IT FOR YOURSELF!
-   </p>
-  <%= button_to "Take Test", "pages/instruction", {:method => :get} %>
-  
-    </body>
+    <p style="color : #ffffff;font-size:20px;text-align:center"class="blinking sans_source">
+    TRY IT FOR YOURSELF!
+    </p>
+    <div style="text-align: center">
+    <%= button_to "Take Test", {:controller => 'pages', :action => "instruction" }, {:class => "button" } %>
+    <div>
+  </body>
 </html>

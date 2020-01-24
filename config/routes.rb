@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   root 'homepage#index'  
-  
+  #post 'pages/instruction', to: 'homepage#index', as: 'index'
   namespace :pages do
-    get :instruction, 'to homepage#index'
+    get :instruction
     post :instruction
 
     get :page3
@@ -22,6 +22,7 @@ Rails.application.routes.draw do
     post :page7
   end
   namespace :homepage do
+    get :index
     post :index #page 1
   end
 end
