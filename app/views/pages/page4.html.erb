@@ -1,0 +1,30 @@
+<%= content_for :page_title do %>
+    PAGE 4
+  <% end %>
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <%= stylesheet_link_tag "styles" %>
+      <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%; 
+        min-height: 100%;
+      }
+
+      </style>
+  </head>
+  
+  <body>     
+    <%= video_tag "P4.ogv",autoplay: :autoplay, loop: :loop, mute: :mute, class: "home_video home-video-wrapper" %>
+
+    <%= image_tag("Asset 3.png", :alt => "rss feed", :class => "center")  %>
+        
+  </body>
+  </html>
