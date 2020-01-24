@@ -22,9 +22,13 @@
   </head>
   
   <body>     
+    <div>
+    </div>
     <%= video_tag "P4.ogv",autoplay: :autoplay, loop: :loop, mute: :mute, class: "home_video home-video-wrapper" %>
 
     <%= image_tag("Asset 3.png", :alt => "rss feed", :class => "center")  %>
+    <%= button_to "", {:controller => 'pages', :action => "page4" }, {:alt => "rss feed", :class => "button-horizontal-top" } %>
+
         
   </body>
   </html>
