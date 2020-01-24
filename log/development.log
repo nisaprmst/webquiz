@@ -2446,3 +2446,446 @@ Processing by HomepageController#index as HTML
 Completed 200 OK in 650ms (Views: 647.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-01-24 11:39:14 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (5302.4ms)
+Completed 200 OK in 5598ms (Views: 5571.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-01-24 11:39:28 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 44ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-01-24 15:25:00 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (829.4ms)
+Completed 200 OK in 1273ms (Views: 1241.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-01-24 15:25:09 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 30ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-01-24 15:28:02 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 68ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-01-24 15:28:03 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 71ms (Views: 68.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-01-24 15:28:28 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 79ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-01-24 15:28:29 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 66ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-01-24 15:30:02 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:43: syntax error, unexpected '='
+...tion", :method => :get, class = "blinking" );@output_buffer....
+...                              ^):
+  
+app/views/homepage/index.html.erb:43: syntax error, unexpected '='
+Started GET "/" for ::1 at 2020-01-24 15:30:28 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 40ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-01-24 15:31:26 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:43: syntax error, unexpected '=', expecting =>
+...on", :method => :get, {:style = "color : #ff0000"} );@output...
+...                              ^
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:43: syntax error, unexpected '}', expecting ')'
+...t, {:style = "color : #ff0000"} );@output_buffer.safe_append...
+...                              ^
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/homepage/index.html.erb:43: syntax error, unexpected '=', expecting =>
+app/views/homepage/index.html.erb:43: syntax error, unexpected '}', expecting ')'
+app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2020-01-24 15:32:48 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 61ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-01-24 15:33:07 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:43: syntax error, unexpected ':'
+...n", {:method => :get}, {class : blinking} );@output_buffer.s...
+...                              ^
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/homepage/index.html.erb:43: syntax error, unexpected ':'
+app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2020-01-24 15:33:29 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:43: syntax error, unexpected ':', expecting =>
+...", {:method => :get}, {:class : :blinking} );@output_buffer....
+...                              ^
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/homepage/index.html.erb:43: syntax error, unexpected ':', expecting =>
+app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2020-01-24 15:33:29 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:43: syntax error, unexpected ':', expecting =>
+...", {:method => :get}, {:class : :blinking} );@output_buffer....
+...                              ^
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/homepage/index.html.erb:43: syntax error, unexpected ':', expecting =>
+app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2020-01-24 15:33:31 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:43: syntax error, unexpected ':', expecting =>
+...", {:method => :get}, {:class : :blinking} );@output_buffer....
+...                              ^
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/homepage/index.html.erb:43: syntax error, unexpected ':', expecting =>
+app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2020-01-24 15:33:32 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:43: syntax error, unexpected ':', expecting =>
+...", {:method => :get}, {:class : :blinking} );@output_buffer....
+...                              ^
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/homepage/index.html.erb:43: syntax error, unexpected ':', expecting =>
+app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2020-01-24 15:34:24 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:43: syntax error, unexpected ':', expecting =>
+...n", {:method => :get}, {:class: blinking} );@output_buffer.s...
+...                              ^
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/homepage/index.html.erb:43: syntax error, unexpected ':', expecting =>
+app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2020-01-24 15:34:26 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:43: syntax error, unexpected ':', expecting =>
+...n", {:method => :get}, {:class: blinking} );@output_buffer.s...
+...                              ^
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/homepage/index.html.erb:43: syntax error, unexpected ':', expecting =>
+app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2020-01-24 15:34:27 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:43: syntax error, unexpected ':', expecting =>
+...n", {:method => :get}, {:class: blinking} );@output_buffer.s...
+...                              ^
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/homepage/index.html.erb:43: syntax error, unexpected ':', expecting =>
+app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2020-01-24 15:34:37 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (11.7ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 4, expected 0..3)):
+    40:    <p style="color : #ffffff;font-size:20px;text-align:center"class="blinking sans_source">
+    41:    TRY IT FOR YOURSELF!
+    42:    </p>
+    43:   <%= button_to "Take Test", "pages/instruction", {:method => :get}, {:class => :blinking} %>
+    44:   
+    45:     </body>
+    46: </html>
+  
+app/views/homepage/index.html.erb:43:in `_app_views_homepage_index_html_erb___3581417236468767415_70291846522080'
+Started GET "/" for ::1 at 2020-01-24 15:35:27 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (8.4ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 4, expected 0..3)):
+    40:    <p style="color : #ffffff;font-size:20px;text-align:center"class="blinking sans_source">
+    41:    TRY IT FOR YOURSELF!
+    42:    </p>
+    43:   <%= button_to "Take Test", "pages/instruction", {:method => :get}, {:class => :sans_source} %>
+    44:   
+    45:     </body>
+    46: </html>
+  
+app/views/homepage/index.html.erb:43:in `_app_views_homepage_index_html_erb___3581417236468767415_70291853709780'
+Started GET "/" for ::1 at 2020-01-24 15:35:28 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (11.7ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 4, expected 0..3)):
+    40:    <p style="color : #ffffff;font-size:20px;text-align:center"class="blinking sans_source">
+    41:    TRY IT FOR YOURSELF!
+    42:    </p>
+    43:   <%= button_to "Take Test", "pages/instruction", {:method => :get}, {:class => :sans_source} %>
+    44:   
+    45:     </body>
+    46: </html>
+  
+app/views/homepage/index.html.erb:43:in `_app_views_homepage_index_html_erb___3581417236468767415_70291849550020'
+Started GET "/" for ::1 at 2020-01-24 15:35:29 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (11.1ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 4, expected 0..3)):
+    40:    <p style="color : #ffffff;font-size:20px;text-align:center"class="blinking sans_source">
+    41:    TRY IT FOR YOURSELF!
+    42:    </p>
+    43:   <%= button_to "Take Test", "pages/instruction", {:method => :get}, {:class => :sans_source} %>
+    44:   
+    45:     </body>
+    46: </html>
+  
+app/views/homepage/index.html.erb:43:in `_app_views_homepage_index_html_erb___3581417236468767415_70292006136400'
+Started GET "/" for ::1 at 2020-01-24 15:37:00 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:43: syntax error, unexpected ':'
+...n", {:method => :get}, {class : "yes_button"} );@output_buff...
+...                              ^
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:43: syntax error, unexpected '}', expecting ')'
+...> :get}, {class : "yes_button"} );@output_buffer.safe_append...
+...                              ^
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/homepage/index.html.erb:43: syntax error, unexpected ':'
+app/views/homepage/index.html.erb:43: syntax error, unexpected '}', expecting ')'
+app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2020-01-24 15:37:28 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:43: syntax error, unexpected tSTRING_DEND, expecting ')'
+...nstruction", {:method => :get}} );@output_buffer.safe_append...
+...                              ^
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/homepage/index.html.erb:43: syntax error, unexpected tSTRING_DEND, expecting ')'
+app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2020-01-24 15:37:30 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:43: syntax error, unexpected tSTRING_DEND, expecting ')'
+...nstruction", {:method => :get}} );@output_buffer.safe_append...
+...                              ^
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/felicia/Documents/webquiz/app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/homepage/index.html.erb:43: syntax error, unexpected tSTRING_DEND, expecting ')'
+app/views/homepage/index.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/homepage/index.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2020-01-24 15:37:38 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (437.9ms)
+Completed 200 OK in 517ms (Views: 514.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/instruction" for ::1 at 2020-01-24 15:37:40 +0700
+Processing by PagesController#instruction as HTML
+  Rendering pages/instruction.html.erb within layouts/application
+  Rendered pages/instruction.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 83ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-01-24 15:40:57 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+Started GET "/" for ::1 at 2020-01-24 15:40:57 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (766.0ms)
+  Rendered homepage/index.html.erb within layouts/application (1191.8ms)
+Completed 200 OK in 1797ms (Views: 1568.9ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1140ms (Views: 1136.3ms | ActiveRecord: 0.0ms)
+
+
