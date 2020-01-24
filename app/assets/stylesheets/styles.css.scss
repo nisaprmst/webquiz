@@ -9,3 +9,184 @@
     font-family: 'sans-source';
     color: #ffffff;
 }
+
+.yes_button {
+    color: white;
+    background-color:#828282;
+    display:inline-block;
+    font-family: 'sans-source';
+    font-size: 9pt;
+    font-weight: 100;
+    text-align: center;
+    font-style: italic;
+    padding:0px 6px;
+    padding-right: 8px;
+    padding-top: 2px;
+    text-decoration:none;
+}
+.changecolor{
+    -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+    text-align: center;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: red; }
+    20% { color : magenta;}
+    40% { color: cornflowerblue }
+    60% { color: yellow;}
+    80% { color: greenyellow;}
+    100% { color: red; }
+}
+@-moz-keyframes color-change {
+    0% { color: red; }
+    20% { color : magenta;}
+    40% { color: cornflowerblue }
+    60% { color: yellow;}
+    80% { color: greenyellow;}
+    100% { color: red; }
+}
+@-ms-keyframes color-change {
+    0% { color: red; }
+    20% { color : magenta;}
+    40% { color: cornflowerblue }
+    60% { color: yellow;}
+    80% { color: greenyellow;}
+    100% { color: red; }
+}
+@-o-keyframes color-change {
+    0% { color: red; }
+    20% { color : magenta;}
+    40% { color: cornflowerblue }
+    60% { color: yellow;}
+    80% { color: greenyellow;}
+    100% { color: red; }
+}
+@keyframes color-change {
+    0% { color: red; }
+    20% { color : magenta;}
+    40% { color: cornflowerblue }
+    60% { color: yellow;}
+    80% { color: greenyellow;}
+    100% { color: red; }
+}
+
+p {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.toptext {
+    display: flex;
+    align-items: center;
+    margin-left: 14%;
+  }
+
+.showIt {
+    opacity: 0;
+    -moz-animation: cssAnimation 4s 1s;
+    /* Firefox */
+    -webkit-animation: cssAnimation 4s 1s;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 4s 1s;
+    /* Opera */
+    animation: cssAnimation 4s 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.showMe {
+    opacity: 0;
+    -moz-animation: cssAnimation 1s;
+    /* Firefox */
+    -webkit-animation: cssAnimation 1s;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 1s;
+    /* Opera */
+    animation: cssAnimation 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes cssAnimation {
+    0% {opacity: 0;}
+    10% {opacity: 0.1;}
+    20% {opacity: 0.2;}
+    30% {opacity: 0.3;}
+    40% {opacity: 0.4;}
+    50% {opacity: 0.5;}
+    60% {opacity: 0.6;}
+    70% {opacity: 0.7;}
+    80% {opacity: 0.8;}
+    90% {opacity: 0.9;}
+    100% {opacity: 1;}
+}
+@-webkit-keyframes cssAnimation {
+    0% {opacity: 0;}
+    10% {opacity: 0.1;}
+    20% {opacity: 0.2;}
+    30% {opacity: 0.3;}
+    40% {opacity: 0.4;}
+    50% {opacity: 0.5;}
+    60% {opacity: 0.6;}
+    70% {opacity: 0.7;}
+    80% {opacity: 0.8;}
+    90% {opacity: 0.9;}
+    100% {opacity: 1;}
+}
+.blinking{
+    animation: blinkingText 1.2s infinite;
+    animation-delay: 2s;
+    opacity: 0;
+}
+@keyframes blinkingText{
+    0%{     opacity: 0.2;    }
+    20%{    opacity: 0.5;   }
+    39%{    opacity: 0.7; }
+    45%{    opacity: 1; }
+    50%{    opacity: 0.7; }
+    60%{    opacity: 0.4;  }
+    75%{    opacity: 0.2;   }
+    90%{    opacity: 0;}
+    100%{   opacity: 0.2;    }
+}
+
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
