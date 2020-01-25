@@ -21,6 +21,27 @@ Rails.application.routes.draw do
     get :page7
     post :page7
 
+    get :page8
+    post :page8
+
+    get :page9
+    post :page9
+
+    get :page10
+    post :page10
+
+    get :page11
+    post :page11
+
+    get :page12
+    post :page12
+
+    get :page13
+    post :page13
+
+    get :page14
+    post :page14
+
     get :page15
     post :page15
   end
