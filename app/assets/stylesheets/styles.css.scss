@@ -1,3 +1,19 @@
+.link-text {
+    border-radius: 30px;
+    color: #666666;
+    padding: 12px 28px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    font-family: 'sans-source-regular';
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    outline: none;
+}
+.link-text:hover {color: #c1272d}
+
 .fade-in1 {
     color: white;
     -webkit-animation: animate 1.2s ease-in;  
@@ -39,6 +55,17 @@
 @font-face {
     font-family: 'sans-source';
     src:font-url('SourceSansPro-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.sans_source_reg {
+    font-family: 'sans-source-regular';
+}
+
+@font-face {
+    font-family: 'sans-source-regular';
+    src:font-url('SourceSansPro-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -105,7 +132,7 @@
     float: left;
     width: 50%;
     padding: 10px;
-    height: 300px;
+    height: 30px;
 }
 .row:after {
     content: "";

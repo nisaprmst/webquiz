@@ -20,6 +20,9 @@ Rails.application.routes.draw do
 
     get :page7
     post :page7
+
+    get :page15
+    post :page15
   end
   namespace :homepage do
     get :index

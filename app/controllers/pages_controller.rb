@@ -7,5 +7,8 @@ class PagesController < ApplicationController
 
     def page4
     end 
+
+    def page15
+    end
     #dst
 end  
