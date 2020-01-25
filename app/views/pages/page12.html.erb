@@ -1,0 +1,33 @@
+<%= content_for :page_title do %>
+    PAGE 12
+  <% end %>
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <%= stylesheet_link_tag "styles" %>
+      <style>
+      body {
+          background-color : #1a1a1a;
+        }
+      </style>
+  </head>
+  <body>
+    <p style= "font-size: 35px; text-align:center; margin-top: 12%" class= "sans_source blinking12">
+    Who are you?
+    </p>
+    <br>
+    <br>
+    <div class="sans_source" style="text-align: center; font-size:20px;">
+        <%= link_to "It's me.", {:controller => 'pages', :action => "page13" }, {:class => "changecolor12" } %>
+        <br>
+        <br>
+        <%= link_to "A person.", {:controller => 'pages', :action => "page13" }, {:class => "changecolor12" } %>
+        <br>
+        <br>
+        <%= link_to "Help me find out.", {:controller => 'pages', :action => "page13" }, {:class => "changecolor12" } %>
+        <br>
+        <br>
+        <%= link_to "It's a secret.", {:controller => 'pages', :action => "page13" },{:class => "changecolor12" } %>
+    </div>
+  </body>
+  </html>

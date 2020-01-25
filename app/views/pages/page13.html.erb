@@ -1,0 +1,27 @@
+<%= content_for :page_title do %>
+    Page13
+  <% end %>
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <%= stylesheet_link_tag "styles" %>
+      <style>
+      body {
+          background-color : #000000;
+        }
+      </style>
+  </head>
+  <body>
+  <div class="home-video-wrapper">
+  <%= video_tag "P13.ogv", autoplay: :autoplay, loop: :loop, mute: :mute, class: "home_video" %>
+  <h1 class="home sans_source "> 
+  
+        Congratulations! You've completed the test.
+        <br>
+        Once you see the result,please give it a thought,
+        <br>
+        contemplate for a while in order to fully understand.
+  </h1>
+ 
+  </body>
+  </html>
