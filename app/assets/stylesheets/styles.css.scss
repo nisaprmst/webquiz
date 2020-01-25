@@ -74,7 +74,17 @@
     font-family: 'sans-source';
     color: #ffffff;
 }
+@font-face {
+    font-family: 'sans-source-regular-bold';
+    src:font-url('SourceSansPro-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
+.sans_source_bold {
+    font-family: 'sans-source-regular-bold';
+    color: #ffffff;
+}
 
 
 .button {

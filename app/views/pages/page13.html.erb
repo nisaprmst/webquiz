@@ -12,16 +12,21 @@
       </style>
   </head>
   <body>
-  <div class="home-video-wrapper">
-  <%= video_tag "P13.ogv", autoplay: :autoplay, loop: :loop, mute: :mute, class: "home_video" %>
-  <h1 class="home sans_source "> 
-  
-        Congratulations! You've completed the test.
-        <br>
-        Once you see the result,please give it a thought,
-        <br>
-        contemplate for a while in order to fully understand.
-  </h1>
- 
+    <div class="home-video-wrapper">
+    <%= video_tag "P13.ogv", autoplay: :autoplay, loop: :loop, mute: :mute, class: "home_video" %>
+      <div>
+        <p class="home sans_source " style="padding 10px 300px; text-align:center"> 
+        
+              Congratulations! You've completed the test.
+              <br>
+              Once you see the result,please give it a thought,
+              <br>
+              contemplate for a while in order to fully understand.
+        </p>
+      </div>
+      <div>
+        <%= button_to "See My Result", {:controller => 'pages', :action => "page14" }, {:class => "button" } %>
+      </div>
+    </div>
   </body>
   </html>
