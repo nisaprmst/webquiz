@@ -1,0 +1,52 @@
+<%= content_for :page_title do %>
+    Page5
+  <% end %>
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <%= stylesheet_link_tag "styles" %>
+  </head>
+  <body>
+  <%= video_tag "P7.ogv",loop: :loop,autoplay: :autoplay, mute: :mute, class: "home_video home-video-wrapper" %>
+    <div style ="margin-left:62%;margin-top:-2%">
+        <div id="wrapper">
+
+            <%= link_to image_tag("P7-1.png", :border=>0), :action => 'page8', :controller => 'pages', :class => 'hover' %>
+            <p class = "text1 sans_source_bold" style ="color:#666666">
+                Trying to come up with solution.
+            </p>
+        </div>
+    </div>
+
+    <div style ="margin-left:24%;margin-top:2%">
+        <div id="wrapper">
+            
+            <%= link_to image_tag("P7-2.png", :border=>0), :action => 'page8', :controller => 'pages', :class => 'hover' %>
+            <p class = "text2 sans_source_bold" style ="color:#666666">
+                I don't know.I'm too busy panicking.
+            </p>
+        </div>
+    </div>
+
+    <div style ="margin-left:17%;margin-top:23%">
+        <div id="wrapper">
+
+            <%= link_to image_tag("P7-1.png", :border=>0), :action => 'page8', :controller => 'pages', :class => 'hover' %>
+            <p class = "text3 sans_source_bold" style ="color:#666666">
+                The good thing behind it.
+            </p>
+        </div>
+    </div>
+
+    <div style ="margin-left:77%;margin-top:-13%">
+        <div id="wrapper">
+            
+            <%= link_to image_tag("P7-2.png", :border=>0), :action => 'page8', :controller => 'pages', :class => 'hover' %>
+            <p class = "text4 sans_source_bold" style ="color:#666666">
+                Somewhere irrelevant.
+            </p>
+        </div>
+    </div>
+
+  </body>
+  </html>

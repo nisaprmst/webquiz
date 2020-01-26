@@ -7,19 +7,27 @@
     <%= stylesheet_link_tag "styles" %>
 </head>
 <body>
-<%= video_tag "P3-1.ogv",autoplay: :autoplay,loop: :loop, mute: :mute, class: "home_video home-video-wrapper" %>
+<%= video_tag "P3.ogv",autoplay: :autoplay,loop: :loop, mute: :mute, class: "home_video home-video-wrapper" %>
 
     <div class="sans_source" style="padding: 300px 250px 0px 560px; font-size:25px;">
-        <%= link_to "I'm nervous.", {:controller => 'pages', :action => "page4" }, {:class => "changecolor1" } %>
+        <div class="appearP3-1">
+        <%= link_to "I'm nervous.", {:controller => 'pages', :action => "page4" }, {:class => "fade-in4 changecolor1" } %>
         <br>
         <br>
+        </div>
+        <div class="appearP3-2">
         <%= link_to "I can't really process what I'm feeling.", {:controller => 'pages', :action => "page4" }, {:class => "changecolor2" } %>
         <br>
         <br>
+        </div>
+        <div class="appearP3-3">
         <%= link_to "I'm excited!", {:controller => 'pages', :action => "page4" }, {:class => "changecolor3" } %>
         <br>
         <br>
+        </div>
+        <div class="appearP3-4">
         <%= link_to "I just want to finish this quickly.", {:controller => 'pages', :action => "page4" },{:class => "changecolor4" } %>
+        </div>
     </div>
 </body>
 </html>

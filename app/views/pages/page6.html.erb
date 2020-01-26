@@ -1,0 +1,29 @@
+<%= content_for :page_title do %>
+    Page6
+  <% end %>
+  <!DOCTYPE html>
+  <html>
+  <head>
+  
+      <%= stylesheet_link_tag "styles" %>
+    
+      </head>
+  <body>
+  <%= video_tag "P6.ogv",autoplay: :autoplay, loop: :loop,mute: :mute, class: "home_video home-video-wrapper" %>
+  <div class="sans_source" style="font-size:20px;">
+        <div style="margin-top:40%;margin-left:27%;margin-right:auto"> 
+            <%= link_to "Depend on what I'm working on.", {:controller => 'pages', :action => "page7" }, {:class => "p6-font" } %>
+            
+        </div>
+        <div style="margin-top:-1.9%; margin-left:53%">
+            <%= link_to "Yes I always do my best.", {:controller => 'pages', :action => "page7" }, {:class => "p6-font" } %>
+        </div>
+        <div style="margin-top:1.6%;margin-left:28%">
+            <%= link_to "Not really.I'm quite laid-back.", {:controller => 'pages', :action => "page7" }, {:class => "p6-font" } %>
+        </div>
+        <div style="margin-top:-2%;margin-left:53%">
+            <%= link_to "I work smart,not hard.", {:controller => 'pages', :action => "page7" },{:class => "p6-font" } %>
+        </div>
+    </div>
+  </body>
+  </html>

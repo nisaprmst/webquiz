@@ -18466,3 +18466,2537 @@ puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
 puma (3.12.2) lib/puma/server.rb:476:in `process_client'
 puma (3.12.2) lib/puma/server.rb:334:in `block in run'
 puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-01-26 14:13:01 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (1768.2ms)
+Completed 200 OK in 1867ms (Views: 1844.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-01-26 14:13:42 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 71ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-01-26 14:13:54 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 79ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-01-26 14:14:45 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 87ms (Views: 84.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/instruction" for ::1 at 2020-01-26 14:14:46 +0700
+Processing by PagesController#instruction as HTML
+  Parameters: {"authenticity_token"=>"+MnMY9vq4w0j0OQD1jwkKXej4gKQcYblibiIxEDOaYHlfjgm4qFZ+r2QsTASu6FXSBVAPKIghDooFqYKVQrfgA=="}
+  Rendering pages/instruction.html.erb within layouts/application
+  Rendered pages/instruction.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 73ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page3" for ::1 at 2020-01-26 14:14:51 +0700
+Processing by PagesController#page3 as HTML
+  Parameters: {"authenticity_token"=>"u01bmP0ff8xxqWZTv6OiiaBtr5w6Y8j1sChsSj1D/yKm+q/dxFTFO+/pM2B7JCf3n9sNoggyyioRhkKEKIdJIw=="}
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 115ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page3" for ::1 at 2020-01-26 14:18:06 +0700
+Processing by PagesController#page3 as HTML
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 88ms (Views: 85.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page3" for ::1 at 2020-01-26 14:18:08 +0700
+Processing by PagesController#page3 as HTML
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 95ms (Views: 92.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page3" for ::1 at 2020-01-26 14:18:09 +0700
+Processing by PagesController#page3 as HTML
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (40.7ms)
+Completed 200 OK in 106ms (Views: 102.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page3" for ::1 at 2020-01-26 14:18:21 +0700
+Processing by PagesController#page3 as HTML
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 78ms (Views: 75.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page3" for ::1 at 2020-01-26 14:18:22 +0700
+Processing by PagesController#page3 as HTML
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 77ms (Views: 74.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page3" for ::1 at 2020-01-26 14:18:23 +0700
+Processing by PagesController#page3 as HTML
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 89ms (Views: 84.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page3" for ::1 at 2020-01-26 14:18:23 +0700
+Processing by PagesController#page3 as HTML
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (65.6ms)
+Completed 200 OK in 104ms (Views: 100.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page3" for ::1 at 2020-01-26 14:18:23 +0700
+Processing by PagesController#page3 as HTML
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 32ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page3" for ::1 at 2020-01-26 14:19:06 +0700
+Processing by PagesController#page3 as HTML
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 77ms (Views: 71.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/instruction" for ::1 at 2020-01-26 14:19:08 +0700
+Processing by PagesController#instruction as HTML
+  Rendering pages/instruction.html.erb within layouts/application
+  Rendered pages/instruction.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 83ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page3" for ::1 at 2020-01-26 14:19:14 +0700
+Processing by PagesController#page3 as HTML
+  Parameters: {"authenticity_token"=>"xT8D/Ux/RB4mr/lkD/GitaIp6R2HVbkZgF0gjCJnc+DYiPe4dTT+6bjvrFfLdifLnZ9LI7UEu8Yh8w5CN6PF4Q=="}
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 36ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page3" for ::1 at 2020-01-26 14:20:49 +0700
+Processing by PagesController#page3 as HTML
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 129ms (Views: 125.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page3" for ::1 at 2020-01-26 14:20:58 +0700
+Processing by PagesController#page3 as HTML
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 86ms (Views: 83.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page3" for ::1 at 2020-01-26 14:21:08 +0700
+Processing by PagesController#page3 as HTML
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 82ms (Views: 78.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page3" for ::1 at 2020-01-26 14:21:16 +0700
+Processing by PagesController#page3 as HTML
+  Parameters: {"authenticity_token"=>"xT8D/Ux/RB4mr/lkD/GitaIp6R2HVbkZgF0gjCJnc+DYiPe4dTT+6bjvrFfLdifLnZ9LI7UEu8Yh8w5CN6PF4Q=="}
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 38ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page3" for ::1 at 2020-01-26 14:22:10 +0700
+Processing by PagesController#page3 as HTML
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 46ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page3" for ::1 at 2020-01-26 14:22:19 +0700
+Processing by PagesController#page3 as HTML
+  Parameters: {"authenticity_token"=>"xT8D/Ux/RB4mr/lkD/GitaIp6R2HVbkZgF0gjCJnc+DYiPe4dTT+6bjvrFfLdifLnZ9LI7UEu8Yh8w5CN6PF4Q=="}
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page3" for ::1 at 2020-01-26 14:23:36 +0700
+Processing by PagesController#page3 as HTML
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (967.2ms)
+Completed 500 Internal Server Error in 975ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "       }": expected "}", was ""):
+    4: <!DOCTYPE html>
+    5: <html>
+    6: <head>
+    7:     <%= stylesheet_link_tag "styles" %>
+    8: </head>
+    9: <body>
+   10: <%= video_tag "P3-1.ogv",autoplay: :autoplay,loop: :loop, mute: :mute, class: "home_video home-video-wrapper" %>
+  
+app/assets/stylesheets/styles.css.scss:647
+app/views/pages/page3.html.erb:7:in `_app_views_pages_page__html_erb__1900202733917789855_69976278794560'
+Started POST "/pages/page3" for ::1 at 2020-01-26 14:23:42 +0700
+Processing by PagesController#page3 as HTML
+  Parameters: {"authenticity_token"=>"xT8D/Ux/RB4mr/lkD/GitaIp6R2HVbkZgF0gjCJnc+DYiPe4dTT+6bjvrFfLdifLnZ9LI7UEu8Yh8w5CN6PF4Q=="}
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (195.4ms)
+Completed 500 Internal Server Error in 199ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "       }": expected "}", was ""):
+    4: <!DOCTYPE html>
+    5: <html>
+    6: <head>
+    7:     <%= stylesheet_link_tag "styles" %>
+    8: </head>
+    9: <body>
+   10: <%= video_tag "P3-1.ogv",autoplay: :autoplay,loop: :loop, mute: :mute, class: "home_video home-video-wrapper" %>
+  
+app/assets/stylesheets/styles.css.scss:647
+app/views/pages/page3.html.erb:7:in `_app_views_pages_page__html_erb__1900202733917789855_69976269023900'
+Started POST "/pages/page3" for ::1 at 2020-01-26 14:24:02 +0700
+Processing by PagesController#page3 as HTML
+  Parameters: {"authenticity_token"=>"xT8D/Ux/RB4mr/lkD/GitaIp6R2HVbkZgF0gjCJnc+DYiPe4dTT+6bjvrFfLdifLnZ9LI7UEu8Yh8w5CN6PF4Q=="}
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (351.7ms)
+Completed 200 OK in 439ms (Views: 435.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page3" for ::1 at 2020-01-26 14:24:22 +0700
+Processing by PagesController#page3 as HTML
+  Parameters: {"authenticity_token"=>"xT8D/Ux/RB4mr/lkD/GitaIp6R2HVbkZgF0gjCJnc+DYiPe4dTT+6bjvrFfLdifLnZ9LI7UEu8Yh8w5CN6PF4Q=="}
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (330.2ms)
+Completed 200 OK in 369ms (Views: 366.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page3" for ::1 at 2020-01-26 14:24:37 +0700
+Processing by PagesController#page3 as HTML
+  Parameters: {"authenticity_token"=>"xT8D/Ux/RB4mr/lkD/GitaIp6R2HVbkZgF0gjCJnc+DYiPe4dTT+6bjvrFfLdifLnZ9LI7UEu8Yh8w5CN6PF4Q=="}
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 46ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page3" for ::1 at 2020-01-26 14:24:56 +0700
+Processing by PagesController#page3 as HTML
+  Parameters: {"authenticity_token"=>"xT8D/Ux/RB4mr/lkD/GitaIp6R2HVbkZgF0gjCJnc+DYiPe4dTT+6bjvrFfLdifLnZ9LI7UEu8Yh8w5CN6PF4Q=="}
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (254.8ms)
+Completed 200 OK in 289ms (Views: 285.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page3" for ::1 at 2020-01-26 14:27:13 +0700
+Processing by PagesController#page3 as HTML
+  Parameters: {"authenticity_token"=>"xT8D/Ux/RB4mr/lkD/GitaIp6R2HVbkZgF0gjCJnc+DYiPe4dTT+6bjvrFfLdifLnZ9LI7UEu8Yh8w5CN6PF4Q=="}
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (229.2ms)
+Completed 200 OK in 252ms (Views: 249.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page3" for ::1 at 2020-01-26 14:27:40 +0700
+Processing by PagesController#page3 as HTML
+  Parameters: {"authenticity_token"=>"xT8D/Ux/RB4mr/lkD/GitaIp6R2HVbkZgF0gjCJnc+DYiPe4dTT+6bjvrFfLdifLnZ9LI7UEu8Yh8w5CN6PF4Q=="}
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (255.6ms)
+Completed 200 OK in 288ms (Views: 284.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page3" for ::1 at 2020-01-26 14:36:03 +0700
+Processing by PagesController#page3 as HTML
+  Parameters: {"authenticity_token"=>"xT8D/Ux/RB4mr/lkD/GitaIp6R2HVbkZgF0gjCJnc+DYiPe4dTT+6bjvrFfLdifLnZ9LI7UEu8Yh8w5CN6PF4Q=="}
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (762.4ms)
+Completed 200 OK in 1713ms (Views: 1530.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page3" for ::1 at 2020-01-26 14:46:20 +0700
+Processing by PagesController#page3 as HTML
+  Parameters: {"authenticity_token"=>"xT8D/Ux/RB4mr/lkD/GitaIp6R2HVbkZgF0gjCJnc+DYiPe4dTT+6bjvrFfLdifLnZ9LI7UEu8Yh8w5CN6PF4Q=="}
+  Rendering pages/page3.html.erb within layouts/application
+Started POST "/pages/page3" for ::1 at 2020-01-26 14:46:24 +0700
+Processing by PagesController#page3 as HTML
+  Parameters: {"authenticity_token"=>"xT8D/Ux/RB4mr/lkD/GitaIp6R2HVbkZgF0gjCJnc+DYiPe4dTT+6bjvrFfLdifLnZ9LI7UEu8Yh8w5CN6PF4Q=="}
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (12434.3ms)
+  Rendered pages/page3.html.erb within layouts/application (11013.9ms)
+Completed 200 OK in 14399ms (Views: 13403.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 11758ms (Views: 11755.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page4" for ::1 at 2020-01-26 14:47:24 +0700
+Processing by PagesController#page4 as HTML
+  Rendering pages/page4.html.erb within layouts/application
+  Rendered pages/page4.html.erb within layouts/application (232.8ms)
+Completed 200 OK in 425ms (Views: 361.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page5" for ::1 at 2020-01-26 14:47:27 +0700
+Processing by PagesController#page5 as HTML
+  Parameters: {"authenticity_token"=>"Htv/taratjb52vzp3Hi8lKTQGsGslx+CaWgoESEBYxWQlD2c6ffM6Dvq+meZessjE7cgforUx6mBKtBwEbrdGg=="}
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (59.6ms)
+Completed 200 OK in 261ms (Views: 239.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page5" for ::1 at 2020-01-26 14:47:37 +0700
+Processing by PagesController#page5 as HTML
+  Parameters: {"authenticity_token"=>"d23m23ocrCTvlP2A5FSAxRTp+KSve8QY1BozwVVm12hq2hKeQ1cW03HUqLMg0wW7K19amp0qxsd1tB0PQKJhaQ=="}
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 144ms (Views: 140.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page3" for ::1 at 2020-01-26 14:48:11 +0700
+Processing by PagesController#page3 as HTML
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (229.5ms)
+Completed 200 OK in 604ms (Views: 550.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page4" for ::1 at 2020-01-26 14:48:16 +0700
+Processing by PagesController#page4 as HTML
+  Rendering pages/page4.html.erb within layouts/application
+  Rendered pages/page4.html.erb within layouts/application (88.3ms)
+Completed 200 OK in 201ms (Views: 195.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page5" for ::1 at 2020-01-26 14:48:22 +0700
+Processing by PagesController#page5 as HTML
+  Parameters: {"authenticity_token"=>"ZMUeP71ncMPSpFeDiaCEsGw2nJUkI38Df42RxjMvZHjqitwW/koKHRCUUQ3MovMH21GmKgJgpyiXz2mnA5Tadw=="}
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 4333ms (Views: 4329.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page5" for ::1 at 2020-01-26 14:49:26 +0700
+Processing by PagesController#page5 as HTML
+  Parameters: {"authenticity_token"=>"pbu6mRGcQvayajvoyGqVg6opFXmiRy87194xxBVhtba4DE7cKNf4ASwqbtsM7RD9lZ+3R5AWLeR2cB8KAKUDtw=="}
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (36.2ms)
+Completed 200 OK in 466ms (Views: 463.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page5" for ::1 at 2020-01-26 14:49:50 +0700
+Processing by PagesController#page5 as HTML
+  Parameters: {"authenticity_token"=>"pbu6mRGcQvayajvoyGqVg6opFXmiRy87194xxBVhtba4DE7cKNf4ASwqbtsM7RD9lZ+3R5AWLeR2cB8KAKUDtw=="}
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 232ms (Views: 227.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 14:54:50 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (190.6ms)
+Completed 200 OK in 903ms (Views: 732.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 14:54:57 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (51.2ms)
+Completed 200 OK in 177ms (Views: 150.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 14:57:23 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (11318.5ms)
+Completed 200 OK in 22529ms (Views: 22526.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-01-26 14:59:36 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (3369.4ms)
+Completed 200 OK in 3635ms (Views: 3595.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page4" for ::1 at 2020-01-26 15:00:16 +0700
+Processing by PagesController#page4 as HTML
+  Rendering pages/page4.html.erb within layouts/application
+  Rendered pages/page4.html.erb within layouts/application (178.7ms)
+Completed 200 OK in 348ms (Views: 346.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page6" for ::1 at 2020-01-26 15:00:18 +0700
+Processing by PagesController#page6 as HTML
+  Parameters: {"authenticity_token"=>"waqR3OjuYixaDSVLKQnDfIANrM9XQKo03AG1S2jtjMfcHWWZ0aXY28RNcHjtjkYCv7sO8WURqOt9r5uFfSk6xg=="}
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 80ms (Views: 75.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page6" for ::1 at 2020-01-26 15:00:40 +0700
+Processing by PagesController#page6 as HTML
+  Parameters: {"authenticity_token"=>"waqR3OjuYixaDSVLKQnDfIANrM9XQKo03AG1S2jtjMfcHWWZ0aXY28RNcHjtjkYCv7sO8WURqOt9r5uFfSk6xg=="}
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (687.6ms)
+Completed 200 OK in 799ms (Views: 784.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page6" for ::1 at 2020-01-26 15:01:08 +0700
+Processing by PagesController#page6 as HTML
+  Parameters: {"authenticity_token"=>"waqR3OjuYixaDSVLKQnDfIANrM9XQKo03AG1S2jtjMfcHWWZ0aXY28RNcHjtjkYCv7sO8WURqOt9r5uFfSk6xg=="}
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (2235.2ms)
+Completed 200 OK in 2331ms (Views: 2328.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page6" for ::1 at 2020-01-26 15:01:28 +0700
+Processing by PagesController#page6 as HTML
+  Parameters: {"authenticity_token"=>"waqR3OjuYixaDSVLKQnDfIANrM9XQKo03AG1S2jtjMfcHWWZ0aXY28RNcHjtjkYCv7sO8WURqOt9r5uFfSk6xg=="}
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (2047.9ms)
+Completed 200 OK in 2119ms (Views: 2115.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page6" for ::1 at 2020-01-26 15:01:39 +0700
+Processing by PagesController#page6 as HTML
+  Parameters: {"authenticity_token"=>"waqR3OjuYixaDSVLKQnDfIANrM9XQKo03AG1S2jtjMfcHWWZ0aXY28RNcHjtjkYCv7sO8WURqOt9r5uFfSk6xg=="}
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (68.8ms)
+Completed 200 OK in 110ms (Views: 106.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page6" for ::1 at 2020-01-26 15:02:53 +0700
+Processing by PagesController#page6 as HTML
+  Parameters: {"authenticity_token"=>"waqR3OjuYixaDSVLKQnDfIANrM9XQKo03AG1S2jtjMfcHWWZ0aXY28RNcHjtjkYCv7sO8WURqOt9r5uFfSk6xg=="}
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (36.3ms)
+Completed 200 OK in 70ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page6" for ::1 at 2020-01-26 15:03:35 +0700
+Processing by PagesController#page6 as HTML
+  Parameters: {"authenticity_token"=>"waqR3OjuYixaDSVLKQnDfIANrM9XQKo03AG1S2jtjMfcHWWZ0aXY28RNcHjtjkYCv7sO8WURqOt9r5uFfSk6xg=="}
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (209.8ms)
+Completed 200 OK in 540ms (Views: 491.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page6" for ::1 at 2020-01-26 15:07:31 +0700
+Processing by PagesController#page6 as HTML
+  Parameters: {"authenticity_token"=>"waqR3OjuYixaDSVLKQnDfIANrM9XQKo03AG1S2jtjMfcHWWZ0aXY28RNcHjtjkYCv7sO8WURqOt9r5uFfSk6xg=="}
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 99ms (Views: 96.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:08:02 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 48ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:08:12 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 62ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:08:55 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (33.5ms)
+Completed 200 OK in 89ms (Views: 86.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:08:56 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 135ms (Views: 132.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page6" for ::1 at 2020-01-26 15:08:59 +0700
+Processing by PagesController#page6 as HTML
+  Parameters: {"authenticity_token"=>"waqR3OjuYixaDSVLKQnDfIANrM9XQKo03AG1S2jtjMfcHWWZ0aXY28RNcHjtjkYCv7sO8WURqOt9r5uFfSk6xg=="}
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (33.6ms)
+Completed 200 OK in 137ms (Views: 96.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:09:07 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 69ms (Views: 66.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:09:34 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (36.1ms)
+Completed 200 OK in 151ms (Views: 125.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:10:18 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 47ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:10:30 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 134ms (Views: 131.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:10:55 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 47ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:10:56 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 50ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:11:10 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (45.8ms)
+Completed 200 OK in 83ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:11:16 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 110ms (Views: 107.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:11:41 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (42.7ms)
+Completed 200 OK in 108ms (Views: 104.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:12:33 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (25.6ms)
+Completed 200 OK in 57ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:12:50 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 90ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:13:05 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 68ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:13:11 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (30.5ms)
+Completed 200 OK in 168ms (Views: 164.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:13:17 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (141.4ms)
+Completed 200 OK in 190ms (Views: 185.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:13:22 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (27.9ms)
+Completed 200 OK in 62ms (Views: 59.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:13:27 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (109.9ms)
+Completed 200 OK in 633ms (Views: 629.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:13:41 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (54.6ms)
+Completed 200 OK in 93ms (Views: 89.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:13:59 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 95ms (Views: 92.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:14:10 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 49ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:14:20 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 60ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:14:29 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 57ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:14:34 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 80ms (Views: 76.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:14:43 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (37.8ms)
+Completed 200 OK in 71ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:14:53 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 41ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:15:23 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 49ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:15:24 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 71ms (Views: 69.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:15:36 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (32.1ms)
+Completed 200 OK in 69ms (Views: 65.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:15:41 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 189ms (Views: 186.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:15:49 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (89.8ms)
+Completed 200 OK in 125ms (Views: 120.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:16:05 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 40ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:16:14 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 97ms (Views: 94.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:16:54 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (35.0ms)
+Completed 200 OK in 79ms (Views: 75.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:17:02 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (24.3ms)
+Completed 200 OK in 166ms (Views: 163.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:17:09 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (29.4ms)
+Completed 200 OK in 73ms (Views: 70.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:17:14 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 47ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:17:23 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (29.1ms)
+Completed 200 OK in 78ms (Views: 74.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:17:31 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 40ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:17:43 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (71.4ms)
+Completed 200 OK in 126ms (Views: 123.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:18:01 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 43ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:18:08 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 64ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page6" for ::1 at 2020-01-26 15:18:14 +0700
+Processing by PagesController#page6 as HTML
+  Parameters: {"authenticity_token"=>"waqR3OjuYixaDSVLKQnDfIANrM9XQKo03AG1S2jtjMfcHWWZ0aXY28RNcHjtjkYCv7sO8WURqOt9r5uFfSk6xg=="}
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (46.1ms)
+Completed 200 OK in 83ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page6" for ::1 at 2020-01-26 15:18:32 +0700
+Processing by PagesController#page6 as HTML
+  Parameters: {"authenticity_token"=>"waqR3OjuYixaDSVLKQnDfIANrM9XQKo03AG1S2jtjMfcHWWZ0aXY28RNcHjtjkYCv7sO8WURqOt9r5uFfSk6xg=="}
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 72ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page3" for ::1 at 2020-01-26 15:18:45 +0700
+Processing by PagesController#page3 as HTML
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (34.4ms)
+Completed 200 OK in 103ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page3" for ::1 at 2020-01-26 15:18:46 +0700
+Processing by PagesController#page3 as HTML
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 87ms (Views: 83.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page4" for ::1 at 2020-01-26 15:18:58 +0700
+Processing by PagesController#page4 as HTML
+  Rendering pages/page4.html.erb within layouts/application
+  Rendered pages/page4.html.erb within layouts/application (150.2ms)
+Completed 200 OK in 232ms (Views: 229.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page6" for ::1 at 2020-01-26 15:19:00 +0700
+Processing by PagesController#page6 as HTML
+  Parameters: {"authenticity_token"=>"M3EUDvY/wfCqYCIAYrferSt005vb6Q5NJ0QcBsIvQRKoVYcdVcoizvV6HZ72aNYzEuH2HPlyeCsria8q1FlX/A=="}
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 43ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page4" for ::1 at 2020-01-26 15:21:16 +0700
+Processing by PagesController#page4 as HTML
+  Rendering pages/page4.html.erb within layouts/application
+  Rendered pages/page4.html.erb within layouts/application (67.9ms)
+Completed 200 OK in 134ms (Views: 131.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page4" for ::1 at 2020-01-26 15:21:22 +0700
+Processing by PagesController#page4 as HTML
+  Rendering pages/page4.html.erb within layouts/application
+Started POST "/pages/page6" for ::1 at 2020-01-26 15:21:35 +0700
+Processing by PagesController#page6 as HTML
+  Parameters: {"authenticity_token"=>"B5neu3BI4bA7266Cpk7i3I8riVqCVMeAruY9YVdGodKcvU2o070CjmTBkRwykepCtr6s3aDPseaiK45NQTC3PA=="}
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (149.4ms)
+  Rendered pages/page4.html.erb within layouts/application (2164.0ms)
+Completed 200 OK in 9100ms (Views: 4150.9ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1588ms (Views: 1510.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 15:34:38 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (133.1ms)
+Completed 200 OK in 284ms (Views: 255.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 15:39:37 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (2532.8ms)
+Completed 200 OK in 3139ms (Views: 3135.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:40:53 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 172ms (Views: 169.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 15:40:55 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (53.7ms)
+Completed 200 OK in 164ms (Views: 161.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 15:44:57 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (82.6ms)
+Completed 500 Internal Server Error in 160ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/felicia/Documents/webquiz/app/views/pages/page7.html.erb:11: syntax error, unexpected ',', expecting ')'
+...age_tag("P7-1.png", border: 0), {action: 'search', controlle...
+...                              ^
+/home/felicia/Documents/webquiz/app/views/pages/page7.html.erb:11: syntax error, unexpected ',', expecting ')'
+...'search', controller: 'pages'}, {class: 'dock-item'} );@outp...
+...                              ^):
+  
+app/views/pages/page7.html.erb:11: syntax error, unexpected ',', expecting ')'
+app/views/pages/page7.html.erb:11: syntax error, unexpected ',', expecting ')'
+Started GET "/pages/page7" for ::1 at 2020-01-26 15:46:22 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/felicia/Documents/webquiz/app/views/pages/page7.html.erb:11: syntax error, unexpected ',', expecting ')'
+...e_tag("P7-1.png", :border=> 0), {action: 'search', controlle...
+...                              ^
+/home/felicia/Documents/webquiz/app/views/pages/page7.html.erb:11: syntax error, unexpected ',', expecting ')'
+...'search', controller: 'pages'}, {class: 'dock-item'} );@outp...
+...                              ^):
+  
+app/views/pages/page7.html.erb:11: syntax error, unexpected ',', expecting ')'
+app/views/pages/page7.html.erb:11: syntax error, unexpected ',', expecting ')'
+Started GET "/pages/page7" for ::1 at 2020-01-26 15:48:50 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (721.2ms)
+Completed 200 OK in 771ms (Views: 768.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=dock-item" for ::1 at 2020-01-26 15:48:53 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"dock-item"}
+Completed 406 Not Acceptable in 45ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (PagesController#page8 is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.4.1) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.4.1) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.4.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.4.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.4.1) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.4.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.4.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.4.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.4.1) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.4.1) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.4.1) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.4.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.4.1) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.4.1) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.4.1) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.4.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.4.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.1.1) lib/rack/tempfile_reaper.rb:17:in `call'
+rack (2.1.1) lib/rack/etag.rb:27:in `call'
+rack (2.1.1) lib/rack/conditional_get.rb:27:in `call'
+rack (2.1.1) lib/rack/head.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.1.1) lib/rack/session/abstract/id.rb:277:in `context'
+rack (2.1.1) lib/rack/session/abstract/id.rb:271:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/pages/page7" for ::1 at 2020-01-26 15:48:59 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 190ms (Views: 187.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 15:49:34 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 64ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 15:54:48 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (712.6ms)
+Completed 200 OK in 783ms (Views: 781.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 15:54:54 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (42.3ms)
+Completed 200 OK in 122ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 15:55:11 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 75ms (Views: 73.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 15:55:25 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 45ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 15:59:51 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (1039.9ms)
+Completed 200 OK in 1096ms (Views: 1091.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:00:03 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (949.6ms)
+Completed 200 OK in 1005ms (Views: 1003.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 16:00:08 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 42ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:00:09 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (63.4ms)
+Completed 200 OK in 129ms (Views: 126.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:02:27 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (1006.0ms)
+Completed 200 OK in 1084ms (Views: 1079.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:02:55 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (629.3ms)
+Completed 200 OK in 689ms (Views: 684.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:03:11 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (447.0ms)
+Completed 200 OK in 545ms (Views: 543.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:04:14 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 53ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:04:25 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 91ms (Views: 87.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:04:38 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 34ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 16:04:55 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 44ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:04:57 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 58ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:05:13 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (19.9ms)
+Completed 200 OK in 90ms (Views: 87.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 16:05:28 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 53ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:05:29 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (37.8ms)
+Completed 200 OK in 103ms (Views: 99.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:06:22 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (27.4ms)
+Completed 200 OK in 77ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 16:06:37 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 42ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:06:39 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 97ms (Views: 94.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:07:22 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 91ms (Views: 87.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:08:06 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (52.3ms)
+Completed 200 OK in 99ms (Views: 96.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:08:19 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 47ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page7" for ::1 at 2020-01-26 16:09:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/page7"):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:09:16 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (39.0ms)
+Completed 200 OK in 76ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:11:07 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (483.1ms)
+Completed 200 OK in 547ms (Views: 543.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:11:20 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (466.9ms)
+Completed 200 OK in 536ms (Views: 533.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:11:32 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (479.3ms)
+Completed 200 OK in 522ms (Views: 518.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:11:45 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (461.3ms)
+Completed 200 OK in 501ms (Views: 497.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:11:58 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (1125.3ms)
+Completed 200 OK in 1169ms (Views: 1166.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:13:26 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 42ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:13:34 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:15:47 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (485.2ms)
+Completed 200 OK in 556ms (Views: 553.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:16:12 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 49ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:16:20 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 55ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:16:29 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 59ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:16:40 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 47ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:16:46 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (34.3ms)
+Completed 200 OK in 70ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:16:53 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 52ms (Views: 49.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:17:01 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 50ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:17:50 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (556.0ms)
+Completed 200 OK in 604ms (Views: 600.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:18:01 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (499.4ms)
+Completed 200 OK in 573ms (Views: 570.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:18:08 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (544.2ms)
+Completed 200 OK in 657ms (Views: 655.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:18:24 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (400.0ms)
+Completed 200 OK in 443ms (Views: 439.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:19:35 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (29.4ms)
+Completed 200 OK in 168ms (Views: 165.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:21:54 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 89ms (Views: 83.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:22:20 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 51ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:22:50 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 48ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:23:00 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 47ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:23:14 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:23:24 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 42ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:24:01 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (444.7ms)
+Completed 200 OK in 496ms (Views: 493.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:24:17 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (2959.5ms)
+Completed 200 OK in 3025ms (Views: 3022.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:24:27 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (418.4ms)
+Completed 200 OK in 461ms (Views: 458.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:25:41 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (435.1ms)
+Completed 200 OK in 476ms (Views: 473.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:25:53 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 50ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:25:58 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 45ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:26:03 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 42ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:26:13 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 54ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:26:20 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 46ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:26:27 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 50ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:26:36 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 44ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:26:44 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 101ms (Views: 98.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-01-26 16:27:33 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (189.3ms)
+Completed 200 OK in 257ms (Views: 237.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/instruction" for ::1 at 2020-01-26 16:27:37 +0700
+Processing by PagesController#instruction as HTML
+  Parameters: {"authenticity_token"=>"JP9fUikOpolIymxpk9eDa9RhEBHuQcEkkQkGosQce/85SKsXEEUcftaKOVpXUAYV69eyL9wQw/swpyhs0djN/g=="}
+  Rendering pages/instruction.html.erb within layouts/application
+  Rendered pages/instruction.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 126ms (Views: 84.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page3" for ::1 at 2020-01-26 16:27:43 +0700
+Processing by PagesController#page3 as HTML
+  Parameters: {"authenticity_token"=>"R/qy/R6xD5XLvaVOUrE6siAAd9g9hdJxVz9yPI0QPMdaTUa4J/q1YlX98H2WNr/MH7bV5g/U0K72kVzymNSKxg=="}
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (27.3ms)
+Completed 200 OK in 93ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page4" for ::1 at 2020-01-26 16:27:49 +0700
+Processing by PagesController#page4 as HTML
+  Rendering pages/page4.html.erb within layouts/application
+  Rendered pages/page4.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 83ms (Views: 80.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page6" for ::1 at 2020-01-26 16:27:59 +0700
+Processing by PagesController#page6 as HTML
+  Parameters: {"authenticity_token"=>"quviv/sPOle8A5tsevLgVJXNJ8xDHiW06oUg+qLx/Ukxz3GsWPrZaeMZpPLuLejKrFgCS2GFU9LmSJPWtIfrpw=="}
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (96.5ms)
+Completed 200 OK in 156ms (Views: 133.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:28:04 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 50ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:28:39 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (573.9ms)
+Completed 200 OK in 666ms (Views: 662.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:28:49 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (436.1ms)
+Completed 200 OK in 486ms (Views: 482.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:30:56 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (1479.1ms)
+Completed 200 OK in 2166ms (Views: 1936.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:31:12 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (868.2ms)
+Completed 200 OK in 926ms (Views: 923.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:31:26 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (544.7ms)
+Completed 200 OK in 577ms (Views: 573.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:31:36 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (442.8ms)
+Completed 200 OK in 496ms (Views: 493.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:32:05 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (397.8ms)
+Completed 200 OK in 449ms (Views: 446.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:32:13 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (405.3ms)
+Completed 200 OK in 449ms (Views: 445.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:32:26 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (708.1ms)
+Completed 200 OK in 808ms (Views: 805.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:32:38 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (458.3ms)
+Completed 200 OK in 498ms (Views: 495.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:32:52 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (377.7ms)
+Completed 200 OK in 437ms (Views: 434.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 16:33:47 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+Completed 406 Not Acceptable in 35ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (PagesController#page8 is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.4.1) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.4.1) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.4.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.4.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.4.1) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.4.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.4.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.4.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.4.1) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.4.1) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.4.1) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.4.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.4.1) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.4.1) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.4.1) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.4.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.4.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.1.1) lib/rack/tempfile_reaper.rb:17:in `call'
+rack (2.1.1) lib/rack/etag.rb:27:in `call'
+rack (2.1.1) lib/rack/conditional_get.rb:27:in `call'
+rack (2.1.1) lib/rack/head.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.1.1) lib/rack/session/abstract/id.rb:277:in `context'
+rack (2.1.1) lib/rack/session/abstract/id.rb:271:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 16:33:47 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+Completed 406 Not Acceptable in 45ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (PagesController#page8 is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.4.1) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.4.1) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.4.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.4.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.4.1) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.4.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.4.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.4.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.4.1) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.4.1) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.4.1) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.4.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.4.1) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.4.1) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.4.1) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.4.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.4.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.1.1) lib/rack/tempfile_reaper.rb:17:in `call'
+rack (2.1.1) lib/rack/etag.rb:27:in `call'
+rack (2.1.1) lib/rack/conditional_get.rb:27:in `call'
+rack (2.1.1) lib/rack/head.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.1.1) lib/rack/session/abstract/id.rb:277:in `context'
+rack (2.1.1) lib/rack/session/abstract/id.rb:271:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/pages/page7" for ::1 at 2020-01-26 16:33:50 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 74ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 16:36:30 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 82ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 16:53:19 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (1179.8ms)
+Completed 200 OK in 1505ms (Views: 1479.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:11:50 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (3038.5ms)
+Completed 200 OK in 3256ms (Views: 3240.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:12:13 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 35ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:12:24 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (26.6ms)
+Completed 200 OK in 50ms (Views: 48.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 17:12:55 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 43ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:12:57 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:13:06 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 81ms (Views: 78.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:13:13 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 39ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 17:13:14 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 34ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:13:16 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 54ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:13:25 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 97ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:13:33 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (21.1ms)
+Completed 200 OK in 108ms (Views: 103.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:14:10 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (916.3ms)
+Completed 200 OK in 1395ms (Views: 1392.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 17:15:21 +0700
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:15:21 +0700
+Processing by PagesController#page7 as HTML
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page7.html.erb within layouts/application
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (3793.7ms)
+  Rendered pages/page7.html.erb within layouts/application (3969.7ms)
+Completed 200 OK in 8737ms (Views: 7391.9ms | ActiveRecord: 0.0ms)
+
+
+Completed 500 Internal Server Error in 16373ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___3798681544247897300_69881634606600'
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:16:12 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (66.7ms)
+Completed 200 OK in 95ms (Views: 92.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:22:04 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (726.9ms)
+Completed 200 OK in 862ms (Views: 859.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:22:05 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 67ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 17:22:08 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (52.9ms)
+Completed 200 OK in 79ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:22:09 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (26.6ms)
+Completed 200 OK in 79ms (Views: 75.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:22:44 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (568.3ms)
+Completed 200 OK in 659ms (Views: 656.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:22:45 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 89ms (Views: 85.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 17:22:53 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 37ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:25:13 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (663.2ms)
+Completed 200 OK in 727ms (Views: 724.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover+imagep8" for ::1 at 2020-01-26 17:25:18 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover imagep8"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 50ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover+imagep8" for ::1 at 2020-01-26 17:25:19 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover imagep8"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 63ms (Views: 59.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover+imagep8" for ::1 at 2020-01-26 17:25:35 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover imagep8"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 48ms (Views: 45.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:25:38 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 17:25:40 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 31ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:25:41 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 40ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=+imagep8" for ::1 at 2020-01-26 17:25:54 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>" imagep8"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (24.2ms)
+Completed 200 OK in 113ms (Views: 109.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=+imagep8" for ::1 at 2020-01-26 17:28:09 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>" imagep8"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (57.5ms)
+Completed 200 OK in 249ms (Views: 245.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:29:52 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (384.0ms)
+Completed 200 OK in 452ms (Views: 448.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:29:53 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 55ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:30:20 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 40ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:30:30 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 42ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:30:39 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 37ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:30:51 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 31ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 17:30:55 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 41ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:30:56 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (24.4ms)
+Completed 200 OK in 60ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:31:16 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 84ms (Views: 80.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:31:28 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 32ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:31:33 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 37ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:31:38 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 41ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:31:43 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 36ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:31:49 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 43ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:31:57 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 48ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:32:03 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:32:11 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 36ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:32:16 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 44ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:32:21 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 45ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:32:25 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 30ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:32:29 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 44ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:32:33 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 37ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:34:06 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 36ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:34:38 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (400.6ms)
+Completed 200 OK in 460ms (Views: 458.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:35:02 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (401.6ms)
+Completed 200 OK in 450ms (Views: 447.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:36:59 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (414.8ms)
+Completed 200 OK in 460ms (Views: 457.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:37:24 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 38ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:37:34 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=imagep8+hover" for ::1 at 2020-01-26 17:37:36 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"imagep8 hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=imagep8+hover" for ::1 at 2020-01-26 17:37:38 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"imagep8 hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (21.6ms)
+Completed 200 OK in 77ms (Views: 73.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=imagep8+hover" for ::1 at 2020-01-26 17:37:38 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"imagep8 hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 55ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=imagep8+hover" for ::1 at 2020-01-26 17:37:38 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"imagep8 hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 41ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=imagep8+hover" for ::1 at 2020-01-26 17:37:58 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"imagep8 hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (622.3ms)
+Completed 200 OK in 688ms (Views: 683.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=imagep8+hover" for ::1 at 2020-01-26 17:38:10 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"imagep8 hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (357.2ms)
+Completed 200 OK in 444ms (Views: 441.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=imagep8+hover" for ::1 at 2020-01-26 17:38:52 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"imagep8 hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 36ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=imagep8+hover" for ::1 at 2020-01-26 17:39:06 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"imagep8 hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (359.2ms)
+Completed 200 OK in 390ms (Views: 387.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=imagep8+hover" for ::1 at 2020-01-26 17:39:17 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"imagep8 hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (323.1ms)
+Completed 200 OK in 359ms (Views: 354.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:39:23 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 40ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 17:39:25 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 45ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 17:39:25 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (42.4ms)
+Completed 200 OK in 79ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 17:39:26 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 32ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:39:29 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:39:38 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (429.0ms)
+Completed 200 OK in 476ms (Views: 472.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 17:40:13 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 47ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:40:17 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:40:54 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (534.6ms)
+Completed 200 OK in 591ms (Views: 586.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:40:59 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (333.2ms)
+Completed 200 OK in 378ms (Views: 375.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:41:07 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 40ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:41:18 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (318.6ms)
+Completed 200 OK in 353ms (Views: 350.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:41:26 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (330.6ms)
+Completed 200 OK in 362ms (Views: 359.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:41:36 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (369.7ms)
+Completed 200 OK in 407ms (Views: 404.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:41:43 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (348.5ms)
+Completed 200 OK in 388ms (Views: 384.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:41:52 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (342.9ms)
+Completed 200 OK in 376ms (Views: 373.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:41:58 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (316.5ms)
+Completed 200 OK in 381ms (Views: 377.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:42:04 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (368.4ms)
+Completed 200 OK in 406ms (Views: 404.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:42:13 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (334.1ms)
+Completed 200 OK in 364ms (Views: 360.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 17:42:19 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:42:20 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 43ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:42:27 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (460.8ms)
+Completed 200 OK in 518ms (Views: 516.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 17:45:22 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 32ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-01-26 17:45:23 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 29ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page6" for ::1 at 2020-01-26 17:45:30 +0700
+Started POST "/pages/page6" for ::1 at 2020-01-26 17:45:30 +0700
+Processing by PagesController#page6 as HTML
+  Parameters: {"authenticity_token"=>"TfQJCoH+af1pTb4LVIRXeE4u8rLPVa99Y0obuKb57AlQQ/1PuLXTCvcN6ziQA9IGcZhQjP0EraLC5DV2sz1aCA=="}
+Processing by PagesController#page6 as HTML
+  Parameters: {"authenticity_token"=>"TfQJCoH+af1pTb4LVIRXeE4u8rLPVa99Y0obuKb57AlQQ/1PuLXTCvcN6ziQA9IGcZhQjP0EraLC5DV2sz1aCA=="}
+  Rendering pages/page6.html.erb within layouts/application
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (28.0ms)
+  Rendered pages/page6.html.erb within layouts/application (34.2ms)
+Completed 200 OK in 108ms (Views: 105.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 116ms (Views: 113.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page7" for ::1 at 2020-01-26 17:45:37 +0700
+Processing by PagesController#page7 as HTML
+  Rendering pages/page7.html.erb within layouts/application
+  Rendered pages/page7.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 37ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page8?class=hover" for ::1 at 2020-01-26 17:45:41 +0700
+Processing by PagesController#page8 as HTML
+  Parameters: {"class"=>"hover"}
+  Rendering pages/page8.html.erb within layouts/application
+  Rendered pages/page8.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 67ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+

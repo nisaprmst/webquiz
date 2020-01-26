@@ -14,6 +14,35 @@
 }
 .link-text:hover {color: #c1272d}
 
+.appearP3-1 {
+    color: white;
+    -webkit-animation: animateP3 1s ease-in;
+    animation: animateP3 4s ease-in;
+}
+.appearP3-2 {
+    color: white;
+    -webkit-animation: animateP3 1s ease-in;
+    animation: animateP3 4.2s ease-in;
+}
+
+.appearP3-3 {
+    color: white;
+    -webkit-animation: animateP3 1s ease-in;
+    animation: animateP3 4.3s ease-in;
+}
+
+.appearP3-4 {
+    color: white;
+    -webkit-animation: animateP3 1s ease-in;
+    animation: animateP3 4.4s ease-in;
+}
+
+@-webkit-keyframes animateP3 {
+    0% {opacity: 0;}
+    99% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
 .fade-in1 {
     color: white;
     -webkit-animation: animate 1.2s ease-in;  
@@ -248,6 +277,13 @@
 .changecolor12:hover{
     color : #ed1c24;
     cursor: pointer;
+}
+.p6-font {
+    color : #808080;
+    text-decoration: none;
+}
+.p6-font:hover{
+    color : #ffffff;
 }
 @-webkit-keyframes color-change {
     0% { color: red; }
@@ -634,3 +670,79 @@ h1.home {
         top: 0;
         z-index: -2;
        }       
+
+#wrapper .text1 {
+    position:relative;
+    bottom:10px;
+    left:90px;
+    visibility:hidden;
+}
+        
+#wrapper:hover .text1 {
+    visibility:visible;
+}
+
+#wrapper .text2 {
+    position:relative;
+    bottom:90px;
+    left:50px;
+    visibility:hidden;
+}
+            
+#wrapper:hover .text2 {
+    visibility:visible;
+}
+
+
+#wrapper .text3 {
+    position:relative;
+    bottom:150px;
+    left:50px;
+    visibility:hidden;
+}
+            
+#wrapper:hover .text3 {
+    visibility:visible;
+}
+        
+#wrapper .text4 {
+    position:relative;
+    top:50px;
+    left:10px;
+    visibility:hidden;
+}
+            
+#wrapper:hover .text4 {
+    visibility:visible;
+}
+
+        
+#wrapper .text4 {
+    position:relative;
+    top:50px;
+    left:10px;
+    visibility:hidden;
+}
+            
+#wrapper:hover .text4 {
+    visibility:visible;
+}       
+
+#wrapper .imagep8{
+    opacity: 0;
+}
+
+#wrapper:hover .imagep8  {
+    opacity: 1;
+}
+
+#wrapper .textp8 {
+    position:relative;
+    bottom: 25px;
+    left:420px;
+    visibility:hidden;
+}
+            
+#wrapper:hover .textp8 {
+    visibility:visible;
+}       

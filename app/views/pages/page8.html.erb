@@ -1,0 +1,26 @@
+<%= content_for :page_title do %>
+    Page8
+  <% end %>
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <%= stylesheet_link_tag "styles" %>
+  </head>
+  <body>
+  <%= video_tag "P8.ogv",autoplay: :autoplay,loop: :loop, mute: :mute, class: "home_video home-video-wrapper" %>
+  
+
+  <div style ="margin-left:12%;margin-top:23%">
+
+            <%= image_tag("P8-1.png") %>
+            <div id="wrapper" style="margin-top:-2.7%">
+            <div class ="imagep8">
+            <%= link_to image_tag("P8-2.png", :border=>0), :action => 'page8', :controller => 'pages', :class => 'hover' %>
+            </div>
+            <p class = "textp8 sans_source_bold" style ="color:#666666">
+                To the past.
+            </p>
+        </div>
+    </div>
+  </body>
+  </html>
