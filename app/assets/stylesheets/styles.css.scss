@@ -776,13 +776,47 @@ h1.home {
     opacity: 1;
 }
 
-#wrapper .textp8 {
+#wrapper .textp8-1 {
     position:relative;
     bottom: 25px;
     left:420px;
     visibility:hidden;
 }
             
-#wrapper:hover .textp8 {
+#wrapper:hover .textp8-1 {
+    visibility:visible;
+}   
+
+#wrapper .textp8-2 {
+    position:relative;
+    bottom: 25px;
+    left:130px;
+    visibility:hidden;
+}
+            
+#wrapper:hover .textp8-2 {
+    visibility:visible;
+}       
+
+
+#wrapper .textp8-3 {
+    position: absolute;;
+    bottom: 360px;
+    right: 590px;
+    visibility:hidden;
+}
+            
+#wrapper:hover .textp8-3 {
+    visibility:visible;
+}       
+
+#wrapper .textp8-4 {
+    position: absolute;;
+    bottom: 360px;
+    right: 650px;
+    visibility:hidden;
+}
+            
+#wrapper:hover .textp8-4 {
     visibility:visible;
 }       
