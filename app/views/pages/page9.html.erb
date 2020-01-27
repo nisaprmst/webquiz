@@ -1,0 +1,24 @@
+<%= content_for :page_title do %>
+  Page 9
+<% end %>
+<!DOCTYPE html>
+<html>
+<head>
+    <%= stylesheet_link_tag "styles" %>
+</head>
+<body>
+    <%= video_tag "P9.mp4",autoplay: :autoplay,loop: :loop, mute: :mute, class: "home_video home-video-wrapper" %>
+    <div style="padding: 73px 110px 10px 0px; text-align: right;">
+    <%= link_to "Ignore.", {:controller => 'pages', :action => "page10" }, {:class => "link-text2" } %>
+    </div>
+    <div style="padding: 73px 490px">
+    <%= link_to "Let it out.", {:controller => 'pages', :action => "page10" }, {:class => "link-text2" } %>
+    </div>
+    <div style="padding: 155px 140px 10px 140px">
+    <%= link_to "Find distraction.", {:controller => 'pages', :action => "page10" }, {:class => "link-text2" } %>
+    </div>
+    <div style="padding: 35px 225px; text-align: right">
+    <%= link_to "Calm the storm.", {:controller => 'pages', :action => "page10" }, {:class => "link-text2" } %>
+    </div>
+</body>
+</html>

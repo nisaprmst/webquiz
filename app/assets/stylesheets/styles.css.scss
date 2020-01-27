@@ -1,3 +1,21 @@
+#wrapper .imagep10{
+    opacity: 1;
+}
+
+#wrapper:hover .imagep10  {
+    opacity: 1;
+}
+
+#wrapper .imgp10 {
+    visibility:hidden;
+}
+            
+#wrapper:hover .imgp10 {
+    visibility:visible;
+}       
+.image-container-center {
+    justify-content: center;
+  }
 .link-text {
     border-radius: 30px;
     color: #666666;
@@ -13,6 +31,20 @@
     outline: none;
 }
 .link-text:hover {color: #c1272d}
+
+.link-text2 {
+    color: #999999;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'sans-source';
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    outline: none;
+}
+.link-text2:hover {color: #000000}
 
 .appearP3-1 {
     color: white;
@@ -162,7 +194,15 @@
     padding: 10px;
     height: 30px;
 }
-
+.col {
+    width: 50%;
+    float: left;
+    
+}
+.col2 {
+    float: left;
+    
+}
 .row:after {
     content: "";
     display:bl table;

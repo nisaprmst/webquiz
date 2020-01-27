@@ -1,0 +1,53 @@
+<%= content_for :page_title do %>
+  Page 10
+<% end %>
+<!DOCTYPE html>
+<html>
+<head>
+    <%= stylesheet_link_tag "styles" %>
+</head>
+<body>
+    <%= video_tag "P10.mp4",autoplay: :autoplay,loop: :loop, mute: :mute, class: "home_video home-video-wrapper" %>
+    <div style="padding:200px">
+        <div id = "wrapper" style="margin-left:47.39%; margin-right:47.39%; padding: 0px">
+            <div class="image-container-center imgp10" style="padding:0px 0px 0px 7px">
+                <%= image_tag("God.png", :size => "66x32") %>
+            </div>
+            <div class="image-container-center imagep10">
+                <%= link_to image_tag("smile.png", :size => "80x80"), {:action => 'page10', :controller => 'pages'} %>
+            </div>
+        </div>
+        <div class="row" style="padding: 0px 0px 0px 115px">
+            <div id="wrapper" class="col2" style="padding:0px 0px 0px 0px">
+                <div class="row" style="padding: 0px 0px 0px 200px">
+                    <div class="image-container-center imgp10 col2">
+                        <%= image_tag("Friends.png", :size => "37x91") %>
+                    </div>
+                    <div class="image-container-center imagep10 col2" style="padding: 5px 0px">
+                        <%= link_to image_tag("smile-left.png", :size => "80x80"), {:action => 'page10', :controller => 'pages'} %>
+                    </div>
+                </div>
+            </div>
+            <div id="wrapper" class="col2" style="padding:0px 0px 0px 100px">
+                <div class="row">
+                    <div class="image-container-center imagep10 col2" style="padding: 5px 0px">
+                        <%= link_to image_tag("smile-right.png", :size => "80x80"), {:action => 'page10', :controller => 'pages'} %>
+                    </div>
+                    <div class="image-container-center imgp10 col2">
+                        <%= image_tag("Family.png", :size => "37x91") %>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div id = "wrapper" style="margin-left:47.39%; margin-right:47.39%">
+            <div class="image-container-center imagep10">
+                <%= link_to image_tag("smile-down.png", :size => "80x80"), {:action => 'page10', :controller => 'pages'} %>
+            </div>
+            <div class="image-container-center imgp10" style="padding:0px 0px 0px 7px">
+                <%= image_tag("Myself.png", :size => "66x32") %>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
