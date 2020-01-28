@@ -1,13 +1,32 @@
 <%= content_for :page_title do %>
     Page5
   <% end %>
+  <% content_for :javascript_includes do %>
+  <%= javascript_include_tag "support.js" %>
+<% end %>
   <!DOCTYPE html>
   <html>
   <head>
+      <%= javascript_include_tag 'support' %>
+
       <%= stylesheet_link_tag "styles" %>
   </head>
   <body>
+  <%= javascript_include_tag "support" %>
+<%= yield :javascript_includes %>
+
+  <script language="JavaScript">
+  $('#picture').hide(); // hide at beginning
+
+$('#button').click(function(){
+  $('#picture').show(); // show on button click
+});
+  </script>
+  <script type="text/javascript" src="/assets/support.js"></script>
   <%= video_tag "P5.ogv",autoplay: :autoplay, mute: :mute, class: "home_video home-video-wrapper" %>
-  
+
+<button id="button">Show picture</button>
+
+<img id="picture" src="https://dummyimage.com/600x400/000/fff"/>
   </body>
   </html>

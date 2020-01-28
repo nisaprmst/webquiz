@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
+gem 'jquery-rails'
 gem 'carrierwave' 
 gem 'carrierwave-base64' 
 gem 'rmagick' # have any error? see this link: http://stackoverflow.com/a/5207041

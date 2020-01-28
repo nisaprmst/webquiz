@@ -10,8 +10,22 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require jquery
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
 //= require webcam.min
+//= require support
 //= require_tree .
+
+$('#picture').hide(); // hide at beginning
+
+$('#button').click(function(){
+  $('#picture').show(); // show on button click
+}); 
+
+$('#picture').css("display", "none"); // hide at beginning
+
+$('#button').click(function(){
+  $('#picture').css("display", "block"); // show button on click
+});
