@@ -24839,3 +24839,40 @@ Completed 200 OK in 41ms (Views: 37.8ms | ActiveRecord: 0.0ms)
 
 
 >>>>>>> 7fbf39f3913b9f0298106581b497685f3ff7f55f
+Started GET "/" for ::1 at 2020-01-29 00:58:24 +0700
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (1029.0ms)
+Completed 200 OK in 1063ms (Views: 1054.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-01-29 00:59:45 +0700
+Processing by PagesController#page1 as HTML
+  Rendering pages/page1.html.erb within layouts/application
+  Rendered pages/page1.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-01-29 00:59:46 +0700
+Processing by PagesController#page1 as HTML
+  Rendering pages/page1.html.erb within layouts/application
+  Rendered pages/page1.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/instruction" for ::1 at 2020-01-29 00:59:47 +0700
+Processing by PagesController#instruction as HTML
+  Parameters: {"authenticity_token"=>"pWV7Ky+RG3wjEsW9MJkyWyf33TP76JN2fx3zEWB0MrLreUZf1INvWuQP1HjWF5AHJoraIXtXEqsgZNFn+UE/Zw=="}
+  Rendering pages/instruction.html.erb within layouts/application
+  Rendered pages/instruction.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 39ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page3" for ::1 at 2020-01-29 00:59:52 +0700
+Processing by PagesController#page3 as HTML
+  Parameters: {"authenticity_token"=>"o4psJHb8AenMPOF/e/YukwyXtIIyLeVotAC03uVuy8rtllFQje51zwsh8LqdeIzPDeqzkLKSZLXreZaofFvGHw=="}
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 34ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
