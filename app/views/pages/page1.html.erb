@@ -1,0 +1,16 @@
+<%= content_for :page_title do %>
+    Page1
+  <% end %>
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <%= stylesheet_link_tag "styles" %>
+  </head>
+  <body>
+  <%= video_tag "P1.ogv",autoplay: :autoplay, loop: :loop,mute: :mute, class: "home_video home-video-wrapper" %>
+  
+  <div style="text-align: center; margin-top:46%;margin-left:2.7%;">
+    <%= button_to "Take Test", {:controller => 'pages', :action => "page5" }, {:class => "button-1" } %>
+  <div>
+  </body>
+  </html>
