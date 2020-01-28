@@ -256,6 +256,15 @@
     float: left;
     
 }
+.col3-left {
+    width: 40%;
+    float: left;
+    
+}
+.col3-right {
+    width: 39%;
+    float: right;
+}
 .col2 {
     float: left;
     
@@ -659,17 +668,120 @@ p {
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-  }
-
-.center {
+}
+// body {
+    //     position: absolute;
+    // }
+.pos-p4 {
+    position: absolute;
+}
+#wrapper .button-vertical-top1 {
+    height: 100px;
+    width: 20px;
+    background-color: gray;
     display: block;
-    margin-top: 10%;
-    margin-left: 36%;
-    margin-right: auto;
-    margin-bottom: 10%;
-    width: 30%;
-    height: 30%;
-  }
+    cursor: pointer;
+    border: none;
+    outline: none;
+    z-index: 2;
+    position: relative;
+    left: 50.5%;
+    bottom: 500px;
+}
+#wrapper4 .button-vertical-top2 {
+    height: 100px;
+    width: 20px;
+    background-color: gray;
+    display: block;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    z-index: 2;
+    position: relative;
+    left: 50.5%;
+    top: -205px;
+    bottom: 0px;
+}
+#wrapper2 .button-horizontal-top1 {
+    height: 20px;
+    width: 100px;
+    background-color: gray;
+    display: block;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    z-index: 8;
+    position: relative;
+    bottom: 350px;
+    left: 74%;
+    right: 0px;
+}
+#wrapper3 .button-horizontal-top2 {
+    height: 20px;
+    width: 100px;
+    background-color: gray;
+    display: block;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    z-index: 9;
+    position: relative;
+    bottom: 400px;
+    left: 9.5%;
+    justify-content: right;
+}
+.text-p4-4{
+    position: relative;
+    text-align: center; 
+    color:#bf0000; 
+    top: -505px; 
+    padding-left:2%; 
+    opacity: 0;
+}
+.text-p4{
+    position: relative;
+    text-align: center; 
+    color:#bf0000; 
+    top: -330px; 
+    padding-left:2%; 
+    opacity: 0;
+}
+.text-p4-2{
+    position: relative;
+    text-align: center; 
+    color:#bf0000;
+    top: -370px; 
+    padding-right: 245px;
+    opacity: 0;
+}
+.text-p4-3{
+    position: relative;
+    text-align: center; 
+    padding-left: 260px;
+    color:#bf0000;
+    top: -420px; 
+    opacity: 0;
+}
+#wrapper:hover + .text-p4 {
+    opacity: 1;
+}
+#wrapper2:hover + .text-p4-2 {
+    opacity: 1;
+}
+#wrapper3:hover + .text-p4-3 {
+    opacity: 1;
+}
+#wrapper4:hover + .text-p4-4 {
+    opacity: 1;
+}
+.center {
+    position: relative;
+    padding-top: 12%;
+    left: 35%;
+    width: 32%;
+    height: 32%;
+    z-index: 1;
+}
 .button_page4 {
     display: block;
     margin-top: 10%;
@@ -680,52 +792,6 @@ p {
     height: 30%;
   }
 
-.button-horizontal-top1 {
-    height: 20px;
-    width: 100px;
-    background-color: gray;
-    margin-top: -25.5%;
-    margin-bottom: 10%;
-    margin-right: auto;
-    margin-left: 30%;
-    display: block;
-    ;
-}
-
-.button-horizontal-top2 {
-    height: 20px;
-    width: 100px;
-    background-color: gray;
-    margin-top: -11.4%;
-    margin-bottom: 10%;
-    margin-right: 30%;
-    margin-left: auto;
-    display: block;
- 
-}
-.button-vertical-top1 {
-    height: 100px;
-    width: 20px;
-    background-color: gray;
-    margin-top: -30.4%;
-    margin-bottom: 10%;
-    margin-right: auto;
-    margin-left: 50.3%;
-    display: block;
-   
-}
-
-.button-vertical-top2 {
-    height: 100px;
-    width: 20px;
-    background-color: gray;
-    margin-top: 20%;
-    margin-bottom:  -30%;
-    margin-right: auto;
-    margin-left: 50.3%;
-    display: block;
-   
-}
 .background {
     position: fixed;
     top: 50%;
