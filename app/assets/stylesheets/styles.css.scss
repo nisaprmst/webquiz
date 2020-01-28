@@ -178,7 +178,26 @@
     font-family: 'sans-source-regular-bold';
     color: #ffffff;
 }
-
+.button-1 {
+    background-color: #f44336;
+    border-radius: 60px;
+    color: white;
+    padding: 22px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'sans-source';
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    outline: none;
+}
+.button-1:hover {background-color: #9d2503}
+.button-1:active {
+    background-color: #9d2503;
+    transform: translateY(4px);
+}
 
 .button {
     background-color: #f44336;

@@ -3,6 +3,9 @@ Rails.application.routes.draw do
   root 'homepage#index'  
   #post 'pages/instruction', to: 'homepage#index', as: 'index'
   namespace :pages do
+    get :page1
+    post :page1
+
     get :instruction
     post :instruction
 
