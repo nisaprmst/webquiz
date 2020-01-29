@@ -685,6 +685,10 @@ p {
     width: 25px;
     border-radius: 50%;
     cursor: pointer;
+    display:block;
+    border:none;
+    outline: none;
+    
 
 }
 #wrapper .button-vertical-top1 {
@@ -1003,7 +1007,7 @@ h1.home {
 }       
 
 #wrapper .textp8-4 {
-    position: absolute;;
+    position: absolute;
     bottom: 360px;
     right: 650px;
     visibility:hidden;
@@ -1012,3 +1016,42 @@ h1.home {
 #wrapper:hover .textp8-4 {
     visibility:visible;
 }       
+
+#wrapper .textp5-1{
+    position: absolute;
+    left: 400px;
+    bottom:24px;
+    visibility: hidden;
+}
+
+#wrapper:hover .textp5-1{
+    visibility: visible;
+    font-family: 'sans-source-regular-bold';
+    font-size:20px;
+}
+
+#wrapper .imagep5 {
+    opacity: 0;
+    cursor: pointer;
+}
+#wrapper:hover .imagep5 {
+    opacity:  1;
+}
+
+#wrapper #myDiv .crygif {
+    margin-left: 32%;
+    margin-top: -3000%;
+}
+
+#wrapper .textp5-2{
+    position: absolute;
+    left: 400px;
+    bottom:24px;
+    visibility: hidden;
+}
+
+#wrapper:hover .textp5-2{
+    visibility: visible;
+    font-family: 'sans-source-regular-bold';
+    font-size:20px;
+}
