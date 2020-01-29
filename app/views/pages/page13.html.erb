@@ -12,10 +12,10 @@
       </style>
   </head>
   <body>
-    <div class="home-video-wrapper">
-    <%= video_tag "P13.ogv", autoplay: :autoplay, loop: :loop, mute: :mute, class: "home_video" %>
-      <div>
-        <p class="home sans_source " style="padding 10px 300px; text-align:center"> 
+  
+    <%= video_tag "P13.ogv", autoplay: :autoplay, loop: :loop, mute: :mute, class: "home_video home-video-wrapper" %>
+      <div style="padding-top:17%">
+        <p class="home sans_source " style="padding 10px 300px; text-align:center; font-size: 33px"> 
         
               Congratulations! You've completed the test.
               <br>
@@ -24,9 +24,8 @@
               contemplate for a while in order to fully understand.
         </p>
       </div>
-      <div>
+      <div style="padding-left:39%; padding-top: 10%">
         <%= button_to "See My Result", {:controller => 'pages', :action => "page14" }, {:class => "button" } %>
       </div>
-    </div>
   </body>
   </html>

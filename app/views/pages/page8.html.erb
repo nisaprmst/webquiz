@@ -1,67 +1,65 @@
 <%= content_for :page_title do %>
     Page8
-  <% end %>
-  <!DOCTYPE html>
-  <html>
-  <head>
-      <%= stylesheet_link_tag "styles" %>
-  </head>
-  <body>
-  <%= video_tag "P8.ogv",autoplay: :autoplay,loop: :loop, mute: :mute, class: "home_video home-video-wrapper" %>
-  
-
-  <div style ="margin-left:12%;margin-top:28%">
-
-        <%= image_tag("P8-1.png") %>
-        <div id="wrapper" style="margin-top:-2.6%">
-            <div class ="imagep8">
-            <%= link_to image_tag("P8-2.png", :border=>0), :action => 'page8', :controller => 'pages', :class => 'hover' %>
+<% end %>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <%= stylesheet_link_tag "styles" %>
+    </head>
+    <body>
+    <%= video_tag "P8.ogv",autoplay: :autoplay,loop: :loop, mute: :mute, class: "home_video home-video-wrapper" %>
+    <div style="margin-top: 27.5%; position: relative; left: 0; top:0; bottom:0">
+        <div class="row">
+            <div class="row col" style="position:relative">
+                <div class="row col" style="position:relative;">
+                    <div id = "wrapper" style="margin-left: 50%;position:relative; margin-right: -30%">
+                        <div class="col" style="z-index:1">
+                            <%= link_to image_tag("P8-2.png", :class =>"imagep8"), {:action => 'page9', :controller => 'pages'} %>
+                            <%= image_tag("P8-1.png", :class =>"combinep8") %>
+                        </div>
+                        <div class="col" style="margin-left: 450px; font-size:18px; z-index:5">
+                            <p class="sans_source textp8-1">To the past.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row col" style="position:relative;">
+                    <div id = "wrapper" style="margin-right: -200%; position:relative; margin-left:-10%">
+                        <div class="col" style="z-index:2; position:relative; margin-right: 400px">
+                            <%= link_to image_tag("P8-2.png", :class =>"imagep8"), {:action => 'page9', :controller => 'pages'} %>
+                            <%= image_tag("P8-1.png", :class =>"combinep8") %>
+                        </div>
+                        <div class="col" style="margin-left: 100%; font-size:18px; z-index:6; margin-right: 0%;position:absolute; right:400px">
+                            <p class="sans_source textp8-1">My mind does not wander. It stays with me in the present time.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <p class = "textp8-1 sans_source_bold" style ="color:#ffffff">
-                To the past.
-            </p>
+            <div class="row col" style="position:relative">
+                <div class="row col" style="position:relative">
+                    <div id = "wrapper" style="margin-left: -20%;position:relative; margin-right:-90%">
+                        <div class="col-right" style="z-index:3; margin-right:-10%">
+                            <%= link_to image_tag("P8-2.png", :class =>"imagep8"), {:action => 'page9', :controller => 'pages'} %>
+                            <%= image_tag("P8-1.png", :class =>"combinep8") %>
+                        </div>
+                        <div class="col-right" style="margin-right: 60%; font-size:18px; z-index:7">
+                            <p class="sans_source textp8-1">Fantasizing an impossible scenario.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row col" style="position:relative">
+                    <div id = "wrapper" style="margin-right: 10%; position:relative">
+                        <div class="col-right" style="z-index:4;">
+                            <%= link_to image_tag("P8-2.png", :class =>"imagep8"), {:action => 'page9', :controller => 'pages'} %>
+                            <%= image_tag("P8-1.png", :class =>"combinep8") %>
+                        </div>
+                        <div class="col-right" style="margin-right: 550px; font-size:18px; z-index:8">
+                            <p class="sans_source textp8-1">To the future.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-  </div>
+    <div>
 
-  <div style ="margin-left:22%;margin-top:-3.8%">
-
-  <%= image_tag("P8-1.png") %>
-  <div id="wrapper" style="margin-top:-2.81%">
-      <div class ="imagep8">
-      <%= link_to image_tag("P8-2.png", :border=>0), :action => 'page8', :controller => 'pages', :class => 'hover' %>
-      </div>
-      <p class = "textp8-2 sans_source_bold" style ="color: #ffffff">
-          My mind does not wander. It stays with me in the present time.
-      </p>
-  </div>
-</div>
-
-    <div style ="margin-left:70%;margin-top:-3.9%">
-
-    <%= image_tag("P8-1.png") %>
-    <div id="wrapper" style="margin-top:-7.6%">
-        <div class ="imagep8">
-        <%= link_to image_tag("P8-2.png", :border=>0), :action => 'page8', :controller => 'pages', :class => 'hover' %>
-        </div>
-        <p class = "textp8-3 sans_source_bold" style ="color: #ffffff">
-            Fantasizing an impossible scenario.
-        </p>
-    </div>
-    </div>
-
-
-
-<div style ="margin-left:80%;margin-top:-2%">
-
-    <%= image_tag("P8-1.png") %>
-    <div id="wrapper" style="margin-top:-11.3%">
-        <div class ="imagep8">
-        <%= link_to image_tag("P8-2.png", :border=>0), :action => 'page8', :controller => 'pages', :class => 'hover' %>
-        </div>
-        <p class = "textp8-4 sans_source_bold" style ="color: #ffffff">
-            To the future.
-        </p>
-    </div>
-    </div>
-  </body>
-  </html>
+    </body>
+    </html>
