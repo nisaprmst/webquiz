@@ -717,6 +717,10 @@ p {
     width: 25px;
     border-radius: 50%;
     cursor: pointer;
+    display:block;
+    border:none;
+    outline: none;
+    
 
 }
 #wrapper .button-vertical-top1 {
@@ -999,4 +1003,95 @@ h1.home {
 #wrapper:hover .text4 {
     visibility:visible;
 }       
-   
+
+#wrapper .imagep8{
+    opacity: 0;
+}
+
+#wrapper:hover .imagep8  {
+    opacity: 1;
+}
+
+#wrapper .textp8-1 {
+    position:relative;
+    bottom: 25px;
+    left:420px;
+    visibility:hidden;
+}
+            
+#wrapper:hover .textp8-1 {
+    visibility:visible;
+}   
+
+#wrapper .textp8-2 {
+    position:relative;
+    bottom: 25px;
+    left:130px;
+    visibility:hidden;
+}
+            
+#wrapper:hover .textp8-2 {
+    visibility:visible;
+}       
+
+
+#wrapper .textp8-3 {
+    position: absolute;;
+    bottom: 360px;
+    right: 590px;
+    visibility:hidden;
+}
+            
+#wrapper:hover .textp8-3 {
+    visibility:visible;
+}       
+
+#wrapper .textp8-4 {
+    position: absolute;
+    bottom: 360px;
+    right: 650px;
+    visibility:hidden;
+}
+            
+#wrapper:hover .textp8-4 {
+    visibility:visible;
+}       
+
+#wrapper .textp5-1{
+    position: absolute;
+    left: 400px;
+    bottom:24px;
+    visibility: hidden;
+}
+
+#wrapper:hover .textp5-1{
+    visibility: visible;
+    font-family: 'sans-source-regular-bold';
+    font-size:20px;
+}
+
+#wrapper .imagep5 {
+    opacity: 0;
+    cursor: pointer;
+}
+#wrapper:hover .imagep5 {
+    opacity:  1;
+}
+
+#wrapper #myDiv .crygif {
+    margin-left: 32%;
+    margin-top: -3000%;
+}
+
+#wrapper .textp5-2{
+    position: absolute;
+    left: 400px;
+    bottom:24px;
+    visibility: hidden;
+}
+
+#wrapper:hover .textp5-2{
+    visibility: visible;
+    font-family: 'sans-source-regular-bold';
+    font-size:20px;
+}

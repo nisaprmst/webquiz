@@ -14,19 +14,74 @@
   <body>
   <%= javascript_include_tag "support" %>
 <%= yield :javascript_includes %>
+<script type = "text/javascript">
 
-  <script language="JavaScript">
-  $('#picture').hide(); // hide at beginning
+function show1() {
+    document.getElementById("myDiv1").style.display="block";
+    
+}
 
-$('#button').click(function(){
-  $('#picture').show(); // show on button click
-});
-  </script>
-  <script type="text/javascript" src="/assets/support.js"></script>
-  <%= video_tag "P5.ogv",autoplay: :autoplay, mute: :mute, class: "home_video home-video-wrapper" %>
+function hide1() {
+    document.getElementById("myDiv1").style.opacity=0;
+}
 
-<button id="button">Show picture</button>
+function show2() {
+    document.getElementById("myDiv2").style.display="block";
+    
+}
 
-<img id="picture" src="https://dummyimage.com/600x400/000/fff"/>
-  </body>
-  </html>
+function hide2() {
+    document.getElementById("myDiv2").style.opacity=0;
+}
+
+function show3() {
+    document.getElementById("myDiv3").style.display="block";
+    
+}
+
+function hide3() {
+    document.getElementById("myDiv3").style.opacity=0;
+}
+</script>
+<%= video_tag "P5.ogv",autoplay: :autoplay, mute: :mute, class: "home_video" %>
+<div id ="wrapper" style = "margin-top:51%;margin-left:10%" >
+  <div class ="imagep5">
+    <%= image_tag("cry hover.png",:size => "70x70",:onclick=>"show1()") %>
+      <div id = "myDiv1" style="display:none">
+      <%= image_tag("P5 cry GIF.gif") %> 
+      </div>
+  </div>
+  <p class="textp5-1"> Crawl up in bed and cry. </p>
+</div>
+
+<div id ="wrapper" style = "margin-top:-5.7%;margin-left:18%" >
+  <div class ="imagep5">
+   <%= image_tag("confront hover.png",:size => "70x70",:onclick=>"show2()") %>
+    <div id = "myDiv2" style="display:none>
+    <%= image_tag("P5 confront GIF.gif") %> 
+    </div>
+  </div>
+  <p class="textp5-2"> Confront her/him. </p>
+</div>
+
+<div id ="wrapper" style = "margin-top:-5.4%;margin-left:2.4%" >
+  <div class ="imagep5">
+   <%= image_tag("even hover.png",:size => "70x70",:onclick=>"show3()") %>
+    <div id = "myDiv3" style="display:none">
+    <%= image_tag("P5 even GIF.gif") %> 
+    </div>
+  </div>
+  <p class="textp5-2"> I talk behind her/his back too so I guess we're even. </p>
+</div>
+
+<div id ="wrapper" style = "margin-top:-5.4%;margin-left:95.4%" >
+  <div class ="imagep5">
+   <%= image_tag("introspect hover.png",:size => "70x70",:onclick=>"show3()") %>
+    <div id = "myDiv3" style="display:none">
+    <%= image_tag("P5 introspect GIF.gif") %> 
+    </div>
+  </div>
+  <p class="textp5-2"> I do an introspection to realize my mistakes and flaws. </p>
+</div>
+
+</body>

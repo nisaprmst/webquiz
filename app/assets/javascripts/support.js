@@ -1,5 +1,5 @@
-$('#picture').hide(); // hide at beginning
-
-$('#button').click(function(){
-  $('#picture').show(); // show on button click
+// handle my-class click
+$('a.my-class').on('click', function () {
+  var link = $(this);
+  var array = link.data('array');
 });
