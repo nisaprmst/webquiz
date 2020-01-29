@@ -7,6 +7,8 @@
     <%= stylesheet_link_tag "styles" %>
 </head>
 <body style="background-color:black;">
+<%= video_tag "P2.ogv",autoplay: :autoplay, loop: :loop,mute: :mute, class: "home_video home-video-wrapper" %>
+
     <div class="sans_source" style="padding: 50px 250px;">
         <p style=" text-align : center; font-size : 60px; color : #ffffff" class="fade-in1">
             INSTRUCTION
@@ -34,14 +36,14 @@
         </p>
     </div>
     <br>
-    <div class="sans_source fade-in4" style="padding: 0px 250px;">
+    <div class="sans_source_bold fade-in4" style="padding: 0px 250px;">
         <p style=" text-align : center; font-size : 40px; color : #ffffff">
             Proceed to test?
         </p>
     </div>
     <br>
-    <div class="row fade-in5" style="padding: 0px 300px 0px 435px;">
-        <div class="column">
+    <div class="row fade-in5" style="padding: 0px 320px 0px 435px">
+        <div class="column" >
         <%= link_to "I'm Out", {:controller => 'pages', :action => "page1" }, {:class => "button-grey" } %>
         </div>
         <div class="column">
