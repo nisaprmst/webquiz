@@ -679,10 +679,32 @@ p {
 .pos-p4 {
     position: absolute;
 }
+
+#wrapper .lingkaran-1 {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
 #wrapper .button-vertical-top1 {
     height: 100px;
     width: 20px;
     background-color: gray;
+    display: block;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    z-index: 2;
+    position: relative;
+    left: 50.5%;
+    bottom: 500px;
+    margin-bottom: 0px;
+}
+#wrapper:hover .button-vertical-top1 {
+    height: 100px;
+    width: 20px;
+    background-color:red;
     display: block;
     cursor: pointer;
     border: none;
@@ -707,6 +729,20 @@ p {
     top: -205px;
     bottom: 0px;
 }
+#wrapper4:hover .button-vertical-top2 {
+    height: 100px;
+    width: 20px;
+    background-color: red;
+    display: block;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    z-index: 2;
+    position: relative;
+    left: 50.5%;
+    top: -205px;
+    bottom: 0px;
+}
 #wrapper2 .button-horizontal-top1 {
     height: 20px;
     width: 100px;
@@ -721,10 +757,38 @@ p {
     left: 74%;
     right: 0px;
 }
+#wrapper2:hover .button-horizontal-top1 {
+    height: 20px;
+    width: 100px;
+    background-color: red;
+    display: block;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    z-index: 8;
+    position: relative;
+    bottom: 350px;
+    left: 74%;
+    right: 0px;
+}
 #wrapper3 .button-horizontal-top2 {
     height: 20px;
     width: 100px;
     background-color: gray;
+    display: block;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    z-index: 9;
+    position: relative;
+    bottom: 400px;
+    left: 9.5%;
+    justify-content: right;
+}
+#wrapper3:hover .button-horizontal-top2 {
+    height: 20px;
+    width: 100px;
+    background-color: red;
     display: block;
     cursor: pointer;
     border: none;
@@ -843,11 +907,11 @@ h1.home {
     position:relative;
     bottom:10px;
     left:90px;
-    visibility:hidden;
+    visibility: hidden;
 }
         
 #wrapper:hover .text1 {
-    visibility:visible;
+    visibility: visible;;
 }
 
 #wrapper .text2 {
