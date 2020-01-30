@@ -14,6 +14,7 @@ class PagesController < ApplicationController
     end 
 
     def page6
+        sleep 3.6
     end 
 
     def page7

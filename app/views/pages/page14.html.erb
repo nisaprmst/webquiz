@@ -5,7 +5,7 @@
 <html>
 <style>
 #my_camera{
- width: 320px;
+ width: 576px;
  height: 180px;
  border: 1px solid black;
 }
@@ -27,10 +27,8 @@
         <br>
         
     </div>
-    <div id="my_camera" style="padding: 0px 515px"></div>
-    <input type=button value="Take Snapshot" onClick="take_snapshot()">
-    
-    <div id="results" ></div>
+    <div id="my_camera" style="padding:0px 475px"></div>
+
     
     <!-- Webcam.min.js -->
     <script type="text/javascript" src="webcamjs/webcam.min.js"></script>
@@ -38,8 +36,8 @@
     <!-- Configure a few settings and attach camera -->
     <script language="JavaScript">
     Webcam.set({
-    width: 320,
-    height: 180,
+    width: 400,
+    height: 220,
     image_format: 'jpeg',
     jpeg_quality: 300
     });
@@ -56,26 +54,36 @@
     } );
     }
     </script>
-    <div class="sans_source_bold" style= "padding: 0px 450px 30px 450px; color: #ffffff; text-align: justify; text-align-last: center;">
-        <p style="font-size: 14px">
+    <br>
+    <br>
+    <div class="sans_source_bold" style= "color: #ffffff; text-align: justify; text-align-last: center;">
+        <p style="font-size: 12px;padding: 0px 470px 0px 470px;">
             You are YOU. You define yourself. You are what you think you are and will be. Not all external information that claims to know about you are true and reliable
             for your search of identity. Don't let others dictate your identity for better or for worse. The world might make you think you are a certain type of individual. 
             But, really, no box is going to fit your individuality perfectly, because no matter how many similarities there is, no individual is the same.
         </p>
         <br>
         <div class="row">
-            <p style="font-size: 14px">
-            Some contents can feel relatable and you might feel like you belong to a certain type, but is it really? Is it just your mind that's making you believe in things? Are 
-            you sure you're not forcing yourself to fit in a box?
-            </p>
+            <div class="col-p8" style="padding-left: 80px">
+                <%= link_to "Go Back Home", {:controller => 'pages', :action => "page1" }, {:class => "link-text14" } %>
+            </div>
+            <div class="col-p8">
+                <p style="font-size: 12px; padding-left: 30px; padding-bottom:20px; padding-right: 10px ">
+                Some contents can feel relatable and you might feel like you belong to a certain type, but is it really? Is it just your mind that's making you believe in things? Are 
+                you sure you're not forcing yourself to fit in a box?
+                </p>
+            </div>
+            <div class="col-p8" style="margin-left:-1%">
+                <%= link_to "About This Test", {:controller => 'pages', :action => "page15" }, {:class => "link-text14" } %>
+            </div>
         </div>
         <br>
-        <p style="font-size: 14px">
+        <p style="font-size: 12px;padding: 0px 470px 0px 470px;">
             The journey to unravel every layers of You will not be an easy one. Amidst all the information that's trying to dictate your identity, staying true to yourself will 
             be the hardest challenge you face.
         </p>
         <br>
-        <p style="font-size: 14px">
+        <p style="font-size: 12px;padding: 0px 470px 30px 470px;">
             Make time to contemplate. Find yourself.
         </p>
     </div>

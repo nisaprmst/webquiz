@@ -42,46 +42,57 @@ function show3() {
 function hide3() {
     document.getElementById("myDiv3").style.opacity=0;
 }
+function show4() {
+    document.getElementById("myDiv4").style.display="block";
+    
+}
+
+function hide4() {
+    document.getElementById("myDiv4").style.opacity=0;
+}
+
 </script>
 <%= video_tag "P5.ogv",autoplay: :autoplay, mute: :mute, class: "home_video" %>
-<div id ="wrapper" style = "margin-top:51%;margin-left:10%" >
-  <div class ="imagep5">
-    <%= image_tag("cry hover.png",:size => "70x70",:onclick=>"show1()") %>
-      <div id = "myDiv1" style="display:none">
-      <%= image_tag("P5 cry GIF.gif") %> 
+      <div id = "myDiv3" style="display:none; margin-top:30%; margin-left:15%">
+      <%= image_tag("P5 even GIF.gif", :size=>"1012x127") %> 
       </div>
-  </div>
-  <p class="textp5-1"> Crawl up in bed and cry. </p>
-</div>
-
-<div id ="wrapper" style = "margin-top:-5.7%;margin-left:18%" >
-  <div class ="imagep5">
-   <%= image_tag("confront hover.png",:size => "70x70",:onclick=>"show2()") %>
-    <div id = "myDiv2" style="display:none>
-    <%= image_tag("P5 confront GIF.gif") %> 
+      <div id = "myDiv1" style="display:none; margin-top:30%; margin-left:45%; margin-right:-30%">
+      <%= image_tag("P5 cry GIF.gif", :size=>"615x127") %> 
+      </div>
+      <div id = "myDiv2" style="display:none; margin-top:30%; margin-left:52%; margin-right:-40%">
+      <%= image_tag("P5 confront GIF.gif", :size=>"525x127") %> 
+      </div>
+      <div id = "myDiv4" style="display:none; margin-top:30%; margin-left:13%">
+      <%= image_tag("P5 introspect GIF.gif", :size=>"1050x127") %> 
+      </div>
+<div class="row">
+  <div id ="wrapper" class="colp5-1" style = "margin-top:50.4%; margin-left:2.5%" >
+    <div class ="imagep5">
+     <%= link_to image_tag("even hover.png",:size => "70x70",:onclick=>"show3()"), {:action => 'page6', :controller => 'pages'} %>
     </div>
+    <p class="textp5-2"> I talk behind her/his back too so I guess we're even. </p>
   </div>
-  <p class="textp5-2"> Confront her/him. </p>
-</div>
 
-<div id ="wrapper" style = "margin-top:-5.4%;margin-left:2.4%" >
-  <div class ="imagep5">
-   <%= image_tag("even hover.png",:size => "70x70",:onclick=>"show3()") %>
-    <div id = "myDiv3" style="display:none">
-    <%= image_tag("P5 even GIF.gif") %> 
+  <div id ="wrapper" class="colp5-2" style = "margin-top:50.4%; margin-left:-0.3%" >
+    <div class ="imagep5">
+      <%= link_to image_tag("cry hover.png",:size => "70x70",:onclick=>"show1()"), {:action => 'page6', :controller => 'pages'} %>
     </div>
+    <p class="textp5-1"> Crawl up in bed and cry. </p>
   </div>
-  <p class="textp5-2"> I talk behind her/his back too so I guess we're even. </p>
-</div>
 
-<div id ="wrapper" style = "margin-top:-5.4%;margin-left:95.4%" >
-  <div class ="imagep5">
-   <%= image_tag("introspect hover.png",:size => "70x70",:onclick=>"show3()") %>
-    <div id = "myDiv3" style="display:none">
-    <%= image_tag("P5 introspect GIF.gif") %> 
+  <div id ="wrapper" class="colp5-3" style = "margin-top:50.4%; margin-left:0" >
+    <div class ="imagep5">
+      <%= link_to image_tag("confront hover.png",:size => "70x70",:onclick=>"show2()"), {:action => 'page6', :controller => 'pages'} %>
     </div>
+    <p class="textp5-2"> Confront her/him. </p>
   </div>
-  <p class="textp5-2"> I do an introspection to realize my mistakes and flaws. </p>
+
+  <div id ="wrapper" class="colp5-4" style = "margin-top:50.4%; margin-left:69%; margin-right: -12%" >
+    <div class ="imagep5">
+      <%= link_to image_tag("introspect hover.png",:size => "70x70",:onclick=>"show4()"), {:action => 'page6', :controller => 'pages'} %>
+    </div>
+    <p class="textp5-2"> I do an introspection to realize my mistakes and flaws. </p>
+  </div>
 </div>
 
 </body>

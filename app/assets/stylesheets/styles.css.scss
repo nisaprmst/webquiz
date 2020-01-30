@@ -1,3 +1,39 @@
+.link-text14 {
+    font-family: 'sans-source-regular-bold';
+    color: #666666;
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    outline: none;
+}
+.link-text14:hover {
+    color: #c1272d;
+}
+.col-p8 {
+    float: left;
+    width: 33%;
+}
+
+.colp5-1 {
+    float: left;
+    width: 8%;
+}
+.colp5-2 {
+    float: left;
+    width: 8%;
+}
+.colp5-3 {
+    float: left;
+    width: 8%;
+}
+.colp5-4 {
+    float: left;
+    width: 8%;
+}
+
 #picture {
     display: none;
 }
@@ -43,11 +79,12 @@
 }
 
 #wrapper .link-text11 {
+    padding-top: 5px;
     color: #ffffff;
     text-align: left;
     text-decoration: none;
     display: inline-block;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'sans-source-regular-bold';
     cursor: pointer;
     display: inline-block;
@@ -230,7 +267,7 @@
     background-color: #f44336;
     border-radius: 40px;
     color: white;
-    padding: 12px 28px;
+    padding: 12px 70px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -243,6 +280,26 @@
 }
 .button:hover {background-color: #9d2503}
 .button:active {
+    background-color: #9d2503;
+    transform: translateY(4px);
+}
+.button-i {
+    background-color: #f44336;
+    border-radius: 40px;
+    color: white;
+    padding: 12px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    font-family: 'sans-source';
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    outline: none;
+}
+.button-i:hover {background-color: #9d2503}
+.button-i:active {
     background-color: #9d2503;
     transform: translateY(4px);
 }
