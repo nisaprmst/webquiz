@@ -1,0 +1,12 @@
+<%= content_for :page_title do %>
+    Page0
+  <% end %>
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <%= stylesheet_link_tag "styles" %>
+  </head>
+  <body>  
+    <%= button_to "Start", {:controller => 'pages', :action => "page1" }, {:class => "button-1" } %>
+  </body>
+  </html>

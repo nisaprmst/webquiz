@@ -33507,6 +33507,7 @@ puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
 puma (3.12.2) lib/puma/server.rb:476:in `process_client'
 puma (3.12.2) lib/puma/server.rb:334:in `block in run'
 puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+<<<<<<< HEAD
 Started GET "/" for ::1 at 2020-01-30 18:11:48 +0700
 Processing by PagesController#page1 as HTML
   Rendering pages/page1.html.erb within layouts/application
@@ -37657,6 +37658,26 @@ Completed 200 OK in 125ms (Views: 123.6ms | ActiveRecord: 0.0ms)
 Started GET "/pages/webcamjs/webcam.min.js" for ::1 at 2020-01-30 20:08:51 +0700
   
 ActionController::RoutingError (No route matches [GET] "/pages/webcamjs/webcam.min.js"):
+=======
+Started GET "/" for ::1 at 2020-01-30 18:32:47 +0700
+Processing by PagesController#page1 as HTML
+  Rendering pages/page1.html.erb within layouts/application
+  Rendered pages/page1.html.erb within layouts/application (3434.8ms)
+Completed 200 OK in 4008ms (Views: 3989.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/instruction" for ::1 at 2020-01-30 18:32:55 +0700
+Processing by PagesController#instruction as HTML
+  Parameters: {"authenticity_token"=>"xncQe2HyL0wYSgtcvlvslFrEGeaH0d2Z3ozSnfp5mgRl5+PqvchhKvucw6dACyAFx4WAXV1A2aINxtZJOJB5iQ=="}
+  Rendering pages/instruction.html.erb within layouts/application
+  Rendered pages/instruction.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 51ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/pafe0" for ::1 at 2020-01-30 18:40:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/pages/pafe0"):
+>>>>>>> d42dd2c08f4496badab26fd6d9ea38d0e58f3dcb
   
 actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -37685,6 +37706,7 @@ puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
 puma (3.12.2) lib/puma/server.rb:476:in `process_client'
 puma (3.12.2) lib/puma/server.rb:334:in `block in run'
 puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+<<<<<<< HEAD
 Started GET "/pages/page15" for ::1 at 2020-01-30 20:08:54 +0700
 Processing by PagesController#page15 as HTML
   Rendering pages/page15.html.erb within layouts/application
@@ -37709,6 +37731,32 @@ Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.0ms)
 Started GET "/pages/webcamjs/webcam.min.js" for ::1 at 2020-01-30 20:09:17 +0700
   
 ActionController::RoutingError (No route matches [GET] "/pages/webcamjs/webcam.min.js"):
+=======
+Started GET "/pages/page0" for ::1 at 2020-01-30 18:41:00 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (247.9ms)
+Completed 200 OK in 272ms (Views: 271.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page0" for ::1 at 2020-01-30 18:41:10 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 36ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page0" for ::1 at 2020-01-30 18:41:34 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (26.3ms)
+Completed 200 OK in 57ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/" for ::1 at 2020-01-30 18:41:46 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+>>>>>>> d42dd2c08f4496badab26fd6d9ea38d0e58f3dcb
   
 actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -37737,6 +37785,7 @@ puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
 puma (3.12.2) lib/puma/server.rb:476:in `process_client'
 puma (3.12.2) lib/puma/server.rb:334:in `block in run'
 puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+<<<<<<< HEAD
 Started GET "/pages/page15" for ::1 at 2020-01-30 20:09:24 +0700
 Processing by PagesController#page15 as HTML
   Rendering pages/page15.html.erb within layouts/application
@@ -37750,6 +37799,18 @@ Started GET "/pages/webcamjs/webcam.min.js" for ::1 at 2020-01-30 20:09:29 +0700
   Rendering pages/page14.html.erb within layouts/application
   
 ActionController::RoutingError (No route matches [GET] "/pages/webcamjs/webcam.min.js"):
+=======
+Started GET "/pages/page0" for ::1 at 2020-01-30 18:42:24 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (239.8ms)
+Completed 200 OK in 270ms (Views: 266.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/" for ::1 at 2020-01-30 18:42:26 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+>>>>>>> d42dd2c08f4496badab26fd6d9ea38d0e58f3dcb
   
 actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -37778,6 +37839,7 @@ puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
 puma (3.12.2) lib/puma/server.rb:476:in `process_client'
 puma (3.12.2) lib/puma/server.rb:334:in `block in run'
 puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+<<<<<<< HEAD
   Rendered pages/page14.html.erb within layouts/application (13.5ms)
 Completed 200 OK in 117ms (Views: 115.8ms | ActiveRecord: 0.0ms)
 
@@ -37785,6 +37847,11 @@ Completed 200 OK in 117ms (Views: 115.8ms | ActiveRecord: 0.0ms)
 Started GET "/pages/webcamjs/webcam.min.js" for ::1 at 2020-01-30 20:09:29 +0700
   
 ActionController::RoutingError (No route matches [GET] "/pages/webcamjs/webcam.min.js"):
+=======
+Started POST "/" for ::1 at 2020-01-30 19:01:09 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+>>>>>>> d42dd2c08f4496badab26fd6d9ea38d0e58f3dcb
   
 actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -37801,6 +37868,7 @@ railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
 sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
 actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
 actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+<<<<<<< HEAD
 rack (2.1.1) lib/rack/method_override.rb:24:in `call'
 rack (2.1.1) lib/rack/runtime.rb:24:in `call'
 activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
@@ -38360,6 +38428,23 @@ Completed 200 OK in 29ms (Views: 27.3ms | ActiveRecord: 0.0ms)
 Started GET "/pages/webcamjs/webcam.min.js" for ::1 at 2020-01-30 20:21:51 +0700
   
 ActionController::RoutingError (No route matches [GET] "/pages/webcamjs/webcam.min.js"):
+=======
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/" for ::1 at 2020-01-30 19:03:52 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+>>>>>>> d42dd2c08f4496badab26fd6d9ea38d0e58f3dcb
   
 actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -38388,6 +38473,7 @@ puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
 puma (3.12.2) lib/puma/server.rb:476:in `process_client'
 puma (3.12.2) lib/puma/server.rb:334:in `block in run'
 puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+<<<<<<< HEAD
 Started GET "/pages/page15" for ::1 at 2020-01-30 20:21:58 +0700
 Processing by PagesController#page15 as HTML
   Rendering pages/page15.html.erb within layouts/application
@@ -38609,6 +38695,11 @@ Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.0ms)
 Started GET "/pages/webcamjs/webcam.min.js" for ::1 at 2020-01-30 20:27:31 +0700
   
 ActionController::RoutingError (No route matches [GET] "/pages/webcamjs/webcam.min.js"):
+=======
+Started POST "/" for ::1 at 2020-01-30 19:04:21 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+>>>>>>> d42dd2c08f4496badab26fd6d9ea38d0e58f3dcb
   
 actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -38637,6 +38728,7 @@ puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
 puma (3.12.2) lib/puma/server.rb:476:in `process_client'
 puma (3.12.2) lib/puma/server.rb:334:in `block in run'
 puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+<<<<<<< HEAD
 Started GET "/pages/page15" for ::1 at 2020-01-30 20:27:32 +0700
 Processing by PagesController#page15 as HTML
   Rendering pages/page15.html.erb within layouts/application
@@ -38750,6 +38842,11 @@ Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.0ms)
 Started GET "/pages/webcamjs/webcam.min.js" for ::1 at 2020-01-30 20:29:19 +0700
   
 ActionController::RoutingError (No route matches [GET] "/pages/webcamjs/webcam.min.js"):
+=======
+Started POST "/" for ::1 at 2020-01-30 19:14:04 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+>>>>>>> d42dd2c08f4496badab26fd6d9ea38d0e58f3dcb
   
 actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -38778,6 +38875,7 @@ puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
 puma (3.12.2) lib/puma/server.rb:476:in `process_client'
 puma (3.12.2) lib/puma/server.rb:334:in `block in run'
 puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+<<<<<<< HEAD
 Started GET "/pages/page15" for ::1 at 2020-01-30 20:29:26 +0700
 Processing by PagesController#page15 as HTML
   Rendering pages/page15.html.erb within layouts/application
@@ -38792,6 +38890,11 @@ Started GET "/pages/webcamjs/webcam.min.js" for ::1 at 2020-01-30 20:29:33 +0700
   Rendered pages/page14.html.erb within layouts/application (9.6ms)
   
 ActionController::RoutingError (No route matches [GET] "/pages/webcamjs/webcam.min.js"):
+=======
+Started POST "/" for ::1 at 2020-01-30 19:53:46 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+>>>>>>> d42dd2c08f4496badab26fd6d9ea38d0e58f3dcb
   
 actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -38820,12 +38923,18 @@ puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
 puma (3.12.2) lib/puma/server.rb:476:in `process_client'
 puma (3.12.2) lib/puma/server.rb:334:in `block in run'
 puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+<<<<<<< HEAD
 Completed 200 OK in 167ms (Views: 165.9ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/pages/webcamjs/webcam.min.js" for ::1 at 2020-01-30 20:29:33 +0700
   
 ActionController::RoutingError (No route matches [GET] "/pages/webcamjs/webcam.min.js"):
+=======
+Started POST "/" for ::1 at 2020-01-30 20:00:35 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+>>>>>>> d42dd2c08f4496badab26fd6d9ea38d0e58f3dcb
   
 actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -38854,6 +38963,7 @@ puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
 puma (3.12.2) lib/puma/server.rb:476:in `process_client'
 puma (3.12.2) lib/puma/server.rb:334:in `block in run'
 puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+<<<<<<< HEAD
 Started GET "/" for ::1 at 2020-01-30 20:29:35 +0700
 Processing by PagesController#page1 as HTML
   Rendering pages/page1.html.erb within layouts/application
@@ -39100,6 +39210,11 @@ Completed 200 OK in 56ms (Views: 52.1ms | ActiveRecord: 0.0ms)
 Started GET "/pages/webcamjs/webcam.min.js" for ::1 at 2020-01-30 20:35:56 +0700
   
 ActionController::RoutingError (No route matches [GET] "/pages/webcamjs/webcam.min.js"):
+=======
+Started POST "/" for ::1 at 2020-01-30 20:00:39 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+>>>>>>> d42dd2c08f4496badab26fd6d9ea38d0e58f3dcb
   
 actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -39128,6 +39243,7 @@ puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
 puma (3.12.2) lib/puma/server.rb:476:in `process_client'
 puma (3.12.2) lib/puma/server.rb:334:in `block in run'
 puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+<<<<<<< HEAD
 Started GET "/pages/page15" for ::1 at 2020-01-30 20:35:59 +0700
 Processing by PagesController#page15 as HTML
   Rendering pages/page15.html.erb within layouts/application
@@ -39241,6 +39357,32 @@ Completed 200 OK in 36ms (Views: 33.9ms | ActiveRecord: 0.0ms)
 Started GET "/pages/webcamjs/webcam.min.js" for ::1 at 2020-01-30 20:37:47 +0700
   
 ActionController::RoutingError (No route matches [GET] "/pages/webcamjs/webcam.min.js"):
+=======
+Started GET "/pages/page4" for ::1 at 2020-01-30 20:00:58 +0700
+Processing by PagesController#page4 as HTML
+  Rendering pages/page4.html.erb within layouts/application
+Started GET "/pages/page1" for ::1 at 2020-01-30 20:00:59 +0700
+Processing by PagesController#page1 as HTML
+  Rendering pages/page1.html.erb within layouts/application
+  Rendered pages/page1.html.erb within layouts/application (3392.7ms)
+  Rendered pages/page4.html.erb within layouts/application (4146.7ms)
+Started GET "/pages/page1" for ::1 at 2020-01-30 20:01:03 +0700
+Processing by PagesController#page1 as HTML
+  Rendering pages/page1.html.erb within layouts/application
+  Rendered pages/page1.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 4270ms (Views: 4229.8ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 5028ms (Views: 5013.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 72ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/" for ::1 at 2020-01-30 20:01:52 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+>>>>>>> d42dd2c08f4496badab26fd6d9ea38d0e58f3dcb
   
 actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
@@ -39269,6 +39411,7 @@ puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
 puma (3.12.2) lib/puma/server.rb:476:in `process_client'
 puma (3.12.2) lib/puma/server.rb:334:in `block in run'
 puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+<<<<<<< HEAD
 Started GET "/pages/page15" for ::1 at 2020-01-30 20:37:53 +0700
 Processing by PagesController#page15 as HTML
   Rendering pages/page15.html.erb within layouts/application
@@ -39283,3 +39426,5 @@ Processing by PagesController#page1 as HTML
 Completed 200 OK in 28ms (Views: 27.5ms | ActiveRecord: 0.0ms)
 
 
+=======
+>>>>>>> d42dd2c08f4496badab26fd6d9ea38d0e58f3dcb
