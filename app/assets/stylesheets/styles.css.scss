@@ -18,6 +18,15 @@
     float: left;
     width: 33%;
 }
+.col-p15{
+    float: left;
+    width: 60%;
+  
+}
+.col-p15-1{
+    float: left;
+    width: 50%;
+    height: 300px;
 
 .colp5 {
     float: left;
@@ -101,7 +110,20 @@
 .image-container-center {
     justify-content: center;
   }
-
+.link-textp15{
+    color: #666666;
+    padding: 60px 0px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    font-family: 'sans-source-regular';
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    outline: none;
+}
+.link-textp15:hover {color: #c1272d}
 
 .link-text {
     border-radius: 30px;
@@ -327,6 +349,13 @@
     width: 50%;
     padding: 10px;
     height: 30px;
+}
+.column-p15-2{
+     float: left;
+    width: 50%;
+    padding: 10px;
+    height: 30px;
+
 }
 .column11 {
     float: left;

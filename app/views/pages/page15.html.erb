@@ -7,51 +7,56 @@
     <%= stylesheet_link_tag "styles" %>
 </head>
 <body style="background-color:black;">
-    <div>
+<div>
         <p class="sans_source_reg" style="color : #FF0000; text-align : right; padding: 20px 20px">
         The Most Accurate Personality Test Ever
         </p>
-    </div>
-    <div class="sans_source" style="padding: 70px 650px 0px 100px;">
-        <p style=" text-align : left; font-size : 50px; color : #FF0000" class="fade-in1">
-            About This Test
-        </p>
-        <br>
-        <br>
-        <div class="fade-in2 sans_source_reg" style="text-align: justify;">
-            <p style="font-size: 15px">
-                'The Most Accurate Personality Test Ever' is a response to how personality tests, astrology, and other personality-identifying contents could shape our mind into
-                thinking that we are a certain type of individual and we have to behave a certain way according to the type we are being identified into. Strength and weakness, friendship 
-                and parenthood, romantic compatibility, career path, even our habits are described  in a way that make our mind believe what's said.
+</div>
+<div class="row">
+    <div class="col-p15" style="padding-left:15%">
+        <div class="sans_source">
+            <p style=" text-align : left; font-size : 50px; color : #FF0000" class="fade-in1">
+                About This Test
             </p>
             <br>
-            <p style="font-size: 15px">
-                Instead of helping us find ourselves, this type of content could make us stray further from our real self, eventually making us become another individual, one that fits a certain description.
-            </p>
             <br>
-            <p style="font-size: 15px">
-                This phenomenon made the designer contemplate who's the real us amidst all the information telling us the kind of person we are.
-            </p>
+            <div class="fade-in2 sans_source_reg" style="text-align: justify;">
+                <p style="font-size: 15px">
+                    'The Most Accurate Personality Test Ever' is a response to how personality tests, astrology, and other personality-identifying contents could shape our mind into
+                    thinking that we are a certain type of individual and we have to behave a certain way according to the type we are being identified into. Strength and weakness, friendship 
+                    and parenthood, romantic compatibility, career path, even our habits are described  in a way that make our mind believe what's said.
+                </p>
+                <br>
+                <p style="font-size: 15px">
+                    Instead of helping us find ourselves, this type of content could make us stray further from our real self, eventually making us become another individual, one that fits a certain description.
+                </p>
+                <br>
+                <p style="font-size: 15px">
+                    This phenomenon made the designer contemplate who's the real us amidst all the information telling us the kind of person we are.
+                </p>
+            </div>
+            <div class="row fade-in4" >
+                <div class="col-p15-1"  >
+            <%= link_to "See Test Result", {:controller => 'pages', :action => "page14" }, {:class => "link-textp15" } %>
+                </div>
+                <div class="col-p15-1"  >
+            <%= link_to "Go Back Home", {:controller => 'pages', :action => "page1" }, {:class => "link-textp15" } %>
+                </div>
+            </div>
         </div>
+        <br>
+        
+
     </div>
-    <br>
-    <div class="row fade-in4" style="padding: 0px 650px 210px 60px;">
-        <div class="column">
-        <%= link_to "See Test Result", {:controller => 'pages', :action => "page14" }, {:class => "link-text" } %>
-        </div>
-        <div class="column">
-        <%= link_to "Go Back Home", {:controller => 'pages', :action => "page1" }, {:class => "link-text" } %>
-        </div>
-    </div>
-    <br>
-    <br>
-    <div class="row sans_source_reg" style="padding: 0px 20px; font-size: 13px; color:#666666">
-        <div class="column">
-            <p style="text-align:left">Copyright &copy; 2020</p>
-        </div>
-        <div class="column">
-            <p style="text-align:right">Rosmita Prihandini Nadira / mitamix</p>
-        </div>
-    </div>
+</div>
+
+<div class="row sans_source_reg" style="padding: 0px 20px; font-size: 13px; color:#666666">
+<div class="column">
+    <p style="text-align:left">Copyright &copy; 2020</p>
+</div>
+<div class="column">
+    <p style="text-align:right">Rosmita Prihandini Nadira / mitamix</p>
+</div>
+</div>
 </body>
 </html>
