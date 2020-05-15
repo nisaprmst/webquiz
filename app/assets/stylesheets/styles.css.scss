@@ -308,11 +308,11 @@
     background-color: #f44336;
     border-radius: 40px;
     color: white;
-    padding: 12px 40px;
+    padding: 1vmax 3vmax;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 35px;
+    font-size: 2vmax;
     font-family: 'sans-source';
     cursor: pointer;
     display: inline-block;
@@ -329,11 +329,11 @@
     background-color: #a5a5a5;
     border-radius: 40px;
     color: white;
-    padding: 12px 28px;
+    padding: 1vmax 3vmax;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 35px;
+    font-size: 2vmax;
     font-family: 'sans-source';
     cursor: pointer;
     border: none;
@@ -347,8 +347,6 @@
 .column {
     float: left;
     width: 50%;
-    padding: 10px;
-    height: 30px;
 }
 .column-p15-2{
      float: left;
@@ -1371,6 +1369,19 @@ h1.home {
   animation: pulse 2s ease-out infinite;
   opacity: 0;
 }
+@-webkit-keyframes pulse{
+    20%, 40% {
+      transform: scale(0.5, 0.5);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1.1, 1.1);
+      opacity : 0;
+    }
+  }
 @keyframes pulse{
   20%, 40% {
     transform: scale(0.5, 0.5);
@@ -1383,4 +1394,32 @@ h1.home {
     transform: scale(1.1, 1.1);
     opacity : 0;
   }
+}
+@-webkit-keyframes zoomeffect{
+    0%{
+        background-position:center;
+      transform:scale(1,1);
+    }
+    50%{
+        background-position:center;
+      transform:scale(2,2);
+    }
+    100%{
+        background-position:center;
+      transform:scale(1,1);
+    }
+}
+@keyframes zoomeffect{
+    0%{
+        background-position:center;
+      transform:scale(1,1);
+    }
+    50%{
+        background-position:center;
+      transform:scale(2,2);
+    }
+    100%{
+        background-position:center;
+      transform:scale(1,1);
+    }
 }
