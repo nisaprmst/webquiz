@@ -41253,3 +41253,227 @@ Processing by PagesController#page12 as HTML
 Completed 200 OK in 111ms (Views: 107.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/pages/page13" for ::1 at 2020-05-15 20:58:21 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (43326.0ms)
+Completed 200 OK in 43902ms (Views: 43890.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 20:59:38 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 34ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page12" for ::1 at 2020-05-15 21:00:09 +0700
+Processing by PagesController#page12 as HTML
+  Rendering pages/page12.html.erb within layouts/application
+  Rendered pages/page12.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 108ms (Views: 57.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:00:11 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 34ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:01:56 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 63ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:02:35 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 35ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:04:13 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (239.1ms)
+Completed 200 OK in 908ms (Views: 904.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:08:44 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (1027.4ms)
+Completed 200 OK in 1487ms (Views: 1483.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:09:06 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 90ms (Views: 88.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:09:09 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 59ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:10:05 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (617.9ms)
+Completed 200 OK in 701ms (Views: 698.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:10:22 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 47ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:10:34 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 43ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:10:53 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 43ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:11:39 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 37ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:11:57 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:11:58 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 41ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:13:06 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 97ms (Views: 92.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:14:13 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 106ms (Views: 103.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:15:32 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 56ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:15:43 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 91ms (Views: 87.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:15:44 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 40ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:16:24 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 42ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:16:44 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 43ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:16:54 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 67ms (Views: 64.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:18:14 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (31.5ms)
+Completed 200 OK in 78ms (Views: 75.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:18:16 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 50ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:18:33 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 52ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:18:54 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 73ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:19:02 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page12" for ::1 at 2020-05-15 21:19:19 +0700
+Processing by PagesController#page12 as HTML
+  Rendering pages/page12.html.erb within layouts/application
+  Rendered pages/page12.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 81ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page13" for ::1 at 2020-05-15 21:19:21 +0700
+Processing by PagesController#page13 as HTML
+  Rendering pages/page13.html.erb within layouts/application
+  Rendered pages/page13.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 69ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
