@@ -45236,3 +45236,1827 @@ Processing by PagesController#page6 as HTML
 Completed 200 OK in 3694ms (Views: 91.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/pages/page5" for ::1 at 2020-05-15 23:45:58 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (335.3ms)
+Completed 500 Internal Server Error in 339ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bourbon.
+Load paths:
+  /home/annisa/Documents/learn/webquiz/app/assets/config
+  /home/annisa/Documents/learn/webquiz/app/assets/fonts
+  /home/annisa/Documents/learn/webquiz/app/assets/images
+  /home/annisa/Documents/learn/webquiz/app/assets/javascripts
+  /home/annisa/Documents/learn/webquiz/app/assets/stylesheets
+  /home/annisa/Documents/learn/webquiz/app/assets/videos
+  /home/annisa/.rvm/gems/ruby-2.5.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/annisa/.rvm/gems/ruby-2.5.1/gems/jquery-rails-4.3.5/vendor/assets/javascripts
+  /home/annisa/.rvm/gems/ruby-2.5.1/gems/actioncable-5.2.4.1/lib/assets/compiled
+  /home/annisa/.rvm/gems/ruby-2.5.1/gems/activestorage-5.2.4.1/app/assets/javascripts
+  /home/annisa/.rvm/gems/ruby-2.5.1/gems/actionview-5.2.4.1/lib/assets/compiled
+  /home/annisa/.rvm/gems/ruby-2.5.1/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/annisa/Documents/learn/webquiz/app/assets/styles
+  /home/annisa/Documents/learn/webquiz/node_modules):
+    25:   }
+    26: </style>
+    27: <%= javascript_include_tag 'support' %>
+    28: <%= stylesheet_link_tag "styles" %>
+    29: <%= javascript_include_tag "support" %>
+    30: <%= yield :javascript_includes %>
+    31: <script type = "text/javascript">
+  
+app/assets/stylesheets/styles.css.scss:1167
+app/views/pages/page5.html.erb:28:in `_app_views_pages_page__html_erb__2831518607170535532_70099887017720'
+Started GET "/pages/page5" for ::1 at 2020-05-15 23:46:25 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (269.0ms)
+Completed 500 Internal Server Error in 273ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$lucida-grande".):
+    25:   }
+    26: </style>
+    27: <%= javascript_include_tag 'support' %>
+    28: <%= stylesheet_link_tag "styles" %>
+    29: <%= javascript_include_tag "support" %>
+    30: <%= yield :javascript_includes %>
+    31: <script type = "text/javascript">
+  
+app/assets/stylesheets/styles.css.scss:1178
+app/views/pages/page5.html.erb:28:in `_app_views_pages_page__html_erb__2831518607170535532_70099807588380'
+Started GET "/pages/page5" for ::1 at 2020-05-15 23:46:36 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (297.0ms)
+Completed 500 Internal Server Error in 300ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined mixin 'keyframes'.):
+    25:   }
+    26: </style>
+    27: <%= javascript_include_tag 'support' %>
+    28: <%= stylesheet_link_tag "styles" %>
+    29: <%= javascript_include_tag "support" %>
+    30: <%= yield :javascript_includes %>
+    31: <script type = "text/javascript">
+  
+app/assets/stylesheets/styles.css.scss:1180:in `keyframes'
+app/assets/stylesheets/styles.css.scss:1180
+app/views/pages/page5.html.erb:28:in `_app_views_pages_page__html_erb__2831518607170535532_47294850243100'
+Started GET "/pages/page5" for ::1 at 2020-05-15 23:48:22 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (281.2ms)
+Completed 500 Internal Server Error in 285ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bourbon.
+Load paths:
+  /home/annisa/Documents/learn/webquiz/app/assets/config
+  /home/annisa/Documents/learn/webquiz/app/assets/fonts
+  /home/annisa/Documents/learn/webquiz/app/assets/images
+  /home/annisa/Documents/learn/webquiz/app/assets/javascripts
+  /home/annisa/Documents/learn/webquiz/app/assets/stylesheets
+  /home/annisa/Documents/learn/webquiz/app/assets/videos
+  /home/annisa/.rvm/gems/ruby-2.5.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/annisa/.rvm/gems/ruby-2.5.1/gems/jquery-rails-4.3.5/vendor/assets/javascripts
+  /home/annisa/.rvm/gems/ruby-2.5.1/gems/actioncable-5.2.4.1/lib/assets/compiled
+  /home/annisa/.rvm/gems/ruby-2.5.1/gems/activestorage-5.2.4.1/app/assets/javascripts
+  /home/annisa/.rvm/gems/ruby-2.5.1/gems/actionview-5.2.4.1/lib/assets/compiled
+  /home/annisa/.rvm/gems/ruby-2.5.1/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/annisa/Documents/learn/webquiz/app/assets/styles
+  /home/annisa/Documents/learn/webquiz/node_modules):
+    25:   }
+    26: </style>
+    27: <%= javascript_include_tag 'support' %>
+    28: <%= stylesheet_link_tag "styles" %>
+    29: <%= javascript_include_tag "support" %>
+    30: <%= yield :javascript_includes %>
+    31: <script type = "text/javascript">
+  
+app/assets/stylesheets/styles.css.scss:1167
+app/views/pages/page5.html.erb:28:in `_app_views_pages_page__html_erb__2831518607170535532_70099808362020'
+Started GET "/pages/page5" for ::1 at 2020-05-15 23:48:42 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (345.2ms)
+Completed 500 Internal Server Error in 349ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bourbon/bourbon.
+Load paths:
+  /home/annisa/Documents/learn/webquiz/app/assets/config
+  /home/annisa/Documents/learn/webquiz/app/assets/fonts
+  /home/annisa/Documents/learn/webquiz/app/assets/images
+  /home/annisa/Documents/learn/webquiz/app/assets/javascripts
+  /home/annisa/Documents/learn/webquiz/app/assets/stylesheets
+  /home/annisa/Documents/learn/webquiz/app/assets/videos
+  /home/annisa/.rvm/gems/ruby-2.5.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/annisa/.rvm/gems/ruby-2.5.1/gems/jquery-rails-4.3.5/vendor/assets/javascripts
+  /home/annisa/.rvm/gems/ruby-2.5.1/gems/actioncable-5.2.4.1/lib/assets/compiled
+  /home/annisa/.rvm/gems/ruby-2.5.1/gems/activestorage-5.2.4.1/app/assets/javascripts
+  /home/annisa/.rvm/gems/ruby-2.5.1/gems/actionview-5.2.4.1/lib/assets/compiled
+  /home/annisa/.rvm/gems/ruby-2.5.1/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/annisa/Documents/learn/webquiz/app/assets/styles
+  /home/annisa/Documents/learn/webquiz/node_modules):
+    25:   }
+    26: </style>
+    27: <%= javascript_include_tag 'support' %>
+    28: <%= stylesheet_link_tag "styles" %>
+    29: <%= javascript_include_tag "support" %>
+    30: <%= yield :javascript_includes %>
+    31: <script type = "text/javascript">
+  
+app/assets/stylesheets/styles.css.scss:1
+app/views/pages/page5.html.erb:28:in `_app_views_pages_page__html_erb__2831518607170535532_70099881747400'
+Started GET "/pages/page5" for ::1 at 2020-05-15 23:52:59 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (309.9ms)
+Completed 500 Internal Server Error in 316ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$lucida-grande".):
+    25:   }
+    26: </style>
+    27: <%= javascript_include_tag 'support' %>
+    28: <%= stylesheet_link_tag "styles" %>
+    29: <%= javascript_include_tag "support" %>
+    30: <%= yield :javascript_includes %>
+    31: <script type = "text/javascript">
+  
+app/assets/stylesheets/styles.css.scss:1180
+app/views/pages/page5.html.erb:28:in `_app_views_pages_page__html_erb__2831518607170535532_70099840353640'
+Started GET "/pages/page5" for ::1 at 2020-05-15 23:53:24 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (79.2ms)
+Completed 500 Internal Server Error in 83ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$lucida-grande".):
+    25:   }
+    26: </style>
+    27: <%= javascript_include_tag 'support' %>
+    28: <%= stylesheet_link_tag "styles" %>
+    29: <%= javascript_include_tag "support" %>
+    30: <%= yield :javascript_includes %>
+    31: <script type = "text/javascript">
+  
+app/assets/stylesheets/styles.css.scss:1180
+app/views/pages/page5.html.erb:28:in `_app_views_pages_page__html_erb__2831518607170535532_70099782361520'
+Started GET "/pages/page5" for ::1 at 2020-05-15 23:53:25 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (113.2ms)
+Completed 500 Internal Server Error in 117ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$lucida-grande".):
+    25:   }
+    26: </style>
+    27: <%= javascript_include_tag 'support' %>
+    28: <%= stylesheet_link_tag "styles" %>
+    29: <%= javascript_include_tag "support" %>
+    30: <%= yield :javascript_includes %>
+    31: <script type = "text/javascript">
+  
+app/assets/stylesheets/styles.css.scss:1180
+app/views/pages/page5.html.erb:28:in `_app_views_pages_page__html_erb__2831518607170535532_70099793067560'
+Started GET "/pages/page5" for ::1 at 2020-05-15 23:54:14 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (284.6ms)
+Completed 500 Internal Server Error in 288ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined mixin 'keyframes'.):
+    25:   }
+    26: </style>
+    27: <%= javascript_include_tag 'support' %>
+    28: <%= stylesheet_link_tag "styles" %>
+    29: <%= javascript_include_tag "support" %>
+    30: <%= yield :javascript_includes %>
+    31: <script type = "text/javascript">
+  
+app/assets/stylesheets/styles.css.scss:1182:in `keyframes'
+app/assets/stylesheets/styles.css.scss:1182
+app/views/pages/page5.html.erb:28:in `_app_views_pages_page__html_erb__2831518607170535532_70099885687060'
+Started GET "/pages/page5" for ::1 at 2020-05-15 23:54:49 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (290.4ms)
+Completed 500 Internal Server Error in 295ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined mixin 'animation'.):
+    25:   }
+    26: </style>
+    27: <%= javascript_include_tag 'support' %>
+    28: <%= stylesheet_link_tag "styles" %>
+    29: <%= javascript_include_tag "support" %>
+    30: <%= yield :javascript_includes %>
+    31: <script type = "text/javascript">
+  
+app/assets/stylesheets/styles.css.scss:1183:in `animation'
+app/assets/stylesheets/styles.css.scss:1183
+app/views/pages/page5.html.erb:28:in `_app_views_pages_page__html_erb__2831518607170535532_70099824910580'
+Started GET "/pages/page5" for ::1 at 2020-05-15 23:55:01 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (330.0ms)
+Completed 500 Internal Server Error in 336ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...ourbon/bourbon"": expected selector or at-rule, was "@import "base/b..."):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:2
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1533546592826997023_70099820689680'
+Started GET "/pages/page5" for ::1 at 2020-05-15 23:55:19 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 596ms (Views: 594.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-15 23:55:52 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (441.0ms)
+Completed 200 OK in 459ms (Views: 458.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:00:08 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (285.7ms)
+Completed 500 Internal Server Error in 289ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined mixin 'keyframes'.):
+    25:   }
+    26: </style>
+    27: <%= javascript_include_tag 'support' %>
+    28: <%= stylesheet_link_tag "styles" %>
+    29: <%= javascript_include_tag "support" %>
+    30: <%= yield :javascript_includes %>
+    31: <script type = "text/javascript">
+  
+app/assets/stylesheets/styles.css.scss:1170:in `keyframes'
+app/assets/stylesheets/styles.css.scss:1170
+app/views/pages/page5.html.erb:28:in `_app_views_pages_page__html_erb__2831518607170535532_70099884423280'
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:02:19 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (339.3ms)
+Completed 200 OK in 360ms (Views: 358.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:02:47 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (26.5ms)
+Completed 200 OK in 106ms (Views: 104.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:03:14 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (28.8ms)
+Completed 200 OK in 53ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:06:10 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 99ms (Views: 97.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:06:28 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:07:49 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (27.9ms)
+Completed 200 OK in 106ms (Views: 103.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:10:36 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (345.3ms)
+Completed 200 OK in 363ms (Views: 361.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:12:18 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (24.5ms)
+Completed 200 OK in 53ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:12:20 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 3641ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:12:36 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 3640ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:12:41 +0700
+Processing by PagesController#page6 as HTML
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:12:43 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 3683ms (Views: 79.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:12:47 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 3646ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 3652ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:13:19 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 78ms (Views: 76.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:13:22 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 3633ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:13:44 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:13:46 +0700
+Processing by PagesController#page6 as HTML
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:13:48 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 3633ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:14:05 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (22.3ms)
+Completed 200 OK in 48ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:14:40 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 48ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:14:44 +0700
+Processing by PagesController#page6 as HTML
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:14:46 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (23.7ms)
+Completed 200 OK in 50ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 3639ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:19:32 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:20:31 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 48ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:20:33 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (22.9ms)
+Completed 200 OK in 44ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:20:40 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 50ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:21:32 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (440.4ms)
+Completed 200 OK in 463ms (Views: 461.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:21:37 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (23.5ms)
+Completed 200 OK in 45ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:22:17 +0700
+Processing by PagesController#page6 as HTML
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:22:18 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 43ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 3643ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:22:42 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (395.3ms)
+Completed 200 OK in 415ms (Views: 413.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:22:52 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (443.5ms)
+Completed 200 OK in 461ms (Views: 459.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:23:12 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (414.5ms)
+Completed 200 OK in 435ms (Views: 433.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:23:21 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (436.7ms)
+Completed 200 OK in 465ms (Views: 464.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:23:36 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (448.8ms)
+Completed 200 OK in 469ms (Views: 468.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:23:42 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (456.7ms)
+Completed 200 OK in 478ms (Views: 476.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:23:57 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 46ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:24:38 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (425.8ms)
+Completed 200 OK in 446ms (Views: 444.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:24:44 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (457.5ms)
+Completed 200 OK in 475ms (Views: 473.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:24:53 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (399.8ms)
+Completed 200 OK in 419ms (Views: 417.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:25:17 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (386.1ms)
+Completed 200 OK in 405ms (Views: 404.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:25:35 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (457.3ms)
+Completed 200 OK in 476ms (Views: 475.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:25:49 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (464.0ms)
+Completed 200 OK in 487ms (Views: 485.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:25:58 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (390.8ms)
+Completed 200 OK in 411ms (Views: 409.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:26:37 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (388.9ms)
+Completed 200 OK in 405ms (Views: 404.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:27:11 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (468.6ms)
+Completed 200 OK in 492ms (Views: 490.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:27:20 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (21.1ms)
+Completed 200 OK in 44ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:27:59 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (382.9ms)
+Completed 200 OK in 406ms (Views: 404.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:28:10 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (454.1ms)
+Completed 200 OK in 476ms (Views: 473.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:28:39 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (398.0ms)
+Completed 200 OK in 416ms (Views: 414.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:29:09 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (395.0ms)
+Completed 200 OK in 416ms (Views: 414.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:29:22 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (23.9ms)
+Completed 200 OK in 46ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:30:33 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (454.2ms)
+Completed 200 OK in 473ms (Views: 472.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:30:54 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (405.9ms)
+Completed 200 OK in 427ms (Views: 425.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:31:00 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (401.3ms)
+Completed 200 OK in 423ms (Views: 421.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:31:23 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (392.2ms)
+Completed 200 OK in 412ms (Views: 411.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:31:43 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (451.8ms)
+Completed 200 OK in 474ms (Views: 471.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:32:38 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (421.3ms)
+Completed 200 OK in 441ms (Views: 440.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:32:48 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (449.3ms)
+Completed 200 OK in 472ms (Views: 469.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:32:53 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (456.7ms)
+Completed 200 OK in 479ms (Views: 478.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:33:00 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (453.9ms)
+Completed 200 OK in 473ms (Views: 471.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:34:11 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (349.0ms)
+Completed 200 OK in 365ms (Views: 364.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:35:01 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (375.5ms)
+Completed 200 OK in 397ms (Views: 393.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:35:09 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (453.0ms)
+Completed 200 OK in 472ms (Views: 471.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:35:32 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (381.7ms)
+Completed 200 OK in 400ms (Views: 399.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:36:37 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (710.0ms)
+Completed 200 OK in 735ms (Views: 732.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:36:55 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (25.1ms)
+Completed 200 OK in 52ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:37:31 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:37:35 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (21.6ms)
+Completed 200 OK in 48ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:37:46 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 49ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:38:01 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (22.9ms)
+Completed 200 OK in 55ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:38:06 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (22.9ms)
+Completed 200 OK in 50ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:39:42 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (32.1ms)
+Completed 200 OK in 56ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:40:31 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:40:34 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (29.9ms)
+Completed 200 OK in 3764ms (Views: 55.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:42:17 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (379.9ms)
+Completed 200 OK in 401ms (Views: 399.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:42:19 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 3635ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:43:57 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 53ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:44:01 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 3638ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:44:37 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:44:39 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 3648ms (Views: 45.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:44:44 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 3666ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:44:49 +0700
+Processing by PagesController#page6 as HTML
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:44:52 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 3656ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:44:55 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (123.7ms)
+Completed 200 OK in 190ms (Views: 166.2ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 3680ms (Views: 76.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:44:57 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 3645ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:45:07 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 3689ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:47:02 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 63ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:47:15 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (47.1ms)
+Completed 200 OK in 69ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:47:39 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 48ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:48:12 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 48ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:48:27 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (29.1ms)
+Completed 200 OK in 53ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:48:28 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 3640ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:49:26 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:49:32 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 3653ms (Views: 51.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:49:52 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 48ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:50:23 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:51:31 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (536.1ms)
+Completed 200 OK in 556ms (Views: 555.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:51:45 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (357.0ms)
+Completed 200 OK in 376ms (Views: 375.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:52:24 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (24.3ms)
+Completed 200 OK in 53ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:53:15 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:53:17 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 3650ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:54:13 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (24.2ms)
+Completed 200 OK in 226ms (Views: 224.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:54:19 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 3636ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:58:25 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 00:58:30 +0700
+Processing by PagesController#page6 as HTML
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:58:32 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 38ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 3643ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 00:59:28 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:00:12 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 48ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:00:46 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 41ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:02:19 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (26.2ms)
+Completed 200 OK in 53ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:02:21 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 3642ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:02:34 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (24.8ms)
+Completed 200 OK in 49ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:02:42 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 40ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:02:44 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 3636ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:02:53 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 3634ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:04:36 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:04:39 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 3638ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:05:46 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 49ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:05:47 +0700
+Processing by PagesController#page6 as HTML
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:05:49 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 44ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 3638ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:09:58 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 43ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:11:51 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (451.3ms)
+Completed 200 OK in 473ms (Views: 472.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:11:55 +0700
+Processing by PagesController#page6 as HTML
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:11:57 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 3646ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:12:13 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:12:14 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 3639ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:12:18 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 3676ms (Views: 73.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:12:34 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (28.7ms)
+Completed 200 OK in 115ms (Views: 114.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:12:36 +0700
+Processing by PagesController#page6 as HTML
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:12:39 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (12.1ms)
+  Rendered pages/page5.html.erb within layouts/application (27.6ms)
+Completed 200 OK in 3658ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 74ms (Views: 72.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:12:41 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 3647ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:12:45 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 3636ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:14:41 +0700
+Processing by PagesController#page6 as HTML
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:14:44 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 3716ms (Views: 113.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:14:47 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 3632ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:14:50 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 3656ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 3666ms (Views: 63.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:14:58 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (25.9ms)
+Completed 200 OK in 60ms (Views: 58.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:14:59 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 3639ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:15:05 +0700
+Processing by PagesController#page6 as HTML
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:15:08 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 3660ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 3637ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:15:15 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 3660ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:15:20 +0700
+Processing by PagesController#page6 as HTML
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:15:23 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (50.4ms)
+Completed 200 OK in 134ms (Views: 131.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 3679ms (Views: 76.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:15:25 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 3642ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:16:46 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:16:50 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 3643ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:16:55 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 3668ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:17:32 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 149ms (Views: 147.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:17:33 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 3642ms (Views: 40.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:18:15 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 124ms (Views: 123.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:18:17 +0700
+Processing by PagesController#page6 as HTML
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:18:19 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 3649ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:19:08 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 50ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:19:09 +0700
+Processing by PagesController#page6 as HTML
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:19:11 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 3642ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:19:35 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 48ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:19:36 +0700
+Processing by PagesController#page6 as HTML
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:19:37 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 48ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 3641ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:20:12 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 44ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:20:14 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 3638ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:21:17 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 128ms (Views: 125.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:21:18 +0700
+Processing by PagesController#page6 as HTML
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:21:20 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 3631ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:21:34 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (25.6ms)
+Completed 200 OK in 142ms (Views: 141.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:21:37 +0700
+Processing by PagesController#page6 as HTML
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:21:39 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 45ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:21:40 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 3631ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 3646ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:23:07 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (24.5ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:23:14 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (425.2ms)
+Completed 200 OK in 456ms (Views: 454.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:23:22 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (455.1ms)
+Completed 200 OK in 491ms (Views: 489.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:23:34 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (491.3ms)
+Completed 200 OK in 519ms (Views: 517.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:23:46 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (392.8ms)
+Completed 200 OK in 414ms (Views: 412.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:24:00 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (391.0ms)
+Completed 200 OK in 409ms (Views: 408.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:24:21 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (465.1ms)
+Completed 200 OK in 485ms (Views: 483.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:24:28 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (583.0ms)
+Completed 200 OK in 613ms (Views: 611.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:24:38 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (513.8ms)
+Completed 200 OK in 539ms (Views: 537.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:24:45 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (373.7ms)
+Completed 200 OK in 392ms (Views: 390.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:24:50 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (470.8ms)
+Completed 200 OK in 493ms (Views: 491.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:24:58 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (478.0ms)
+Completed 200 OK in 501ms (Views: 499.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:25:04 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (404.8ms)
+Completed 200 OK in 428ms (Views: 425.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:27:44 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (352.2ms)
+Completed 200 OK in 372ms (Views: 369.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:28:04 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (350.3ms)
+Completed 200 OK in 372ms (Views: 369.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:28:24 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (352.7ms)
+Completed 200 OK in 374ms (Views: 371.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:28:40 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (457.5ms)
+Completed 200 OK in 479ms (Views: 476.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:29:08 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (420.9ms)
+Completed 200 OK in 442ms (Views: 439.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:29:57 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (407.0ms)
+Completed 200 OK in 430ms (Views: 428.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:30:23 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (26.6ms)
+Completed 200 OK in 59ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:30:36 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 46ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:30:42 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (24.7ms)
+Completed 200 OK in 52ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:30:48 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 45ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:31:53 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (422.9ms)
+Completed 200 OK in 448ms (Views: 444.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:32:13 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (470.0ms)
+Completed 200 OK in 495ms (Views: 492.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:32:19 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (453.1ms)
+Completed 200 OK in 475ms (Views: 474.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:32:41 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (460.5ms)
+Completed 200 OK in 484ms (Views: 481.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:32:49 +0700
+Processing by PagesController#page6 as HTML
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:32:50 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 41ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 3628ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:32:53 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 3651ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:33:50 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (435.1ms)
+Completed 200 OK in 461ms (Views: 458.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:33:52 +0700
+Processing by PagesController#page6 as HTML
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:33:53 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 50ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:33:54 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 3655ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 3651ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:37:59 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (24.8ms)
+Completed 200 OK in 3727ms (Views: 123.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:38:03 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 3641ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:38:41 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (45.5ms)
+Completed 200 OK in 103ms (Views: 100.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:38:43 +0700
+Processing by PagesController#page6 as HTML
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:38:46 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 3658ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:38:47 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 3653ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:38:57 +0700
+Processing by PagesController#page6 as HTML
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:39:01 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (31.5ms)
+Completed 200 OK in 60ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 3644ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:39:14 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 55ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:39:15 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 3650ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:39:22 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 3664ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:39:37 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (21.1ms)
+Completed 200 OK in 47ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:39:38 +0700
+Processing by PagesController#page6 as HTML
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:39:41 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 40ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 3648ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 01:39:43 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:39:50 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 3649ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 01:39:57 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 3712ms (Views: 106.2ms | ActiveRecord: 0.0ms)
+
+

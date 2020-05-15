@@ -1,3 +1,5 @@
+
+
 .link-text14 {
     font-family: 'sans-source-regular-bold';
     color: #666666;
@@ -1162,4 +1164,170 @@ h1.home {
 
 .opacity00 {
     opacity: 0;
+}
+
+
+
+#CryReply {
+    padding: 30px;
+    position: absolute;
+    transform-origin: 0% 100%;
+    text-align: left;
+    font-size: 2.3vmax;
+    font-family: sans-source-regular;
+    background-color: rgb(7, 141, 85);
+    color: white;
+    border-radius: 30px;
+    width: 50%;
+    height: 15%;
+    right: 10%;
+    transform: scale(0);
+    animation-fill-mode: forwards;
+}
+#CryReply::before {
+    content: "";
+    display: block;
+    width: 0;
+    position: absolute;
+    bottom: -20px;
+    right: 5px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: rgb(7, 141, 85) transparent transparent rgb(7, 141, 85);
+    transform: rotate(80deg);
+}
+#EvenReply {
+    padding: 30px;
+    position: absolute;
+    transform-origin: 0% 100%;
+    text-align: left;
+    font-size: 2.3vmax;
+    font-family: sans-source-regular;
+    background-color: rgb(7, 141, 85);
+    color: white;
+    border-radius: 30px;
+    width: 50%;
+    height: 20%;
+    right: 10%;
+    transform: scale(0);
+    animation-fill-mode: forwards;
+}
+#EvenReply::before {
+    content: "";
+    display: block;
+    width: 0;
+    position: absolute;
+    bottom: -20px;
+    right: 5px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: rgb(7, 141, 85) transparent transparent rgb(7, 141, 85);
+    transform: rotate(80deg);
+}
+#IntrospectReply {
+    padding: 30px;
+    position: absolute;
+    transform-origin: 0% 100%;
+    text-align: left;
+    font-size: 2.3vmax;
+    font-family: sans-source-regular;
+    background-color: rgb(7, 141, 85);
+    color: white;
+    border-radius: 30px;
+    width: 50%;
+    height: 20%;
+    right: 10%;
+    transform: scale(0);
+    animation-fill-mode: forwards;
+}
+#IntrospectReply::before {
+    content: "";
+    display: block;
+    width: 0;
+    position: absolute;
+    bottom: -20px;
+    right: 5px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: rgb(7, 141, 85) transparent transparent rgb(7, 141, 85);
+    transform: rotate(80deg);
+}
+#ConfrontReply {
+    padding: 30px;
+    position: absolute;
+    transform-origin: 0% 100%;
+    text-align: left;
+    font-size: 2.3vmax;
+    font-family: sans-source-regular;
+    background-color: rgb(7, 141, 85);
+    color: white;
+    border-radius: 30px;
+    width: 50%;
+    height: 15%;
+    right: 10%;
+    transform: scale(0);
+    animation-fill-mode: forwards;
+}
+#ConfrontReply::before {
+    content: "";
+    display: block;
+    width: 0;
+    position: absolute;
+    bottom: -20px;
+    right: 5px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: rgb(7, 141, 85) transparent transparent rgb(7, 141, 85);
+    transform: rotate(80deg);
+}
+
+
+#Message {
+    padding: 30px;
+    position: absolute;
+    transform-origin: 0% 100%;
+    text-align: left;
+    font-size: 2.3vmax;
+    font-family: sans-source-regular;
+    background-color: #f2f2f2;
+    color: black;
+    border-radius: 30px;
+    width: 50%;
+    height: 20%;
+    left: 10%;
+    transform: scale(0);
+    animation-fill-mode: forwards;
+}
+#Message::before {
+    content: "";
+    display: block;
+    width: 0;
+    position: absolute;
+    bottom: -20px;
+    right: 5px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #f2f2f2 transparent transparent #f2f2f2;
+    transform: rotate(10deg);
+}
+
+@keyframes expand-bounce {
+0% {
+    transform: scale(0);
+}
+50% {
+    transform: scale(1.25);
+}
+100% {
+    transform: scale(1);
+}
+}
+
+@keyframes shrink {
+0% {
+    transform: scale(1);
+}
+100% {
+    transform: scale(0);
+}
 }

@@ -28,64 +28,37 @@
 <%= stylesheet_link_tag "styles" %>
 <%= javascript_include_tag "support" %>
 <%= yield :javascript_includes %>
+<</head>
+<body>
 <script type = "text/javascript">
 
-function show1() {
-    document.getElementById("myDiv1").style.display="block";
-    
-}
-
-function hide1() {
-    document.getElementById("myDiv1").style.opacity=0;
-}
-
-function show2() {
-    document.getElementById("myDiv2").style.display="block";
-    
-}
-
-function hide2() {
-    document.getElementById("myDiv2").style.opacity=0;
-}
-
-function show3() {
-    document.getElementById("myDiv3").style.display="block";
-    
-}
-
-function hide3() {
-    document.getElementById("myDiv3").style.opacity=0;
-}
-function show4() {
-    document.getElementById("myDiv4").style.display="block";
-    
-}
-
-function hide4() {
-    document.getElementById("myDiv4").style.opacity=0;
-}
 
 </script>
-</head>
-<body>
 <div class="myDiv">
-      <div id = "myDiv3" style="display:none; padding-top:30%; margin-left:15%">
-      <%= image_tag("P5 even GIF.gif", :size=>"1012x127") %> 
-      </div>
-      <div id = "myDiv1" style="display:none; padding-top:30%; margin-left:45%; margin-right:-30%">
-      <%= image_tag("P5 cry GIF.gif", :size=>"615x127") %> 
-      </div>
-      <div id = "myDiv2" style="display:none; padding-top:30%; margin-left:52%; margin-right:-40%">
-      <%= image_tag("P5 confront GIF.gif", :size=>"525x127") %> 
-      </div>
-      <div id = "myDiv4" style="display:none; padding-top:30%; margin-left:13%">
-      <%= image_tag("P5 introspect GIF.gif", :size=>"1050x127") %> 
-      </div>
+  <div style="padding-top: 5%">
+  </div>
+  <div id = "Message" style = "animation-name: expand-bounce; animation-duration: 0.8s;">
+    Your best friend is talking behind your back. What would you do?
+  </div>
+  <div style="padding-top: 20%">
+  </div>
+  <div id="CryReply">
+    Crawl up in bed and cry.
+  </div>
+  <div id="EvenReply" >
+    I talk behind her/his back too so I guess we're even.
+  </div>
+  <div id="ConfrontReply">
+    Confront her/him.
+  </div>
+  <div id="IntrospectReply">
+    I do an introspection to realize my mistakes and flaws.
+  </div>
 </div>
 
 <div class="row">
   <div id ="wrapper" class="colp5" style = "margin-top:2%; margin-left:2.5%" >
-    <div style="position:relative">
+    <div id="Even" style="position:relative">
       <div style="position: absolute">
       <%= link_to image_tag("even hover.png",:size => "70x70",:onclick=>"show3()"), {:action => 'page6', :controller => 'pages'}, {:class => "imagep5-red"} %>
       </div>
@@ -94,17 +67,17 @@ function hide4() {
       </div>
     </div>
     <div class="textp5-2">
-    <p style="padding-left:55px"> I talk behind her/his back too so I guess we're even </p>
+    <p style="padding-left:55px"> I talk behind her/his back too so I guess we're even. </p>
     </div>
   </div>
 
   <div id ="wrapper" class="colp5" style = "margin-top:2%; margin-left:-0.3%" >
-    <div style="position:relative">
-      <div style="position: absolute">
-      <%= link_to image_tag("cry hover.png",:size => "70x70",:onclick=>"show3()"), {:action => 'page6', :controller => 'pages'}, {:class => "imagep5-red"} %>
+    <div id="Cry" style="position:relative">
+      <div id="Cry" style="position: absolute">
+      <%= link_to image_tag("cry hover.png",:size => "70x70",:onclick=>"coba()"), {:action => 'page6', :controller => 'pages'}, {:class => "imagep5-red", :id => "Cry"} %>
       </div>
-      <div style="position: absolute">
-      <%= link_to image_tag("cry.png",:size => "70x70",:onclick=>"show3()"), {:action => 'page6', :controller => 'pages'}, {:class => "imagep5"} %>
+      <div id="Cry" style="position: absolute">
+      <%= link_to image_tag("cry.png",:size => "70x70",:onclick=>"coba()"), {:action => 'page6', :controller => 'pages'}, {:class => "imagep5", :id => "Cry"} %>
       </div>
     </div>
     <div class="textp5-2">
@@ -113,12 +86,12 @@ function hide4() {
   </div>
 
   <div id ="wrapper" class="colp5" style = "margin-top:2%; margin-left:0" >
-    <div style="position:relative">
+    <div id="Confront" style="position:relative">
       <div style="position: absolute">
-      <%= link_to image_tag("confront hover.png",:size => "70x70",:onclick=>"show3()"), {:action => 'page6', :controller => 'pages'}, {:class => "imagep5-red"} %>
+      <%= link_to image_tag("confront hover.png",:size => "70x70",:onclick=>"show3()"), {:action => 'page6', :controller => 'pages'}, {:class => "imagep5-red", :id => "Confront"} %>
       </div>
       <div style="position: absolute">
-      <%= link_to image_tag("confront.png",:size => "70x70",:onclick=>"show3()"), {:action => 'page6', :controller => 'pages'}, {:class => "imagep5"} %>
+      <%= link_to image_tag("confront.png",:size => "70x70",:onclick=>"show3()"), {:action => 'page6', :controller => 'pages'}, {:class => "imagep5", :id => "Confront"} %>
       </div>
     </div>
     <div class="textp5-2">
@@ -135,7 +108,7 @@ function hide4() {
     <div class="textp5-2">
     <p style="padding-left:55px"> I do an introspection to realize my mistakes and flaws. </p>
     </div>
-    <div style="position:relative">
+    <div id="Introspect"style="position:relative">
       <div style="position: absolute">
       <%= link_to image_tag("introspect hover.png",:size => "70x70",:onclick=>"show3()"), {:action => 'page6', :controller => 'pages'}, {:class => "imagep5-red"} %>
       </div>
