@@ -1152,6 +1152,9 @@ h1.home {
 }
 
 #wrapper .imagep5 {
+    width: 70%;
+    max-width: 20px;
+    height: auto;
     opacity: 1;
     cursor: pointer;
     display: inline;
@@ -1161,6 +1164,9 @@ h1.home {
 }
 
 #wrapper .imagep5-red {
+    width: 70%;
+    max-width: 20px;
+    height: auto;
     opacity: 0;
     cursor: pointer;
     display: inline;
