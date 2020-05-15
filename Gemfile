@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
-gem 'bourbon'
 gem 'jquery-rails'
 gem 'carrierwave' 
 gem 'carrierwave-base64' 

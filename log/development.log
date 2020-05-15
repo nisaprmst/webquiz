@@ -51949,3 +51949,545 @@ Completed 200 OK in 59ms (Views: 57.0ms | ActiveRecord: 0.0ms)
 >>>>>>> 81dc432e25d32f39ff5e56e09685344fd8a3f196
 
 
+Started GET "/faq" for ::1 at 2020-05-16 01:46:37 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/faq"):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-05-16 01:46:40 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (489.6ms)
+Completed 500 Internal Server Error in 531ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "}": expected "}", was ""):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/assets/stylesheets/styles.css.scss:1363
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb__1298878772920436457_47105739492980'
+Started GET "/" for ::1 at 2020-05-16 01:47:07 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (224.1ms)
+Completed 500 Internal Server Error in 226ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "}": expected "}", was ""):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/assets/stylesheets/styles.css.scss:1362
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb__1298878772920436457_70276579626860'
+Started GET "/" for ::1 at 2020-05-16 01:47:22 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (281.7ms)
+Completed 500 Internal Server Error in 286ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "}": expected "}", was ""):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/assets/stylesheets/styles.css.scss:1363
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb__1298878772920436457_70276584769720'
+Started GET "/" for ::1 at 2020-05-16 01:47:36 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (2820.4ms)
+Completed 500 Internal Server Error in 2823ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$_buttons-list".):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/assets/stylesheets/bourbon/bourbon/library/_buttons.scss:27
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb__1298878772920436457_70276587011040'
+Started GET "/" for ::1 at 2020-05-16 01:47:57 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (267.5ms)
+Completed 500 Internal Server Error in 272ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "}": expected "}", was ""):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/assets/stylesheets/styles.css.scss:1363
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb__1298878772920436457_47105740376420'
+Started GET "/" for ::1 at 2020-05-16 01:48:17 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (246.5ms)
+Completed 500 Internal Server Error in 250ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "}": expected "}", was ""):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/assets/stylesheets/styles.css.scss:1343
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb__1298878772920436457_70276846297380'
+Started GET "/" for ::1 at 2020-05-16 01:49:30 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (226.1ms)
+Completed 500 Internal Server Error in 232ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "}": expected "}", was ""):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/assets/stylesheets/styles.css.scss:1359
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb__1298878772920436457_70276587840660'
+Started GET "/" for ::1 at 2020-05-16 01:50:38 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (383.8ms)
+Completed 500 Internal Server Error in 390ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "}": expected "}", was ""):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/assets/stylesheets/styles.css.scss:1359
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb___3506701195255800301_70230941705220'
+Started POST "/__web_console/repl_sessions/8a1671ea3b683db7bfdd2e4f3b99836f/trace" for ::1 at 2020-05-16 01:51:46 +0700
+Started GET "/" for ::1 at 2020-05-16 01:52:26 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (338.7ms)
+Completed 500 Internal Server Error in 344ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "}": expected "}", was ""):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/assets/stylesheets/styles.css.scss:1195
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb___3506701195255800301_70230958778460'
+Started GET "/" for ::1 at 2020-05-16 01:53:40 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (513.8ms)
+Completed 500 Internal Server Error in 517ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$_buttons-list".):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/assets/stylesheets/bourbon/bourbon/library/_buttons.scss:27
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb___3506701195255800301_70230952876860'
+Started GET "/" for ::1 at 2020-05-16 01:54:22 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (267.1ms)
+Completed 500 Internal Server Error in 269ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "    }": expected "}", was ""):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/assets/stylesheets/styles.css.scss:1358
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb___3506701195255800301_70230958378860'
+Started GET "/" for ::1 at 2020-05-16 01:55:09 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (250.5ms)
+Completed 500 Internal Server Error in 254ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "}": expected "}", was ""):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/assets/stylesheets/styles.css.scss:1359
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb___3506701195255800301_70230948361420'
+Started GET "/" for ::1 at 2020-05-16 01:57:45 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (189.5ms)
+Completed 500 Internal Server Error in 191ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "}": expected "}", was ""):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/assets/stylesheets/styles.css.scss:1359
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb___3506701195255800301_70231014696000'
+Started GET "/" for ::1 at 2020-05-16 01:58:23 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (413.0ms)
+Completed 500 Internal Server Error in 419ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$_buttons-list".):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/assets/stylesheets/bourbon/bourbon/library/_buttons.scss:27
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb___3506701195255800301_70230876498140'
+Started GET "/" for ::1 at 2020-05-16 01:59:28 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (825.4ms)
+Completed 500 Internal Server Error in 831ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$_buttons-list".):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/assets/stylesheets/bourbon/bourbon/library/_buttons.scss:27
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb___3506701195255800301_70230957484360'
+Started GET "/" for ::1 at 2020-05-16 02:00:13 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (70.5ms)
+Completed 500 Internal Server Error in 77ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$_buttons-list".):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/assets/stylesheets/bourbon/bourbon/library/_buttons.scss:27
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb___3506701195255800301_70230950522660'
+Started GET "/" for ::1 at 2020-05-16 02:02:14 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (1253.4ms)
+Completed 500 Internal Server Error in 1260ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$_buttons-list".):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb__3655739976953345280_69878049749960'
+Started GET "/" for ::1 at 2020-05-16 02:03:52 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (490.7ms)
+Completed 500 Internal Server Error in 497ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$_buttons-list".):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb__2145022483119027639_69880901860600'
+Started GET "/" for ::1 at 2020-05-16 02:03:55 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (54.0ms)
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$_buttons-list".):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb__2145022483119027639_69880906542480'
+Started GET "/" for ::1 at 2020-05-16 02:04:16 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (502.3ms)
+Completed 500 Internal Server Error in 509ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$_buttons-list".):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb__1395903712253748181_47365863460200'
+Started GET "/" for ::1 at 2020-05-16 02:04:41 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (374.3ms)
+Completed 500 Internal Server Error in 381ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$_buttons-list".):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb__57931989670939076_69842482059780'
+Started GET "/" for ::1 at 2020-05-16 02:04:55 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (49.7ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$_buttons-list".):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb__57931989670939076_69842497033480'
+Started GET "/" for ::1 at 2020-05-16 02:05:46 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (72.7ms)
+Completed 500 Internal Server Error in 75ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$_buttons-list".):
+    4:   <!DOCTYPE html>
+    5:   <html>
+    6:   <head>
+    7:       <%= stylesheet_link_tag "styles" %>
+    8:   </head>
+    9:   <body>  
+   10:     <div style="padding-left:550px; padding-top:350px">
+  
+app/views/pages/page0.html.erb:7:in `_app_views_pages_page__html_erb__57931989670939076_69842487364000'
+Started GET "/" for ::1 at 2020-05-16 02:06:50 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+Started GET "/" for ::1 at 2020-05-16 02:06:50 +0700
+Processing by PagesController#page0 as HTML
+  Rendering pages/page0.html.erb within layouts/application
+  Rendered pages/page0.html.erb within layouts/application (1657.7ms)
+  Rendered pages/page0.html.erb within layouts/application (1830.9ms)
+Completed 200 OK in 1933ms (Views: 1929.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1769ms (Views: 1768.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page1" for ::1 at 2020-05-16 02:06:54 +0700
+Processing by PagesController#page1 as HTML
+  Parameters: {"authenticity_token"=>"fjWXCOz+cF3PSZxIlru8zI3d01CyoakyTq68kDQgPUkqjPepgi2tiX0wCFyPg7rYPa6o7d0lHiBN+pAzvnaHhA=="}
+  Rendering pages/page1.html.erb within layouts/application
+  Rendered pages/page1.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 34ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/instruction" for ::1 at 2020-05-16 02:06:55 +0700
+Processing by PagesController#instruction as HTML
+  Parameters: {"authenticity_token"=>"vTLEayJif1xd+FHekvez7PP4RQP/2u4y7WQJfSsZ+Q/pi6TKTLGiiO+BxcqLz7X4Q4s+vpBeWSDuMCXeoU9Dwg=="}
+  Rendering pages/instruction.html.erb within layouts/application
+  Rendered pages/instruction.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 34ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/page3" for ::1 at 2020-05-16 02:07:02 +0700
+Processing by PagesController#page3 as HTML
+  Parameters: {"authenticity_token"=>"eVvAhUPis0Rf+pHPQLuiGjB3+18n+knRKCSQMoS0l0Qt4qAkLTFukO2DBdtZg6QOgASA4kh+/sMrcLyRDuItiQ=="}
+  Rendering pages/page3.html.erb within layouts/application
+  Rendered pages/page3.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 98ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 02:07:05 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 51ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 02:07:10 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 3661ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 02:07:16 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 3646ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page5" for ::1 at 2020-05-16 02:07:54 +0700
+Processing by PagesController#page5 as HTML
+  Rendering pages/page5.html.erb within layouts/application
+  Rendered pages/page5.html.erb within layouts/application (543.6ms)
+Completed 200 OK in 575ms (Views: 571.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 02:07:57 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 3653ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page6" for ::1 at 2020-05-16 02:08:03 +0700
+Processing by PagesController#page6 as HTML
+  Rendering pages/page6.html.erb within layouts/application
+  Rendered pages/page6.html.erb within layouts/application (26.1ms)
+Completed 200 OK in 3713ms (Views: 109.8ms | ActiveRecord: 0.0ms)
+
+
