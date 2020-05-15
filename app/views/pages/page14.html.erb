@@ -5,10 +5,16 @@
 <html>
 <style>
 #my_camera{
- width: 576px;
+ width: 500px;
  height: 180px;
  border: 1px solid black;
+ margin :auto;
 }
+#container{
+  padding-left: 23px;
+  margin: auto;
+}
+
 </style>
 <head>
     <%= stylesheet_link_tag "styles" %>
@@ -19,7 +25,7 @@
         The Most Accurate Personality Test Ever
         </p>
     </div>
-    <div class="sans_source" style="padding: 10px 250px 0px 250px;">
+    <div class="sans_source" >
         <p style=" text-align : center; font-size : 45px; color : #ff0000" class="fade-in1">
             TEST RESULT
         </p>
@@ -27,7 +33,7 @@
         <br>
         
     </div>
-    <div id="my_camera" style="padding:0px 475px"></div>
+    <div id="my_camera">
 
     
     <!-- Webcam.min.js -->
@@ -36,7 +42,7 @@
     <!-- Configure a few settings and attach camera -->
     <script language="JavaScript">
     Webcam.set({
-    width: 400,
+    width: 650,
     height: 220,
     image_format: 'jpeg',
     jpeg_quality: 300
@@ -54,39 +60,42 @@
     } );
     }
     </script>
-    <br>
-    <br>
-    <div class="sans_source_bold" style= "color: #ffffff; text-align: justify; text-align-last: center;">
-        <p style="font-size: 12px;padding: 0px 470px 0px 470px;">
-            You are YOU. You define yourself. You are what you think you are and will be. Not all external information that claims to know about you are true and reliable
-            for your search of identity. Don't let others dictate your identity for better or for worse. The world might make you think you are a certain type of individual. 
-            But, really, no box is going to fit your individuality perfectly, because no matter how many similarities there is, no individual is the same.
-        </p>
-        <br>
-        <div class="row">
-            <div class="col-p8" style="padding-left: 80px">
-                <%= link_to "Go Back Home", {:controller => 'pages', :action => "page1" }, {:class => "link-text14" } %>
-            </div>
-            <div class="col-p8">
-                <p style="font-size: 12px; padding-left: 30px; padding-bottom:20px; padding-right: 10px ">
-                Some contents can feel relatable and you might feel like you belong to a certain type, but is it really? Is it just your mind that's making you believe in things? Are 
-                you sure you're not forcing yourself to fit in a box?
-                </p>
-            </div>
-            <div class="col-p8" style="margin-left:-1%">
-                <%= link_to "About This Test", {:controller => 'pages', :action => "page15" }, {:class => "link-text14" } %>
-            </div>
-        </div>
-        <br>
-        <p style="font-size: 12px;padding: 0px 470px 0px 470px;">
-            The journey to unravel every layers of You will not be an easy one. Amidst all the information that's trying to dictate your identity, staying true to yourself will 
-            be the hardest challenge you face.
-        </p>
-        <br>
-        <p style="font-size: 12px;padding: 0px 470px 30px 470px;">
-            Make time to contemplate. Find yourself.
-        </p>
     </div>
+    <br>
+    <br>
+    <div class ="row">
+        <div class="col-p8" style="text-align:center;padding:110px 0">
+            <%= link_to "About This Test", {:controller => 'pages', :action => "page15" }, {:class => "link-text14" } %>
+        </div>
+        <div id="container" class="sans_source_bold  col-p8" style= "color: #ffffff; text-align: justify; text-align-last: center;">
+            <p style="font-size: 12px">
+                You are YOU. You define yourself. You are what you think you are and will be. Not all external information that claims to know about you are true and reliable
+                for your search of identity. Don't let others dictate your identity for better or for worse. The world might make you think you are a certain type of individual. 
+                But, really, no box is going to fit your individuality perfectly, because no matter how many similarities there is, no individual is the same.
+            </p>
+            <br>
+            
+                    <p style="font-size: 12px">
+                    Some contents can feel relatable and you might feel like you belong to a certain type, but is it really? Is it just your mind that's making you believe in things? Are 
+                    you sure you're not forcing yourself to fit in a box?
+                    </p>
+                
+            <br>
+            <p style="font-size: 12px">
+                The journey to unravel every layers of You will not be an easy one. Amidst all the information that's trying to dictate your identity, staying true to yourself will 
+                be the hardest challenge you face.
+            </p>
+            <br>
+            <p style="font-size: 12px">
+                Make time to contemplate. Find yourself.
+            </p>
+        </div>
+        <div class="col-p8" style="text-align:center;padding:110px 0">
+            <%= link_to "Go Back Home", {:controller => 'pages', :action => "page1" }, {:class => "link-text14" } %>
+        </div>
+    </div>
+</div>
+   
     <div class="row sans_source_reg" style="padding: 0px 20px; font-size: 13px; color:#666666">
         <div class="column">
             <p style="text-align:left">Copyright &copy; 2020</p>
