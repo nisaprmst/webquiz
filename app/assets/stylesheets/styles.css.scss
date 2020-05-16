@@ -1,7 +1,20 @@
 .the ,.most,.anything {
     display:inline;
 }
-
+.center-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
+  .bottom { 
+    position:fixed;
+    bottom:0;
+    z-index:2;
+    width:100%; 
+}
 .blinking-p1{
     animation:blinkingp1 1s infinite;
 }
@@ -12,6 +25,88 @@
     60%{    color: blue;  }
     80%{   color:yellow;    }
     100%{   color:red;  }
+}
+.blinkp6-1{
+    animation: blink-1 1.5s infinite;
+}
+@keyframes blink-1 {
+    0%{ color:red;}
+    10%{color:palevioletred;}
+    12.5% {color:white;}
+}
+
+.blinkp6-2{
+    animation:blink-2 1.5s infinite;
+}
+
+@keyframes blink-2{
+    0%{color:white;}
+    10%{color:white;}
+    12.5%{color:red;}
+    22.5%{color:palevioletred}
+    25% {color:white;}
+}
+
+.blinkp6-3{
+    animation:blink-3 1.5s infinite;
+}
+
+@keyframes blink-3{
+    0%{color:white;}
+    22.5%{color:white;}
+    25%{color:red;}
+    35%{color:palevioletred;}
+    37.5%{color:white;}
+}
+.blinkp6-4{
+    animation:blink-4 1.5s infinite;
+}
+@keyframes blink-4{
+    0%{color:white;}
+    35%{color:white;}
+    37.5%{color:red;}
+    47.5%{color:palevioletred;}
+    50%{color:white;}
+}
+.blinkp6-5{
+    animation:blink-5 1.5s infinite;
+}
+@keyframes blink-5{
+    0%{color:white;}
+    47.5%{color:white;}
+    50%{color:red;}
+    60%{color:palevioletred;}
+    62.5%{color:white;}
+}
+.blinkp6-6{
+    animation:blink-6 1.5s infinite;
+}
+@keyframes blink-6{
+    0%{color:white;}
+    60%{color:white;}
+    62.5%{color:red;}
+    72.5%{color:palevioletred;}
+    75%{color:white;}
+}
+.blinkp6-7{
+    animation:blink-7 1.5s infinite;
+}
+@keyframes blink-7{
+    0%{color:white;}
+    72.5%{color:white;}
+    75%{color:red;}
+    85%{color:palevioletred;}
+    87.5%{color:white;}
+}
+.blinkp6-8{
+    animation:blink-8 1.5s infinite;
+}
+@keyframes blink-8{
+    0%{color:white;}
+    85%{color:white;}
+    87.5%{color:red;}
+    97.5%{color:palevioletred;}
+    100%{color:white;}
 }
 
 .link-text14 {
@@ -372,6 +467,11 @@
 .button-grey:active {
     background-color: #949494;
     transform: translateY(4px);
+}
+.column-right {
+    float :right;
+    width :50%;
+    height : 60%;
 }
 .column {
     float: left;
