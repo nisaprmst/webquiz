@@ -4,95 +4,121 @@
   <% content_for :javascript_includes do %>
   <%= javascript_include_tag "support.js" %>
 <% end %>
-  <!DOCTYPE html>
-  <html>
-  <head>
-      <%= javascript_include_tag 'support' %>
 
-      <%= stylesheet_link_tag "styles" %>
-  </head>
-  <body>
-  <%= javascript_include_tag "support" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="page5" content="width=device-width, initial-scale=1">
+<style>
+.myDiv {
+  margin:0px;
+  background-color: lightgrey;    
+  text-align: center;
+  height:83vh;
+}
+#rcorners {
+    margin:0px;
+    border-radius: 45px;
+    background: #f2f2f2;
+    width: 770%;
+    height: 12vh;
+  }
+</style>
+<%= javascript_include_tag 'support' %>
+<%= stylesheet_link_tag "styles" %>
+<%= javascript_include_tag "support" %>
 <%= yield :javascript_includes %>
+</head>
+<body>
 <script type = "text/javascript">
 
-function show1() {
-    document.getElementById("myDiv1").style.display="block";
-    
-}
-
-function hide1() {
-    document.getElementById("myDiv1").style.opacity=0;
-}
-
-function show2() {
-    document.getElementById("myDiv2").style.display="block";
-    
-}
-
-function hide2() {
-    document.getElementById("myDiv2").style.opacity=0;
-}
-
-function show3() {
-    document.getElementById("myDiv3").style.display="block";
-    
-}
-
-function hide3() {
-    document.getElementById("myDiv3").style.opacity=0;
-}
-function show4() {
-    document.getElementById("myDiv4").style.display="block";
-    
-}
-
-function hide4() {
-    document.getElementById("myDiv4").style.opacity=0;
-}
 
 </script>
-<%= video_tag "P5.ogv",autoplay: :autoplay, mute: :mute, class: "home_video" %>
-      <div id = "myDiv3" style="display:none; margin-top:30%; margin-left:15%">
-      <%= image_tag("P5 even GIF.gif", :size=>"1012x127") %> 
-      </div>
-      <div id = "myDiv1" style="display:none; margin-top:30%; margin-left:45%; margin-right:-30%">
-      <%= image_tag("P5 cry GIF.gif", :size=>"615x127") %> 
-      </div>
-      <div id = "myDiv2" style="display:none; margin-top:30%; margin-left:52%; margin-right:-40%">
-      <%= image_tag("P5 confront GIF.gif", :size=>"525x127") %> 
-      </div>
-      <div id = "myDiv4" style="display:none; margin-top:30%; margin-left:13%">
-      <%= image_tag("P5 introspect GIF.gif", :size=>"1050x127") %> 
-      </div>
+<div class="myDiv">
+  <div style="padding-top: 5%">
+  </div>
+  <div id = "Message" style = "animation-name: expand-bounce; animation-duration: 0.8s;">
+    Your best friend is talking behind your back. What would you do?
+  </div>
+  <div style="padding-top: 20%">
+  </div>
+  <div id="CryReply">
+    Crawl up in bed and cry.
+  </div>
+  <div id="EvenReply" >
+    I talk behind her/his back too so I guess we're even.
+  </div>
+  <div id="ConfrontReply">
+    Confront her/him.
+  </div>
+  <div id="IntrospectReply">
+    I do an introspection to realize my mistakes and flaws.
+  </div>
+</div>
+
 <div class="row">
-  <div id ="wrapper" class="colp5-1" style = "margin-top:50.4%; margin-left:2.5%" >
-    <div class ="imagep5">
-     <%= link_to image_tag("even hover.png",:size => "70x70",:onclick=>"show3()"), {:action => 'page6', :controller => 'pages'} %>
+  <div id ="wrapper" class="colp5" style = "margin-top:2%; margin-left:2.5%" >
+    <div id="Even" style="position:relative">
+      <div style="position: absolute">
+      <%= link_to image_tag("even hover.png",:size => "70x70",:onclick=>"show3()"), {:action => 'page6', :controller => 'pages'}, {:class => "imagep5-red"} %>
+      </div>
+      <div style="position: absolute">
+      <%= link_to image_tag("even.png",:size => "70x70",:onclick=>"show3()"), {:action => 'page6', :controller => 'pages'}, {:class => "imagep5"} %>
+      </div>
     </div>
-    <p class="textp5-2"> I talk behind her/his back too so I guess we're even. </p>
+    <div class="textp5-2">
+    <p style="padding-left:55px"> I talk behind her/his back too so I guess we're even. </p>
+    </div>
   </div>
 
-  <div id ="wrapper" class="colp5-2" style = "margin-top:50.4%; margin-left:-0.3%" >
-    <div class ="imagep5">
-      <%= link_to image_tag("cry hover.png",:size => "70x70",:onclick=>"show1()"), {:action => 'page6', :controller => 'pages'} %>
+  <div id ="wrapper" class="colp5" style = "margin-top:2%; margin-left:-0.3%" >
+    <div id="Cry" style="position:relative">
+      <div id="Cry" style="position: absolute">
+      <%= link_to image_tag("cry hover.png",:size => "70x70",:onclick=>"coba()"), {:action => 'page6', :controller => 'pages'}, {:class => "imagep5-red", :id => "Cry"} %>
+      </div>
+      <div id="Cry" style="position: absolute">
+      <%= link_to image_tag("cry.png",:size => "70x70",:onclick=>"coba()"), {:action => 'page6', :controller => 'pages'}, {:class => "imagep5", :id => "Cry"} %>
+      </div>
     </div>
-    <p class="textp5-1"> Crawl up in bed and cry. </p>
+    <div class="textp5-2">
+    <p style="padding-left:55px"> Crawl up in bed and cry. </p>
+    </div>
   </div>
 
-  <div id ="wrapper" class="colp5-3" style = "margin-top:50.4%; margin-left:0" >
-    <div class ="imagep5">
-      <%= link_to image_tag("confront hover.png",:size => "70x70",:onclick=>"show2()"), {:action => 'page6', :controller => 'pages'} %>
+  <div id ="wrapper" class="colp5" style = "margin-top:2%; margin-left:0" >
+    <div id="Confront" style="position:relative">
+      <div style="position: absolute">
+      <%= link_to image_tag("confront hover.png",:size => "70x70",:onclick=>"show3()"), {:action => 'page6', :controller => 'pages'}, {:class => "imagep5-red", :id => "Confront"} %>
+      </div>
+      <div style="position: absolute">
+      <%= link_to image_tag("confront.png",:size => "70x70",:onclick=>"show3()"), {:action => 'page6', :controller => 'pages'}, {:class => "imagep5", :id => "Confront"} %>
+      </div>
     </div>
-    <p class="textp5-2"> Confront her/him. </p>
+    <div class="textp5-2">
+    <p style="padding-left:55px"> Confront her/him. </p>
+    </div>
   </div>
 
-  <div id ="wrapper" class="colp5-4" style = "margin-top:50.4%; margin-left:69%; margin-right: -12%" >
-    <div class ="imagep5">
-      <%= link_to image_tag("introspect hover.png",:size => "70x70",:onclick=>"show4()"), {:action => 'page6', :controller => 'pages'} %>
+  <div id ="wrapper" class="colp5" style = "margin-top:1.5%; margin-left:0%" >
+    <div id="rcorners">
     </div>
-    <p class="textp5-2"> I do an introspection to realize my mistakes and flaws. </p>
+  </div>
+
+  <div id ="wrapper" class="colp5" style = "margin-top:2%; margin-left:57.5%" >
+    <div class="textp5-2">
+    <p style="padding-left:55px"> I do an introspection to realize my mistakes and flaws. </p>
+    </div>
+    <div id="Introspect"style="position:relative">
+      <div style="position: absolute">
+      <%= link_to image_tag("introspect hover.png",:size => "70x70",:onclick=>"show3()"), {:action => 'page6', :controller => 'pages'}, {:class => "imagep5-red"} %>
+      </div>
+      <div style="position: absolute">
+      <%= link_to image_tag("introspect.png",:size => "70x70",:onclick=>"show3()"), {:action => 'page6', :controller => 'pages'}, {:class => "imagep5"} %>
+      </div>
+    </div>
+    
   </div>
 </div>
 
 </body>
+</html>

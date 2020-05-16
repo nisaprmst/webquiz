@@ -21,6 +21,8 @@ Rails.application.routes.draw do
     
     get :page5
     post :page5
+    get :page55
+    post :page55
 
     get :page6
     post :page6

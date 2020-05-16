@@ -4,8 +4,7 @@
   <!DOCTYPE html>
   <html>
   <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+      <meta name="page13" content="width=device-width, initial-scale=1.0">
       <%= stylesheet_link_tag "styles" %>
       <style>
       body {
@@ -14,20 +13,30 @@
       </style>
   </head>
   <body>
-  
-    <%= video_tag "P13.ogv", autoplay: :autoplay, loop: :loop, mute: :mute, class: "home_video home-video-wrapper" %>
-      <div style="padding-top:17%">
-        <p class="home sans_source " style="padding 10px 300px; text-align:center; font-size: 33px"> 
-        
-              Congratulations! You've completed the test.
-              <br>
-              Once you see the result,please give it a thought,
-              <br>
-              contemplate for a while in order to fully understand.
-        </p>
+  <script type = "text/javascript">
+
+  </script>
+  <div style="position:relative">
+      <div class="pulse" style="position:absolute; margin-left:15%; margin-top:7%; width:70px; height:70px; animation-delay:0.2s"></div>
+      <div class="pulse" style="position:absolute; margin-left:30%; margin-top:30%; width:30px; height:30px; animation-delay:0.3s"></div>
+      <div class="pulse" style="position:absolute; margin-left:65%; margin-top:3%; width:50px; height:50px; animation-delay:0.4s"></div>
+      <div class="pulse" style="position:absolute; margin-left:7%; margin-top:20%; width:40px; height:40px; animation-delay:2s"></div>
+      <div style="position:absolute; margin-right:20%; margin-left:20%; margin-top:5%">
+            <div style="padding-top:17%">
+            <p class="home sans_source " style="padding 10px 300px; text-align:center; font-size: 33px"> 
+            
+                  Congratulations! You've completed the test.
+                  <br>
+                  Once you see the result,please give it a thought,
+                  <br>
+                  contemplate for a while in order to fully understand.
+            </p>
+            </div>
+            <div style="padding-top: 15%;text-align:center">
+            <%= button_to "See My Result", {:controller => 'pages', :action => "page14" }, {:class => "button" } %>
+            </div>
       </div>
-      <div style="margin-top: 100px;text-align:center">
-        <%= button_to "See My Result", {:controller => 'pages', :action => "page14" }, {:class => "button" } %>
-      </div>
+      
+  </div>
   </body>
   </html>
