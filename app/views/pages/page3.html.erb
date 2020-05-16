@@ -4,13 +4,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+
     <%= stylesheet_link_tag "styles" %>
 </head>
 <body>
-    <div class="welcome-page-3">
-    Welcome to the test.<span>&nbsp;</span>
+    <div style="height:83vh; position: absolute; width:100%; margin: 3%">
+        <div class="welcome-page-3">
+        Welcome to the test.<span>&nbsp;</span>
+        </div>
+        <div class="how-page-3">
+        How
+        </div>
+        <div class="do-you-page-3">
+        do you
+        </div>
+        <div class="feel-page-3">
+        feel
+        </div>
+        <div class="right-page-3">
+        right now?
+        </div>
     </div>
-    <div class="sans_source" style="padding: 25% 0% 0% 45%; font-size:2vmax;">
+    <div class="sans_source" style="padding: 25% 0% 0% 45%; font-size:2vmax;position:absolute;">
         <div class="appearP3-1">
         <%= link_to "I'm nervous.", {:controller => 'pages', :action => "page4" }, {:class => "fade-in4 changecolor1" } %>
         <br>
