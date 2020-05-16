@@ -1423,3 +1423,41 @@ h1.home {
       transform:scale(1,1);
     }
 }
+
+  /* Basic styles */
+  .welcome-page-3 {
+      position: absolute;
+      margin: 5% 0% 0% 10%;
+      float: left;
+      color: black;
+      font-family: sans-source;
+      font-size: 1.5vmax;
+  }
+  .welcome-page-3 span{
+      position: absolute;
+      margin: 0% 0% 0% 10%;
+      right: 0;
+      background: white;
+      width: 100%;
+      border-left: .1em solid transparent;
+      -webkit-animation: typing 1s steps(20) forwards,
+                                           cursor 1s infinite;
+      animation: typing 1s steps(20) forwards,
+                           cursor 1s infinite;
+  }
+  /* Animation */
+  @-webkit-keyframes typing{
+      from { width: 100%;}
+      to { width: 0;}
+  }
+  @-webkit-keyframes cursor{
+      50% { border-color: white;}
+  }
+  @keyframes typing{
+      from{ width: 100%;}
+      to{ width: 0;}
+  }
+  @keyframes cursor{
+      50% { border-color: white;}
+  }
+  
