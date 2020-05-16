@@ -1,3 +1,19 @@
+.the ,.most,.anything {
+    display:inline;
+}
+
+.blinking-p1{
+    animation:blinkingp1 1s infinite;
+}
+@keyframes blinkingp1{
+    0%{     color:red;    }
+    20%{    color:palevioletred; }
+    40%{    color: purple; }
+    60%{    color: blue;  }
+    80%{   color:yellow;    }
+    100%{   color:red;  }
+}
+
 .link-text14 {
     font-family: 'sans-source-regular-bold';
     color: #666666;
@@ -284,6 +300,21 @@
     background-color: #9d2503;
     transform: translateY(4px);
 }
+.button-p1 {
+    background-color: #f44336;
+    border-radius: 40px;
+    color: white;
+    padding: 12px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    font-family: 'sans-source';
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
 
 .button {
     background-color: #f44336;
@@ -301,8 +332,8 @@
     outline: none;
 }
 
-.button:hover {background-color: #9d2503}
-.button:active {
+.button:hover,.button-p1:hover {background-color: #9d2503}
+.button:active,.button-p1:active {
     background-color: #9d2503;
     transform: translateY(4px);
 }

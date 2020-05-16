@@ -6,11 +6,20 @@
   <head>
       <%= stylesheet_link_tag "styles" %>
   </head>
-  <body>
-  <%= video_tag "P1.ogv",autoplay: :autoplay, loop: :loop,mute: :mute, class: "home_video home-video-wrapper" %>
-  
-  <div style="text-align: center; margin-top:46%;margin-left:2.7%;">
-    <%= button_to "Take Test", {:controller => 'pages', :action => "instruction" }, {:class => "button" } %>
-  <div>
+  <body style="background-color:black">
+  <div class="fade-in1" style="font-size:100px;text-align:center;padding:70px 0">
+    <p class="the sans_source"> THE </p>
+    <p class="most sans_source blinking-p1"> MOST ACCURATE </p>
+    <p class="sans_source"> PERSONALITY TEST </p>
+    <p class="sans_source"> EVER </p>
+    <p class="fade-in2 sans_source blinking" style="padding-top:3%;padding-bottom:0%;font-size:25px;text-align:center">
+    TRY IT FOR YOURSELF!
+    </p>
+    <div style="text-align: center;margin-top:-2%">
+      <%= button_to "Take Test", {:controller => 'pages', :action => "instruction" }, {:class => "button-p1" } %>
+    <div>
+    </div>
+    
+
   </body>
   </html>
