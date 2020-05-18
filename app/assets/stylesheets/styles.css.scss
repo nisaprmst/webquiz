@@ -490,6 +490,7 @@
     padding: 10px;
     height: 80px;
 }
+
 .col {
     width: 50%;
     float: left;
@@ -1648,7 +1649,208 @@ h1.home {
         opacity: 1;
     }
  }
+
+ @keyframes text-left-1{
+    0%{
+        opacity :0;
+        margin-left:-3%;
+      }
+
+    
+    10%{
+        margin-left: 2%;
+        opacity : 1;
+      }
+      90%{opacity: 0.75;}
+      100%{opacity:0}
+}
+@keyframes text-left-2{
+    0% {opacity:0;
+        margin-left:-3%;    
+    }
+    5%{
+        margin-left: -3%;
+        opacity :0;
+      }
+
+    
+    15%{
+        margin-left: 2%;
+        opacity : 1;
+      }
+      90%{opacity: 0.75;}
+      100%{opacity:0}
+}
+@keyframes text-left-3{
+    0% { opacity:0;
+        margin-left:-3%;    
+    }
+    10%{margin-left:-3%;
+        opacity:0;}
+  
+    
+    20%{
+        margin-left: 2%;
+        opacity : 1;
+      }
+      90%{opacity: 0.75;}
+      100%{opacity:0}
+
+}
+
+.where-1{
+    font-size: 3.5vmax;
+    font-family: sans-source;
+    color:white;
+    animation: text-left-2 5s infinite;
+    animation-fill-mode: forwards;
+    width: auto;
+    margin-left: 2%;
+    position: relative;
+    float: left;
+}
+ .where-2{
+    font-size: 3.5vmax;
+    font-family: sans-source;
+    background: -webkit-linear-gradient(left,grey,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text-left-1 5s infinite;
+    animation-fill-mode: forwards;
+    width: auto;
+    margin-left: 2%;
+    position: relative;
+    float: left;
+ }
+ .where-3{
+    font-size:3.5vmax;
+    z-index : -1;
+    font-family: sans-source;
+    background: -webkit-linear-gradient(left,grey,#9e9e9e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text-left-2 5s infinite;
+    animation-fill-mode: forwards;
+    width: auto;
+    margin-left: 2%;
+    position: relative;
+    float: left;
+ }
+ .where-4{
+    font-size:3.5vmax;
+    z-index : -1;
+    font-family: sans-source;
+    background: -webkit-linear-gradient(left,grey,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text-left-2 5s infinite;
+    animation-fill-mode: forwards;
+    width: auto;
+    margin-left: 2%;
+    position: relative;
+    float: left;
+ }
+.where-5{
+    font-size:3.5vmax;
+    z-index : -1;
+    font-family: sans-source;
+    background: -webkit-linear-gradient(left,grey,#adadad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text-left-1 5s infinite;
+    animation-fill-mode: forwards;
+    width: auto;
+    margin-left: 2%;
+    position: relative;
+    float: left;
+}
  
+.where-6{
+    font-size:3.5vmax;
+    z-index : -1;
+    font-family: sans-source;
+    background: -webkit-linear-gradient(left,#d0d0d0,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text-left-2 5s infinite;
+    animation-fill-mode: forwards;
+    width: auto;
+    margin-left: 2%;
+    position: relative;
+    float: left;
+}
+.where-7{
+    font-size:3.5vmax;
+    z-index : -1;
+    font-family: sans-source;
+    background: -webkit-linear-gradient(left,grey,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text-left-3 5s infinite;
+    animation-fill-mode: forwards;
+    width: auto;
+    margin-left: 2%;
+    position: relative;
+    float: left;
+}
+.where-8{
+    font-size:3.5vmax;
+    z-index : -1;
+    font-family: sans-source;
+    background: -webkit-linear-gradient(left,grey,#888888);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text-left-3 5s infinite;
+    animation-fill-mode: forwards;
+    width: auto;
+    margin-left: 2%;
+    position: relative;
+    float: left;
+}
+.where-9{
+    font-size:3.5vmax;
+    z-index : -1;
+    font-family: sans-source;
+    background: -webkit-linear-gradient(left,#9b9b9b,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text-left-2 5s infinite;
+    animation-fill-mode: forwards;
+    width: auto;
+    margin-left: 2%;
+    position: relative;
+    float: left;
+}
+
+.where-10{
+    font-size:3.5vmax;
+    z-index : -1;
+    font-family: sans-source;
+    background: -webkit-linear-gradient(left,grey,#aeaeae);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text-left-3 5s infinite;
+    animation-fill-mode: forwards;
+    width: auto;
+    margin-left: 2%;
+    position: relative;
+    float: left;
+}
+.where-11{
+    font-size:3.5vmax;
+    z-index : -1;
+    font-family: sans-source;
+    background: -webkit-linear-gradient(left,grey,#adadad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text-left-2 5s infinite;
+    animation-fill-mode: forwards;
+    width: auto;
+    margin-left: 2%;
+    position: relative;
+    float: left;
+}
+
 
  .do-you-page-3 {
      font-size: 3vmax;
